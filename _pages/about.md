@@ -2,15 +2,13 @@
 layout: about
 title: about
 permalink: /
-description: 'Affliated@<a href="https://www.lti.cs.cmu.edu/">LTI/CMU</a>.'
+description: 'Affliated @ <a href="https://www.lti.cs.cmu.edu/">LTI/CMU</a>.'
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    TOFILLADDRESS
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
