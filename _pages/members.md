@@ -38,9 +38,11 @@ nav: true
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/11.jpg">
+	<a href="https://www.cs.cmu.edu/~byan">
+        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/brian.jpg">
+    </a>
         <div class="caption">
-            S3
+            Brian Yan (PhD)
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
