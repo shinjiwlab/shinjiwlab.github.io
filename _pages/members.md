@@ -13,7 +13,7 @@ nav: true
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/prof_pic.jpg">
     </a>
     <div class="caption">
-        <a href="https://sites.google.com/view/shinjiwatanabe">Shinji Watanabe</a>
+        Shinji Watanabe
     </div>
 </div>
 
@@ -26,13 +26,15 @@ nav: true
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/11.jpg">
     </a>
         <div class="caption">
-            <a href="https://sas91.github.io/">Aswin Shanmugam Subramanian</a> (Ph.D Candidate)
+            Aswin Shanmugam Subramanian (PhD)
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/11.jpg">
+	<a href="https://www.cs.cmu.edu/~sdalmia">
+        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/sid.jpg">
+    </a>
         <div class="caption">
-            S2
+            Siddharth Dalmia (PhD)
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
