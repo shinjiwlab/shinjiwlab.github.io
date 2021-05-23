@@ -10,6 +10,13 @@
     <abbr class="badge">{{entry.abbr}}</abbr>
     {% endif %}
   {% endif %}
+  {% if entry.abbr_publisher %}
+    {% if site.data.venues[entry.abbr_publisher] %}
+    <abbr class="badge badge-info"><a href="{{site.data.venues[entry.abbr_publisher].url}}" target="_blank">{{entry.abbr_publisher}}</a></abbr>
+    {% else %}
+    <abbr class="badge badge-info">{{entry.abbr_publisher}}</abbr>
+    {% endif %}
+  {% endif %}
   </div>
 
   <div id="{{entry.key}}" class="col-sm-8">
