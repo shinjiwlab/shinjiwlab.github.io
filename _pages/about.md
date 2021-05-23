@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 description: 'Affliated @ <a href="https://www.lti.cs.cmu.edu/">LTI/CMU</a>.'
 
