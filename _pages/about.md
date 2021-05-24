@@ -9,7 +9,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-This is Shinji Watanabe's lab at the Language Technologies Institute of Carnegie Mellon University. Our research interersts include automatic speech recognition, speech enhancement, spoken language understanding, and machine learning for speech and language processing.
+This is Shinji Watanabe's lab at the Language Technologies Institute of Carnegie Mellon University. Our research interests include automatic speech recognition, speech enhancement, spoken language understanding, and machine learning for speech and language processing.
 
 
 <div class="col-sm mt-3 mt-md-0" style="display:table-cell; vertical-align:middle; text-align:center">

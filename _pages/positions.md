@@ -15,13 +15,13 @@ Our lab often has positions for Postdoc and PhD students. We ask applicants to h
 <li>Machine learning for speech and language processing</li>
 </ul>
 
-In addition, solid programming skills and open-source experiences are also preferred.
+Solid programming skills and open-source experiences are also preferred.
 
- Please see followings for details.
+Please see followings for details.
 
 ## Postdoc
 
-
+Please email your CV to TBD with subject ShinjiwLab Postdoc Openings
 
 ## PhD
 
