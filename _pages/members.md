@@ -25,7 +25,7 @@ order: 1
 <div class="row mt-3">
     <div class="col-sm w-25 mt-3 mt-md-0">
     <a href="https://www.mmaciejewski.com/">
-        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/11.jpg">
+        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/matt_maciejewski.jpg">
     </a>
         <div class="caption">
             Matthew Maciejewski (PhD)
