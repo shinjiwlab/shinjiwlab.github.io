@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-description: 'Affliated @ <a href="https://www.lti.cs.cmu.edu/">LTI/CMU</a>.'
+description: 'affiliated with @ <a href="https://www.lti.cs.cmu.edu/">LTI/CMU</a>.'
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
