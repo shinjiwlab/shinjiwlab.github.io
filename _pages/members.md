@@ -10,7 +10,7 @@ order: 1
 
 <div class="col-sm mt-3 mt-md-1" style="display:table-cell; vertical-align:middle; text-align:center">
 	<a href="https://sites.google.com/view/shinjiwatanabe">
-        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/prof_pic.jpg">
+        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/shinji_20210605.jpg">
     </a>
     <div class="caption">
         Shinji Watanabe
