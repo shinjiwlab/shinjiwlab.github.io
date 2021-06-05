@@ -1,6 +1,6 @@
 This is the website for ShinjiwLab at LTI, CMU. The theme is adapted from al-folio.
 
-This README serves for some instructions for lab members to update related pages and information. For all the updates, there should be some exisitng examples already. Please follow their style to make our page consistent.
+This README is written for lab members to update related pages and information. For all the updates, there should be some exisitng examples already. Please follow their style to make our page consistent.
 
 ## Member and co-author information
 
@@ -11,16 +11,16 @@ This README serves for some instructions for lab members to update related pages
 ## Bibliography
 
 Your publications page is generated automatically from your BibTex bibliography.
-Simply edit `_bibliography/papers.bib` would be fine.
+Edit `_bibliography/papers.bib` would be fine.
 
-Some fields in the bibtex are reserved for specific representations
-- `abbr`: serves for the topic label, you may choose from `ASR`, `TTS`, `SE`, `ST` or other abbreviations that stand for the topic of the paper
-- `abbr_publisher`: serves for label of publisher. It should be the abbreviation of journal or conference name, like `Interspeech`, `ICASSP`, `NIPS`, `ACL`
+Some fields in the BibTeX are reserved for specific representations.
+- `abbr`: serves for the topic label. You may choose from `ASR`, `TTS`, `SE`, `ST`, or other abbreviations that stand for the topic of the paper
+- `abbr_publisher`: serves for the label of places of publishing. It should be the abbreviation of journal or conference name, like `Interspeech`, `ICASSP`, `NIPS`, `ACL`.
 - `html`: serves for the original page of this paper (e.g., ISCA archive, aclweb, or IEEE library)
-- `pdf`: serves for the pdf version of this paper. If the pdf is open-available through the official release (e.g., aclweb or isca-archive), it should be directly link to that. Otherwise, the arxiv link to the pdf would be fine.
+- `pdf`: serves for the pdf version of this paper. If the pdf is open-available through the official release (e.g., aclweb or isca-archive), it should be directly linked to that. Otherwise, the arxiv link to the pdf would be fine.
 - `code`: the link to its open-source code (if available)
 - `arxiv`: the arxiv ID (e.g., 1804.00015) of the paper. It should <strong>NOT</strong> be the arxiv link.
-- `selected`: default `false`. It would show up in the front-page if settig with `true`. This should be approved by Shinji before the setting.
+- `selected`: default `false`. It would show up on the front page if setting with `true`. This should be approved by Shinji before the setting.
 
 <details><summary><strong>Author annotation:</strong></summary>
 
@@ -30,9 +30,9 @@ scholar:
   last_name: Einstein
   first_name: [Albert, A.]
 ```
-If the entry matches the last name and one form of the first names, it will be underlined.
-Keep meta-information about your co-authors in `_data/coauthors.yml` and Jekyll will insert links to their webpages automatically.
-The coauthor data format in `_data/coauthors.yml` is as follows,
+If the entry matches the last name and one form of the first name, it will be underlined.
+Keep meta-information about your co-authors in `_data/coauthors.yml`, and Jekyll will insert links to their webpages automatically.
+The co-author data format in `_data/coauthors.yml` is as follows,
 ```
 "Adams":
   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]

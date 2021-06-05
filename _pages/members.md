@@ -1,6 +1,4 @@
 ---
-
----
 layout: page
 permalink: /members/
 title: Members
@@ -8,7 +6,7 @@ nav: true
 order: 1
 ---
 
-## <u>Faculty</u>
+#### Faculty
 
 <div class="col-sm mt-3 mt-md-1" style="display:table-cell; vertical-align:middle; text-align:center">
 	<a href="https://sites.google.com/view/shinjiwatanabe">
@@ -18,19 +16,16 @@ order: 1
         Shinji Watanabe
     </div>
 </div>
+<hr />
 
-
-
-## <u>Current Members</u>
-
-#### Students
+#### PhD Students
 <div class="row mt-3">
     <div class="col-sm w-25 mt-3 mt-md-0">
     <a href="https://www.mmaciejewski.com/">
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/matt_maciejewski.jpg">
     </a>
         <div class="caption">
-            Matthew Maciejewski (PhD)
+            Matthew Maciejewski
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
@@ -38,7 +33,7 @@ order: 1
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/11.jpg">
     </a>
         <div class="caption">
-            Aswin Shanmugam Subramanian (PhD)
+            Aswin Shanmugam Subramanian
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
@@ -46,7 +41,7 @@ order: 1
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/sid.jpg">
     </a>
         <div class="caption">
-            Siddharth Dalmia (PhD)
+            Siddharth Dalmia
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
@@ -54,17 +49,17 @@ order: 1
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/xuankai.jpg">
     </a>
         <div class="caption">
-            Xuankai Chang (PhD)
+            Xuankai Chang
         </div>
     </div>
 </div>
-<div class="row mt-3">
+<div class="row w-50 mt-3">
     <div class="col-sm mt-3 mt-md-0">
     <a href="https://www.cs.cmu.edu/~byan">
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/brian.jpg">
     </a>
         <div class="caption">
-            Brian Yan (PhD)
+            Brian Yan
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
@@ -72,15 +67,20 @@ order: 1
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/jiatong.jpg">
         </a>
         <div class="caption">
-            Jiatong Shi (PhD)
+            Jiatong Shi
         </div>
     </div>
+</div>
+<hr />
+
+#### Master Students
+<div class="row w-50 mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <a href="http://www.cs.cmu.edu/~peterw1/">
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/peter.jpg">
         </a>
         <div class="caption">
-            Peter Wu (Master)
+            Peter Wu
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
@@ -88,12 +88,13 @@ order: 1
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/11.jpg">
         </a>
         <div class="caption">
-            Chaitanya Narisetty (Master)
+            Chaitanya Narisetty
         </div>
     </div>
 </div>
+<hr />
 
-#### Visitors
+#### Visitors & Collaborators
 <div class="row w-50 mt-3">
     <div class="col-sm mt-1 mt-md-1">
     <a href="https://shinjiwlab.github.io/members/">
@@ -111,19 +112,19 @@ order: 1
             Yen-Ju Lu
         </div>
     </div>
-
 </div>
+<hr />
 
-## <u>Alumni</u>
+#### Alumni
 
-#### Students
+##### Students
 <ul>
 <li>2018. 07 - 2019. 06: Zhiqi Wang (JHU)</li>
 <li>2017. 12 - : Matthew Wiesner (JHU)</li>
 <li>2017. 09 - 2018. 12: Szu-Jui Chen (JHU)</li>
 </ul>
 
-#### Visitors
+##### Visitors
 <ul>
 <li>2020. 01 - 2021. 01: Pengcheng Guo (Northwestern Polytechnical University)</li>
 <li>2019. 12 - 2020. 03: Yosuke Higuchi (Waseda University)</li>
