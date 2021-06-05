@@ -9,7 +9,7 @@ order: 4
 
 Our lab has been led and participated in the development of several open-source toolkits and datasets. The followings are some selected ones.
 
-## Softwares
+### Softwares
 
 <table cellspacing="0" cellpadding="0">
 <tr>
@@ -50,7 +50,20 @@ Our lab has been led and participated in the development of several open-source 
 </table>
 <hr />
 
-## Datasets
+<table cellspacing="0" cellpadding="0">
+<tr>
+<td class="col-sm w-25" style="display:table-cell; vertical-align:middle; text-align:center">
+      <a href="https://github.com/freewym/espresso">
+        <img src="{{ site.baseurl }}/assets/img/espresso_logo.png" width="100" />
+      </a>
+</td>
+<td>
+  <strong>Espresso</strong> is an open-source, modular, extensible end-to-end neural automatic speech recognition (ASR) toolkit based on the deep learning library PyTorch and the popular neural machine translation toolkit fairseq. Espresso supports distributed training across GPUs and computing nodes, and features various decoding approaches commonly employed in ASR, including look-ahead word-based language model fusion, for which a fast, parallelized decoder is implemented.
+</td></tr>
+</table>
+<hr />
+
+### Datasets
 
 <table cellspacing="0" cellpadding="0">
 <tr>
@@ -61,6 +74,19 @@ Our lab has been led and participated in the development of several open-source 
 </td>
 <td>
   Following the success of the 1st, 2nd, 3rd, 4th and 5th CHiME challenges, we are pleased to announce the 6th <strong>CHiME</strong> Speech Separation and Recognition Challenge (CHiME-6). The new challenge will consider distant multi-microphone conversational speech diarization and recognition in everyday home environments. Speech material was elicited using a dinner party scenario with efforts taken to capture data that is representative of natural conversational speech.
+</td></tr>
+</table>
+<hr />
+
+<table cellspacing="0" cellpadding="0">
+<tr>
+<td class="col-sm w-25">
+      <a href="https://datasets.kensho.com/datasets/spgispeech">
+        SPGISpeech
+      </a>
+</td>
+<td>
+  <strong>SPGISpeech</strong> is a corpus of 5,000 hours of professionally-transcribed financial audio. In contrast to previous transcription datasets, SPGISpeech contains a broad cross-section of L1 and L2 English accents, strongly varying audio quality, and both spontaneous and narrated speech. The transcripts have each been cross-checked by multiple professional editors for high accuracy and are fully formatted, including capitalization, punctuation, and denormalization of non-standard words.
 </td></tr>
 </table>
 <hr />
