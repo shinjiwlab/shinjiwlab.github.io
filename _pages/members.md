@@ -91,6 +91,14 @@ order: 1
             Chaitanya Narisetty
         </div>
     </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <a href="https://www.linkedin.com/in/arora-sid/">
+            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/sarora.jpg">
+        </a>
+        <div class="caption">
+            Siddhant Arora
+        </div>
+    </div>
 </div>
 <hr />
 
