@@ -85,7 +85,7 @@ order: 1
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <a href="https://www.lti.cs.cmu.edu/people/222227189/chaitanya-narisetty">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/11.jpg">
+            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/chaitanya.jpg">
         </a>
         <div class="caption">
             Chaitanya Narisetty
