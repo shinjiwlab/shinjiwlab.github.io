@@ -13,7 +13,7 @@ This is Shinji Watanabe's lab at the Language Technologies Institute of Carnegie
 
 
 <div class="col-sm mt-3 mt-md-0" style="display:table-cell; vertical-align:middle; text-align:center">
-	<a href="https://sites.google.com/view/shinjiwatanabe">
+	<a href="https://shinjiwlab.github.io/">
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/lab-photo.png">
     </a>
     <div class="caption">
