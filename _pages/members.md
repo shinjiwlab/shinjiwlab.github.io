@@ -182,7 +182,7 @@ order: 1
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/matt_maciejewski.jpg">
     </a>
         <div class="caption">
-            Matthew Maciejewski
+            Matthew Maciejewski (co-supervising)
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
@@ -199,7 +199,7 @@ order: 1
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/sid.jpg">
     </a>
         <div class="caption">
-            Siddharth Dalmia
+            Siddharth Dalmia (co-supervising)
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
@@ -242,7 +242,7 @@ order: 1
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/peter.jpg">
         </a>
         <div class="caption">
-            Peter Wu
+            Peter Wu (co-supervising)
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
@@ -299,11 +299,11 @@ order: 1
 ##### Students
 <ul>
 <li>2018. 07 - 2019. 06: Zhiqi Wang (JHU)</li>
-<li>2017. 12 - : Matthew Wiesner (JHU)</li>
+<li>2017. 12 - : Matthew Wiesner (JHU, co-supervising)</li>
 <li>2017. 09 - 2018. 12: Szu-Jui Chen (JHU)</li>
 </ul>
 
-##### Visitors
+##### Visitors & Collaborators
 <ul>
 <li>2020. 01 - 2021. 01: Pengcheng Guo (Northwestern Polytechnical University)</li>
 <li>2019. 12 - 2020. 03: Yosuke Higuchi (Waseda University)</li>
