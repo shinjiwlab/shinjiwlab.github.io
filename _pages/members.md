@@ -203,7 +203,7 @@ order: 1
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-    <a href="https://simpleoier.github.io/">
+    <a href="https://www.xuankaic.com/">
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/xuankai.jpg">
     </a>
         <div class="caption">
