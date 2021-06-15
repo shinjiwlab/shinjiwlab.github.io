@@ -188,7 +188,7 @@ order: 1
     <div class="col-sm mt-3 mt-md-0">
     <div class="square">
 	<a href="https://sas91.github.io/">
-        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/11.jpg">
+        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/aswin.jpg">
     </a></div>
         <div class="caption">
             Aswin Shanmugam Subramanian
