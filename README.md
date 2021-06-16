@@ -20,7 +20,7 @@ Some fields in the BibTeX are reserved for specific representations.
 - `pdf`: serves for the pdf version of this paper. If the pdf is open-available through the official release (e.g., aclweb or isca-archive), it should be directly linked to that. Otherwise, the arxiv link to the pdf would be fine.
 - `code`: the link to its open-source code (if available)
 - `arxiv`: the arxiv ID (e.g., 1804.00015) of the paper. It should <strong>NOT</strong> be the arxiv link.
-- `selected`: default `false`. It would show up on the front page if setting with `true`. This should be approved by Shinji before the setting.
+- `selected`: default `false`. It would show up on the front page if setting with `true`. A paper that has more than 100 citations would be selected or the other paper that is approved by Shinji before the setting.
 
 <details><summary><strong>Author annotation:</strong></summary>
 
