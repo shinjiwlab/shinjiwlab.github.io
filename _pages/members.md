@@ -299,7 +299,7 @@ order: 1
 ##### Students
 <ul>
 <li>2018. 07 - 2019. 06: Zhiqi Wang (JHU)</li>
-<li>2017. 12 - : Matthew Wiesner (JHU, co-supervising)</li>
+<li>2017. 12 - 2020. 12: Matthew Wiesner (JHU, co-supervising)</li>
 <li>2017. 09 - 2018. 12: Szu-Jui Chen (JHU)</li>
 </ul>
 
