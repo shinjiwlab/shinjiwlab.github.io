@@ -12,6 +12,8 @@ order: 5
 - Facebook
 - Google
 - Hitachi
+- Hyundai
+- MIT Lincoln Laboratory
 - Mitsubishi Electric Research Laboratories (MERL)
 - NAVER
 - NTT Communication Science Laboratories
