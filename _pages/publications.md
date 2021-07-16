@@ -4,7 +4,7 @@ permalink: /publications/
 title: Publications
 years: [2021, 2020, 2019, 2018, 2017]
 nav: true
-order: 3
+order: 2
 ---
 
 <div class="publications">

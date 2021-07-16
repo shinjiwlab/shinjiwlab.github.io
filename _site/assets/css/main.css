@@ -19,7 +19,7 @@ body.fixed-top-nav { padding-top: 56px; }
 
 body.sticky-bottom-footer { padding-bottom: 0; }
 
-.container { max-width: 800px; }
+.container { max-width: 1000px; }
 
 .profile img { width: 100%; }
 
