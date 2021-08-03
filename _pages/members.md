@@ -272,7 +272,7 @@ order: 1
     <div class="col-sm mt-1 mt-md-1">
     <div class="square">
     <a href="https://shinjiwlab.github.io/members/">
-        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/11.jpg">
+        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/tianzi.jpg">
     </a></div>
         <div class="caption">
             Tianzi Wang
