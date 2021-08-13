@@ -263,6 +263,13 @@ order: 1
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
+	<div class="square">
+        <a href="https://www.linkedin.com/in/dan-berrebbi-254843169/">
+            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/dan.jpg">
+        </a></div>
+        <div class="caption">
+            Dan Berrebbi
+        </div>
     </div>
 </div>
 <hr />
