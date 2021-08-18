@@ -294,6 +294,15 @@ order: 1
             Yen-Ju Lu
         </div>
     </div>
+    <div class="col-sm mt-1 mt-md-1">
+        <div class="square">
+        <a href="https://shinjiwlab.github.io/members/">
+            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/yushi.jpg">
+        </a></div>
+        <div class="caption">
+            Yushi Ueda
+        </div>
+    </div>
     <div class="col-sm mt-3 mt-md-0">
     </div>
     <div class="col-sm mt-3 mt-md-0">
