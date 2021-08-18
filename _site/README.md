@@ -2,6 +2,21 @@ This is the website for ShinjiwLab at LTI, CMU. The theme is adapted from al-fol
 
 This README is written for lab members to update related pages and information. For all the updates, there should be some exisitng examples already. Please follow their style to make our page consistent.
 
+## Local Test
+Before the PR, please test the website locally (especially when you have some stylish modifications).
+
+Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (*hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)*), first [fork](https://guides.github.com/activities/forking/) the theme from `github.com:alshedivat/al-folio` to `github.com:<your-username>/<your-repo-name>` and do the following:
+
+```bash
+$ git clone git@github.com:<your-username>/<your-repo-name>.git
+$ cd <your-repo-name>
+$ bundle install
+$ bundle exec jekyll serve
+```
+
+Now, feel free to customize the theme however you like (don't forget to change the name!).
+After you are done, **commit** your final changes.
+
 ## Member and co-author information
 
 - Photo profile: directly upload to `assets/img/photo-{name}.jpg`
