@@ -77,7 +77,7 @@ pagination:
   enabled: true
 
 # Comments
-disqus_shortname: wavlab # put your disqus shortname
+disqus_shortname: https-shinjiwlab-github-io # put your disqus shortname
 
 
 # -----------------------------------------------------------------------------

@@ -1,4 +1,4 @@
-This is the website for ShinjiwLab at LTI, CMU. The theme is adapted from al-folio.
+This is the website for WAV Lab at LTI, CMU. The theme is adapted from al-folio.
 
 This README is written for lab members to update related pages and information. For all the updates, there should be some exisitng examples already. Please follow their style to make our page consistent.
 
