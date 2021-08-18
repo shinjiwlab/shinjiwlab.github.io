@@ -263,6 +263,13 @@ order: 1
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
+	<div class="square">
+        <a href="https://www.linkedin.com/in/dan-berrebbi-254843169/">
+            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/dan.jpg">
+        </a></div>
+        <div class="caption">
+            Dan Berrebbi
+        </div>
     </div>
 </div>
 <hr />
@@ -272,7 +279,7 @@ order: 1
     <div class="col-sm mt-1 mt-md-1">
     <div class="square">
     <a href="https://shinjiwlab.github.io/members/">
-        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/11.jpg">
+        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/tianzi.jpg">
     </a></div>
         <div class="caption">
             Tianzi Wang
@@ -285,6 +292,15 @@ order: 1
         </a></div>
         <div class="caption">
             Yen-Ju Lu
+        </div>
+    </div>
+    <div class="col-sm mt-1 mt-md-1">
+        <div class="square">
+        <a href="https://shinjiwlab.github.io/members/">
+            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/yushi.jpg">
+        </a></div>
+        <div class="caption">
+            Yushi Ueda
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
