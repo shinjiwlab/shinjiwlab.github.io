@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2021 Reading Group
-date: 2021-07-14 11:00:00-0800
+date: 2021-09-09 09:00:00-0800
 description: Paper list and comments for reading group
 comments: false
 ---
