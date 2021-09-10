@@ -7,6 +7,12 @@ nav: true
 order: 2
 ---
 
+- [2021 Papers](https://shinjiwlab.github.io/activities/2021/paper-list/)
+- [2020 Papers](https://shinjiwlab.github.io/activities/2020/paper-list/)
+- [2019 Papers](https://shinjiwlab.github.io/activities/2019/paper-list/)
+- [2018 Papers](https://shinjiwlab.github.io/activities/2018/paper-list/)
+
+
 <div class="publications">
 
 {% for y in page.years %}
@@ -15,3 +21,5 @@ order: 2
 {% endfor %}
 
 </div>
+
+
