@@ -287,6 +287,23 @@ order: 1
         </div>
     </div>
 </div>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <a href="https://sujayskumar.com/">
+            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/sujay.jpg">
+        </a>
+        <div class="caption">
+            Sujay Suresh Kumar
+        </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+    </div>
+</div>
+
 <hr />
 
 #### Visitors & Collaborators
