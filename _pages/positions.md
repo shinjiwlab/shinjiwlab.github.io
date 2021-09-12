@@ -34,7 +34,7 @@ Please see the following for details of each application category.
 
 - [ ] &nbsp; Please submit your application through [LTI](https://www.lti.cs.cmu.edu/apply-lti). Unfortunately, we may not respond to a direct email about the Ph.D. application.
 
-### CMU underguraduate/master students
+### CMU undergraduate/master students
 
 - [ ] &nbsp; Please email your CV to shinjiw@ieee.org with the subject **"WAVLab undergraduate/master applications"**
 - [ ] &nbsp; If you do not put it in the subject, we regard that you do not thoroughly investigate our lab's activities in this webpage, and unfortunately, we may not respond to this email.
