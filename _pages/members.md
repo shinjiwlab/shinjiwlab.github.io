@@ -297,23 +297,12 @@ order: 1
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-    </div>
-</div>
-
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
         <a href="https://karthikganesan.myportfolio.com/">
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/karthik_ganesan.jpg">
         </a>
         <div class="caption">
             Karthik Ganesan 
-        </div>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
+        </div>	    
     </div>
     <div class="col-sm mt-3 mt-md-0">
     </div>
