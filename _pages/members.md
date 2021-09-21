@@ -180,10 +180,10 @@ order: 1
     <div class="col-sm mt-3 mt-md-1">
     <div class="square">
     <a href="https://zqwang7.github.io/">
-        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/11.jpg">
+        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/zhongqiu.jpg">
     </a></div>
         <div class="caption">
-            Zhongqiu Wang
+            Zhong-Qiu Wang
         </div>
     </div>
     <div class="col-sm mt-1 mt-md-1">
