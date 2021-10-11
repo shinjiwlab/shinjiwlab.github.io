@@ -333,7 +333,7 @@ order: 1
     </div>
     <div class="col-sm mt-1 mt-md-1">
         <div class="square">
-        <a href="https://shinjiwlab.github.io/members/">
+        <a href="https://neillu23.github.io/">
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/yenju.jpg">
         </a></div>
         <div class="caption">
