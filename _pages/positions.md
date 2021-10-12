@@ -23,8 +23,9 @@ However, we also consider the research diversity. We're interested in expertise 
 Please see the following for details of each application category.
 
 ### Postdoc
-
-- [ ] &nbsp; Please email your CV to shinjiw@ieee.org with the subject **"ShinjiwLab postdoc applications"**.
+- Currently, we have an opening position in [link](https://cmu.wd5.myworkdayjobs.com/en-US/CMU/job/Pittsburgh-PA/Postdoctoral-Research-Associate---Language-Technologies-Institute--LTI---SCS_2016892).
+- If you're interested in the position, we suggest you to have the following actions. **Note that we would not respond to all applications.**
+- [ ] &nbsp; Please email your CV to shinjiw@ieee.org with the subject **"WAVLab postdoc applications"**.
 - [ ] &nbsp; If you do not put it in the subject, we regard that you do not thoroughly investigate our lab's activities in this webpage, and unfortunately, we may not respond to this email.
 - [ ] &nbsp; Note that your CV will be shared with other lab members (but we do not distribute it outside).
 - [ ] &nbsp; Please check our publications and find matches in advance. We really care about it.
@@ -34,16 +35,16 @@ Please see the following for details of each application category.
 
 - [ ] &nbsp; Please submit your application through [LTI](https://www.lti.cs.cmu.edu/apply-lti). Unfortunately, we may not respond to a direct email about the Ph.D. application.
 
-### CMU undergudate/master students
+### CMU undergraduate/master students
 
-- [ ] &nbsp; Please email your CV to shinjiw@ieee.org with the subject **"ShinjiwLab undergraduate/master applications"**
+- [ ] &nbsp; Please email your CV to shinjiw@ieee.org with the subject **"WAVLab undergraduate/master applications"**
 - [ ] &nbsp; If you do not put it in the subject, we regard that you do not thoroughly investigate our lab's activities in this webpage, and unfortunately, we may not respond to this email.
 - [ ] &nbsp; Note that your CV will be shared with other lab members (but we do not distribute it outside).
 - [ ] &nbsp; We care about the educational perspectives for the undergraduate/master students to be familiar with the speech research background, required programming skills, knowledge of the cluster, and use of speech and audio toolkit. This period would be at least the first couple of months or longer. We believe that this is an essential process for you to start a solid research activity. If you want to publish a paper as soon as possible, our lab is not the best option for you, unfortunately. I recommend you to contact the other faculties.
 
 ### Visting positions
 
-- [ ] &nbsp; Please email your CV to shinjiw@ieee.org with the subject **"ShinjiwLab visitor applications"**.
+- [ ] &nbsp; Please email your CV to shinjiw@ieee.org with the subject **"WAVLab visitor applications"**.
 - [ ] &nbsp; If you do not put it in the subject, we regard that you do not thoroughly investigate our lab's activities in this webpage, and unfortunately, we may not respond to this email.
 - [ ] &nbsp; Note that your CV will be shared with other lab members (but we do not distribute it outside).
 - [ ] &nbsp; We will not have funding support for the visitor position, basically. So, therefore, we will only accept self-funded researchers.
