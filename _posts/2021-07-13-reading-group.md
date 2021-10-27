@@ -23,5 +23,23 @@ comments: false
 - [Manifold-Aware Deep Clustering: Maximizing Angles Between Embedding Vectors Based on Regular Simplex](https://www.isca-speech.org/archive/interspeech_2021/tanaka21_interspeech.html)
 
 
+### 2021.10.19 Multimodal Speech Summarization (Speaker: Shruti)
+- [Multimodal Speech Summarization Through Semantic Concept Learning](https://www.isca-speech.org/archive/interspeech_2021/palaskar21_interspeech.html)
+
+### 2021.10.26 Code Switching introduction (Speaker: Dan)
+Papers:
+- [TOWARDS END-TO-END CODE-SWITCHING SPEECH RECOGNITION](https://arxiv.org/pdf/1810.13091.pdf)
+- [Towards Context-Aware End-to-End Code-Switching Speech Recognition](http://www.interspeech2020.org/uploadfile/pdf/Thu-3-5-10.pdf)
+- [Detection of language boundary in code-switching utterances by bi-phone probabilities](https://ieeexplore.ieee.org/document/1409644)
+- [Bilingual Language Mixing: Why Do Bilinguals Code-Switch?](https://journals.sagepub.com/doi/pdf/10.1111/1467-8721.00140?casa_token=xRgWLP3mKxkAAAAA:qrie3I-QwiF5vSGpCId0h7nZNDxb4L5K5nUZjJxq5UblA7HCohpvV9digt03dpz72XEsnltut640)
+- [An End-to-End Language-Tracking Speech Recognizer for Mixed-Language Speech](https://ieeexplore.ieee.org/document/8462180)
+- [Data Augmentation for end-to-end Code-Switching Speech Recognition](https://ieeexplore.ieee.org/document/9383620)
+- [Constrained Output Embeddings for End-to-End Code-Switching Speech Recognition with Only Monolingual Data](https://arxiv.org/pdf/1904.03802.pdf)
+
+Slides:
+
+- [Code Switching ASR](https://github.com/shinjiwlab/shinjiwlab.github.io/tree/source/assets/pdf/reading_group_code_switching.pdf)
+
+
 
 
