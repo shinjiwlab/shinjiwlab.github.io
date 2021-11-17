@@ -6,14 +6,14 @@ description: Paper list and comments for reading group
 comments: false
 ---
 
-### 2021.09.07 Paper list
+### 2021.09.07 Interspeech 2021 Paper list
 - [Speech SimCLR: Combining Contrastive and Reconstruction Objective for Self-Supervised Speech Representation Learning](https://www.isca-speech.org/archive/interspeech_2021/jiang21_interspeech.html)
 - [Stochastic Attention Head Removal: A Simple and Effective Method for Improving Transformer Based ASR Models](https://www.isca-speech.org/archive/interspeech_2021/zhang21p_interspeech.html)
 - [Graph-PIT: Generalized Permutation Invariant Training for Continuous Separation of Arbitrary Numbers of Speakers](https://www.isca-speech.org/archive/interspeech_2021/neumann21_interspeech.html)
 
 
 
-### 2021.10.12 Paper list
+### 2021.10.12 Interspeech 2021 Paper list
 - [LT-LM: A Novel Non-Autoregressive Language Model for Single-Shot Lattice Rescoring](https://www.isca-speech.org/archive/interspeech_2021/mitrofanov21_interspeech.html)
 - [Variable Frame Rate Acoustic Models Using Minimum Error Reinforcement Learning](https://www.isca-speech.org/archive/interspeech_2021/jiang21b_interspeech.html)
 - [Human Listening and Live Captioning: Multi-Task Training for Speech Enhancement](https://www.isca-speech.org/archive/interspeech_2021/eskimez21b_interspeech.html)
@@ -40,6 +40,17 @@ Slides:
 
 - [Code Switching ASR](https://github.com/shinjiwlab/shinjiwlab.github.io/tree/source/assets/pdf/reading_group_code_switching.pdf)
 
+
+### 2021.11.09 Waspaa 2021 Paper list (Selector: Zhong-Qiu)
+- [DF-Conformer: Integrated architecture of Conv-TasNet and Conformer using linear complexity self-attention for speech enhancement](https://arxiv.org/abs/2106.15813)
+- [Self-Supervised Learning from Automatically Separated Sound Scenes](https://arxiv.org/abs/2105.02132)
+- [HARP-Net: Hyper-Autoencoded Reconstruction Propagation for Scalable Neural Audio Coding](https://arxiv.org/abs/2107.10843)
+
+### 2021.11.16 Waspaa 2021 Paper list (Selector: Zhong-Qiu)
+
+- [Point Cloud Audio Processing](https://arxiv.org/abs/2105.02469)
+- [Filtered Noise Shaping for Time Domain Room Impulse Response Estimation From Reverberant Speech](https://arxiv.org/abs/2107.07503)
+- [HiFi-GAN-2: Studio-quality Speech Enhancement via Generative Adversarial Networks Conditioned on Acoustic Features](https://arxiv.org/pdf/2006.05694.pdf)
 
 
 
