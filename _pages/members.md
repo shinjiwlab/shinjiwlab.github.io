@@ -289,24 +289,35 @@ order: 1
 </div>
 <hr />
 
-#### Visitors & Collaborators
+#### Undergraduate Students
 <div class="row mt-3">
-    <div class="col-sm mt-1 mt-md-1">
-    <div class="square">
-    <a href="https://shinjiwlab.github.io/members/">
-        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/tianzi.jpg">
-    </a></div>
-        <div class="caption">
-            Tianzi Wang
-        </div>
-    </div>
     <div class="col-sm mt-1 mt-md-1">
         <div class="square">
         <a href="https://shinjiwlab.github.io/members/">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/yenju.jpg">
+            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/11.jpg">
         </a></div>
         <div class="caption">
-            Yen-Ju Lu
+            Dorsa Zeinali
+        </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+    </div>
+</div>
+<hr />
+
+#### Visitors & Collaborators
+<div class="row mt-3">
+    <div class="col-sm mt-1 mt-md-1">
+        <div class="square">
+        <a href="https://shinjiwlab.github.io/members/">
+            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/11.jpg">
+        </a></div>
+        <div class="caption">
+            Yosuke Kashiwagi
         </div>
     </div>
     <div class="col-sm mt-1 mt-md-1">
@@ -317,6 +328,8 @@ order: 1
         <div class="caption">
             Yushi Ueda
         </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
     </div>
     <div class="col-sm mt-3 mt-md-0">
     </div>
@@ -337,6 +350,7 @@ order: 1
 
 ##### Visitors & Collaborators
 <ul>
+<li>2021. 08 - 2021. 12: Yen-Ju Lu (Research Center for Information Technology Innovation, Academia Sinica)</li>
 <li>2020. 01 - 2021. 01: Pengcheng Guo (Northwestern Polytechnical University)</li>
 <li>2019. 12 - 2020. 03: Yosuke Higuchi (Waseda University)</li>
 <li>2019. 12 - 2020. 12: Jing Shi (Chinese Academy of Science)</li>

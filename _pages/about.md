@@ -20,3 +20,10 @@ This is Watanabe's Audio and Voice (WAV) Lab at the Language Technologies Instit
         Our Lab
     </div>
 </div>
+
+
+<!-- {% twitter https://twitter.com/WavLab limit=3%} -->
+
+<!-- # Tweet
+An example of displaying a tweet:
+{% twitter https://twitter.com/rubygems/status/518821243320287232 %} -->
