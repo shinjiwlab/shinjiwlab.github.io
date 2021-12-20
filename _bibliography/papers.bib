@@ -12,6 +12,22 @@
 @string{WASPAA = {IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA)}}
 @string{APSIPA = {Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)}}
 
+@article{SHI2022101327,
+  abbr={SE+ASR},
+  abbr_publisher={CSL},
+  title = {An investigation of neural uncertainty estimation for target speaker extraction equipped RNN transducer},
+  journal = {Computer Speech & Language},
+  volume = {73},
+  pages = {101327},
+  year = {2022},
+  issn = {0885-2308},
+  doi = {https://doi.org/10.1016/j.csl.2021.101327},
+  url = {https://www.sciencedirect.com/science/article/pii/S0885230821001200},
+  author = {Jiatong Shi and Chunlei Zhang and Chao Weng and Shinji Watanabe and Meng Yu and Dong Yu},
+  keywords = {Target-speaker speech recognition, Target-speaker speech extraction, Uncertainty estimation},
+  abstract = {Target-speaker speech recognition aims to recognize the speech of an enrolled speaker from an environment with background noise and interfering speakers. This study presents a joint framework that combines time-domain target speaker extraction and recurrent neural network transducer (RNN-T) for speech recognition. To alleviate the adverse effects of residual noise and artifacts introduced by the target speaker extraction module to the speech recognition back-end, we explore to training the target speaker extraction and RNN-T jointly. We find a multi-stage training strategy that pre-trains and fine-tunes each module before joint training is crucial in stabilizing the training process. In addition, we propose a novel neural uncertainty estimation that leverages useful information from the target speaker extraction module to further improve the back-end speech recognizer (i.e., speaker identity uncertainty and speech enhancement uncertainty). Compared to a recognizer with target speech extraction front-end, our experiments show that joint-training and the neural uncertainty module reduce 7% and 17% relative character error rate (CER) on multi-talker simulation data, respectively. The multi-condition experiments indicate that our method can reduce 9% relative CER in the noisy condition without losing performance in the clean condition. We also observe consistent improvements in further evaluation of real-world data based on vehicular speech.}
+}
+
 @inproceedings{huang_asru2021,
   abbr={ASR+TTS},
   abbr_publisher={ASRU},
