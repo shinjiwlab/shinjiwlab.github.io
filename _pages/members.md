@@ -316,7 +316,7 @@ order: 1
         <div class="col-sm mt-3 mt-md-0">
         <div class="square">
         <a href="https://www.linkedin.com/in/debayan-ghosh-74170010a/">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/debayan_ghosh.jpg">
+            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/debayan_ghosh.JPG">
 	</a></div>
         <div class="caption">
             Debayan Ghosh 
