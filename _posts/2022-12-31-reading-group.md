@@ -19,3 +19,7 @@ comments: false
 - [Unsupervised Domain Adaptation Schemes for Building ASR in Low-Resource Languages](https://arxiv.org/pdf/2109.05494.pdf)
 - [Relaxed Attention: A Simple Method to Boost Performance of End-To-End Automatic Speech Recognition](https://arxiv.org/pdf/2107.01275.pdf)
 
+### 2022.02.02 ASRU 2021 Paper List
+- [Kaizen: Continuously improving teacher using Exponential Moving Average for semi-supervised speech recognition](https://arxiv.org/pdf/2106.07759.pdf)
+- [Comparing the Benefit of Synthetic Training Data for Various Automatic Speech Recognition Architectures](https://arxiv.org/pdf/2104.05379.pdf)
+- [Joint prediction of truecasing and punctuation for conversational speech in low-resource scenarios](https://arxiv.org/pdf/2109.06103.pdf)
