@@ -3,7 +3,7 @@ layout: page
 permalink: /positions/
 title: Positions
 nav: true
-order: 6
+order: 7
 ---
 
 Thank you for considering working with us!
