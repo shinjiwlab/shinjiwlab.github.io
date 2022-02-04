@@ -8,7 +8,7 @@ comments: false
 
 ## 0. Installation 
 
-For PSC usage and kaldi/espnet installation, please refer to [this wiki](https://github.com/shinjiwJHU/lab_activities/wiki/PSC-Usage).
+For PSC usage and kaldi/espnet installation, please refer to [this wiki](https://shinjiwlab.github.io/activities/2022/psc-usage).
 
 ## 1. Introduction 
 
@@ -32,7 +32,7 @@ To create a recipe, we only have to focus on one of Kaldi's top-level directorie
 egs stands for ‘examples’ and contains the recipes for a lot of corpora.
 
 
-<img src="https://github.com/DanBerrebbi/images/blob/main/Capture%20d%E2%80%99e%CC%81cran%202021-09-08%20a%CC%80%2015.26.29.png" width="600" height="300">
+<img src="{{ site.baseurl }}/assets/img/espnet2-structure.png" width="600" height="300">
 
 ESPnet follows the same architecture than Kaldi so you will find the directories in ESPnet. The folder for ESPnet2 examples is ```egs2/```.
 
