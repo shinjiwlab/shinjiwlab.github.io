@@ -12,10 +12,14 @@ order: 5
 - Facebook
 - Google
 - Hitachi
+- Honda
 - Hyundai
+- HLTCOE, Johns Hopkins University
+- Line
 - MIT Lincoln Laboratory
 - Mitsubishi Electric Research Laboratories (MERL)
-- NAVER
+- Naver
+- NSF
 - NTT Communication Science Laboratories
 - Sony
 - Tencent AI Lab
