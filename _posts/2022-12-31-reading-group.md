@@ -23,3 +23,7 @@ comments: false
 - [Kaizen: Continuously improving teacher using Exponential Moving Average for semi-supervised speech recognition](https://arxiv.org/pdf/2106.07759.pdf)
 - [Comparing the Benefit of Synthetic Training Data for Various Automatic Speech Recognition Architectures](https://arxiv.org/pdf/2104.05379.pdf)
 - [Joint prediction of truecasing and punctuation for conversational speech in low-resource scenarios](https://arxiv.org/pdf/2109.06103.pdf)
+
+### 2022.02.16 Survey of Streaming SLU (presented by Siddhant Arora)
+
+- [Streaming SLU and Wake-up Word Detection](https://github.com/shinjiwlab/shinjiwlab.github.io/tree/source/assets/pdf/2022-02-16_Siddhant_Streaming_SLU.pdf)
