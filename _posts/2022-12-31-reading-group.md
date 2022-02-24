@@ -25,5 +25,9 @@ comments: false
 - [Joint prediction of truecasing and punctuation for conversational speech in low-resource scenarios](https://arxiv.org/pdf/2109.06103.pdf)
 
 ### 2022.02.16 Survey of Streaming SLU (presented by Siddhant Arora)
-
 - [Streaming SLU and Wake-up Word Detection](https://github.com/shinjiwlab/shinjiwlab.github.io/tree/source/assets/pdf/2022-02-16_Siddhant_Streaming_SLU.pdf)
+
+### 2022.02.23 NeurIPS 2021 Paper List
+- [Unsupervised Speech Recognition](https://proceedings.neurips.cc/paper/2021/hash/ea159dc9788ffac311592613b7f71fbb-Abstract.html)
+- [A Universal Law of Robustness via Isoperimetry](https://proceedings.neurips.cc/paper/2021/hash/f197002b9a0853eca5e046d9ca4663d5-Abstract.html)
+- [Speech-T: Transducer for Text to Speech and Beyond](https://proceedings.neurips.cc/paper/2021/hash/344ef5151be171062f42f03e69663ecf-Abstract.html)
