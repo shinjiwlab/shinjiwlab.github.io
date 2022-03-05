@@ -31,3 +31,8 @@ comments: false
 - [Unsupervised Speech Recognition](https://proceedings.neurips.cc/paper/2021/hash/ea159dc9788ffac311592613b7f71fbb-Abstract.html)
 - [A Universal Law of Robustness via Isoperimetry](https://proceedings.neurips.cc/paper/2021/hash/f197002b9a0853eca5e046d9ca4663d5-Abstract.html)
 - [Speech-T: Transducer for Text to Speech and Beyond](https://proceedings.neurips.cc/paper/2021/hash/344ef5151be171062f42f03e69663ecf-Abstract.html)
+
+### 2022.03.02 NeurIPS 2021 Paper List
+- [Multimodal and Multilingual Embeddings for Large-Scale Speech Mining](https://openreview.net/forum?id=6fmgB38rLI1)
+- [Pay Attention to MLPs](https://openreview.net/forum?id=KBnXrODoBW)
+- [Speech Separation Using an Asynchronous Fully Recurrent Convolutional Neural Network](https://openreview.net/forum?id=SlxH2AbBBC2)
