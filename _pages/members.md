@@ -367,7 +367,14 @@ order: 1
             Yushi Ueda
         </div>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-1 mt-md-1">
+        <div class="square">
+        <a href="https://yosukehiguchi.github.io/">
+            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/yosuke.jpg">
+        </a></div>
+        <div class="caption">
+            Yosuke Higuchi
+        </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
     </div>
