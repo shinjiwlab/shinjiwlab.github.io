@@ -259,6 +259,12 @@ order: 1
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
+        <a href="https://shinjiwlab.github.io/members/">
+            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/jessica.jpg">
+        </a>
+        <div class="caption">
+            Jessica Huynh (co-supervising)
+        </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
     </div>
