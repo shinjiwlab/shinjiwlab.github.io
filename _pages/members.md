@@ -186,7 +186,14 @@ order: 1
             Zhong-Qiu Wang
         </div>
     </div>
-    <div class="col-sm mt-1 mt-md-1">
+	<div class="col-sm mt-3 mt-md-1">
+    <div class="square">
+    <a href="www.linkedin.com/in/soumi-maiti-84ba6a20">
+        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/soumi.jpg">
+    </a></div>
+        <div class="caption">
+            Soumi Maiti
+        </div>
     </div>
     <div class="col-sm mt-1 mt-md-1">
     </div>
@@ -252,6 +259,12 @@ order: 1
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
+        <a href="https://shinjiwlab.github.io/members/">
+            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/jessica.jpg">
+        </a>
+        <div class="caption">
+            Jessica Huynh (co-supervising)
+        </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
     </div>
@@ -352,7 +365,7 @@ order: 1
     <div class="col-sm mt-1 mt-md-1">
         <div class="square">
         <a href="https://shinjiwlab.github.io/members/">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/11.jpg">
+            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/yosukeK.jpg">
         </a></div>
         <div class="caption">
             Yosuke Kashiwagi
@@ -367,9 +380,23 @@ order: 1
             Yushi Ueda
         </div>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-1 mt-md-1">
+        <div class="square">
+        <a href="https://yosukehiguchi.github.io/">
+            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/yosuke.jpg">
+        </a></div>
+        <div class="caption">
+            Yosuke Higuchi
+        </div>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-1 mt-md-1">
+        <div class="square">
+        <a href="https://sites.google.com/view/yoshiki-masuyama/">
+            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/yoshiki.jpg">
+        </a></div>
+        <div class="caption">
+            Yoshiki Masuyama
+        </div>
     </div>
 </div>
 <hr />
