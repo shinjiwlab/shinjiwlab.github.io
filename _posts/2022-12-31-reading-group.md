@@ -36,3 +36,8 @@ comments: false
 - [Multimodal and Multilingual Embeddings for Large-Scale Speech Mining](https://openreview.net/forum?id=6fmgB38rLI1)
 - [Pay Attention to MLPs](https://openreview.net/forum?id=KBnXrODoBW)
 - [Speech Separation Using an Asynchronous Fully Recurrent Convolutional Neural Network](https://openreview.net/forum?id=SlxH2AbBBC2)
+
+### 2022.03.30 NeurIPS 2021 Paper List
+- [FastCorrect: Fast Error Correction with Edit Alignment for Automatic Speech Recognition](https://openreview.net/pdf?id=N3oi7URBakV)
+- [Neural Analysis and Synthesis: Reconstructing Speech from Self-Supervised Representations](https://nips.cc/virtual/2021/poster/37777)
+- [Unsupervised Noise Adaptive Speech Enhancement by Discriminator-Constrained Optimal Transport](https://openreview.net/pdf?id=R6U4-Qkcg21)
