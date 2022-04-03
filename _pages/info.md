@@ -13,3 +13,9 @@ This page has some information guidelines for members of WAVLab.
 * [PSC cluster use instructions](https://shinjiwlab.github.io/activities/2022/psc-usage)
 * [ESPnet2 recipes](https://shinjiwlab.github.io/activities/2022/espnet2-recipe)
 
+
+
+Our galleries
+
+* [2022 Gallery](https://shinjiwlab.github.io/activities/2022/2022-record/)
+* [2021 Gallery](https://shinjiwlab.github.io/activities/2022/2021-record/)
