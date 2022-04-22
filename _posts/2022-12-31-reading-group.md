@@ -41,3 +41,11 @@ comments: false
 - [FastCorrect: Fast Error Correction with Edit Alignment for Automatic Speech Recognition](https://openreview.net/pdf?id=N3oi7URBakV)
 - [Neural Analysis and Synthesis: Reconstructing Speech from Self-Supervised Representations](https://nips.cc/virtual/2021/poster/37777)
 - [Unsupervised Noise Adaptive Speech Enhancement by Discriminator-Constrained Optimal Transport](https://openreview.net/pdf?id=R6U4-Qkcg21)
+
+### 2022.04.06 Adapters in Speech Transformers (presented by Karthik Ganesan)
+- [Adapters in Speech Transformers](https://github.com/shinjiwlab/shinjiwlab.github.io/tree/source/assets/pdf/2022-04-06-Adapters.pdf)
+
+### 2022.04.13 NeurIPS 2021 Paper List
+- [Understanding Adaptive, Multiscale Temporal Integration In Deep Speech Recognition Systems](https://nips.cc/virtual/2021/poster/28735)
+- [Pay Better Attention to Attention: Head Selection in Multilingual and Multi-Domain Sequence Modeling](https://nips.cc/virtual/2021/poster/26058)
+- [Towards efficient end-to-end speech recognition with biologically-inspired neural networks](https://nips.cc/virtual/2021/workshop/21839#wse-detail-34284)
