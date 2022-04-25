@@ -438,7 +438,6 @@ order: 1
 
 ##### Visitors & Collaborators
 <ul>
-<li>2022. 05 - 2022. 09: Samuele Cornell (Università Politecnica delle Marche, Italy)</li>
 <li>2021. 08 - 2021. 12: Yen-Ju Lu (Research Center for Information Technology Innovation, Academia Sinica)</li>
 <li>2020. 01 - 2021. 01: Pengcheng Guo (Northwestern Polytechnical University)</li>
 <li>2019. 12 - 2020. 03: Yosuke Higuchi (Waseda University)</li>
