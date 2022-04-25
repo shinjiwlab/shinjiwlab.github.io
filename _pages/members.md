@@ -404,6 +404,8 @@ order: 1
             Yoshiki Masuyama
         </div>
     </div>
+</div>
+<div class="row mt-3">
     <div class="col-sm mt-1 mt-md-1">
         <div class="square">
         <a href="https://github.com/popcornell">
@@ -412,6 +414,12 @@ order: 1
         <div class="caption">
             Samuele Cornell
         </div>
+    </div>
+     <div class="col-sm mt-3 mt-md-0">
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
     </div>
 </div>
 <hr />
