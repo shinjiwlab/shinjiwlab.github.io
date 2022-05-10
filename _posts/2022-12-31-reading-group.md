@@ -52,3 +52,11 @@ comments: false
 
 ### 2022.04.27 Survey of Semi-Supervised ASR (presented by Dan Berrebbi)
 - [Semi-Supervised ASR](https://github.com/shinjiwlab/shinjiwlab.github.io/tree/source/assets/pdf/dan_reading_group_semi_supervised_asr.pdf)
+
+### 2022.05.04 The VoiceMOS Challenge 2022 (presented by Wen-Chin Huang from Nagoya University)
+- [The VoiceMOS Challenge 2022](https://github.com/shinjiwlab/shinjiwlab.github.io/tree/source/assets/pdf/2022-05-04-VoiceMOS-Challenge.pdf)
+- [CodaLab Challenge Page](https://codalab.lisn.upsaclay.fr/competitions/695)
+- [Paper](https://arxiv.org/abs/2203.11389)
+- [Baseline System 1](https://github.com/nii-yamagishilab/mos-finetune-ssl)
+- [Baseline System 2](https://github.com/dhimasryan/MOSA-Net-Cross-Domain)
+- [Baseline System 3](https://github.com/unilight/LDNet)
