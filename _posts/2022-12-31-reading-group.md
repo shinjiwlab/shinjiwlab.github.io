@@ -60,3 +60,8 @@ comments: false
 - [Baseline System 1](https://github.com/nii-yamagishilab/mos-finetune-ssl)
 - [Baseline System 2](https://github.com/dhimasryan/MOSA-Net-Cross-Domain)
 - [Baseline System 3](https://github.com/unilight/LDNet)
+
+### 2022.06.01 ICASSP 2022 Paper List
+- [VarArray: Array-Geometry-Agnostic Continuous Speech Separation](https://arxiv.org/abs/2110.05745)
+- [Self Supervised Representation Learning with Deep Clustering for Acoustic Unit Discovery from Raw Speech](https://ieeexplore.ieee.org/document/9747259)
+- [TPARN: Triple-path Attentive Recurrent Network for Time-domain Multichannel Speech Enhancement](https://arxiv.org/abs/2110.10757)
