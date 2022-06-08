@@ -65,3 +65,8 @@ comments: false
 - [VarArray: Array-Geometry-Agnostic Continuous Speech Separation](https://arxiv.org/abs/2110.05745)
 - [Self Supervised Representation Learning with Deep Clustering for Acoustic Unit Discovery from Raw Speech](https://ieeexplore.ieee.org/document/9747259)
 - [TPARN: Triple-path Attentive Recurrent Network for Time-domain Multichannel Speech Enhancement](https://arxiv.org/abs/2110.10757)
+
+### 2022.06.08 ICASSP 2022 Paper List
+- [One Model to Enhance Them All: Array Geometry Agnostic Multi-Channel Personalized Speech Enhancement](https://arxiv.org/abs/2110.10330)
+- [Self-supervised Speaker Recognition Training Using Human-Machine Dialogues](https://arxiv.org/abs/2202.03484)
+- [Self-Supervised Learning Method Using Multiple Sampling Strategies for General-Purpose Audio Representation](https://ieeexplore.ieee.org/document/9746798)
