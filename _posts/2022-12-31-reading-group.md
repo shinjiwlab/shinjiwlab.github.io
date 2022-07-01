@@ -49,3 +49,30 @@ comments: false
 - [Understanding Adaptive, Multiscale Temporal Integration In Deep Speech Recognition Systems](https://nips.cc/virtual/2021/poster/28735)
 - [Pay Better Attention to Attention: Head Selection in Multilingual and Multi-Domain Sequence Modeling](https://nips.cc/virtual/2021/poster/26058)
 - [Towards efficient end-to-end speech recognition with biologically-inspired neural networks](https://nips.cc/virtual/2021/workshop/21839#wse-detail-34284)
+
+### 2022.04.27 Survey of Semi-Supervised ASR (presented by Dan Berrebbi)
+- [Semi-Supervised ASR](https://github.com/shinjiwlab/shinjiwlab.github.io/tree/source/assets/pdf/dan_reading_group_semi_supervised_asr.pdf)
+
+### 2022.05.04 The VoiceMOS Challenge 2022 (presented by Wen-Chin Huang from Nagoya University)
+- [The VoiceMOS Challenge 2022](https://github.com/shinjiwlab/shinjiwlab.github.io/tree/source/assets/pdf/2022-05-04-VoiceMOS-Challenge.pdf)
+- [CodaLab Challenge Page](https://codalab.lisn.upsaclay.fr/competitions/695)
+- [Paper](https://arxiv.org/abs/2203.11389)
+- [Baseline System 1](https://github.com/nii-yamagishilab/mos-finetune-ssl)
+- [Baseline System 2](https://github.com/dhimasryan/MOSA-Net-Cross-Domain)
+- [Baseline System 3](https://github.com/unilight/LDNet)
+
+### 2022.06.01 ICASSP 2022 Paper List
+- [VarArray: Array-Geometry-Agnostic Continuous Speech Separation](https://arxiv.org/abs/2110.05745)
+- [Self Supervised Representation Learning with Deep Clustering for Acoustic Unit Discovery from Raw Speech](https://ieeexplore.ieee.org/document/9747259)
+- [TPARN: Triple-path Attentive Recurrent Network for Time-domain Multichannel Speech Enhancement](https://arxiv.org/abs/2110.10757)
+
+### 2022.06.08 ICASSP 2022 Paper List
+- [One Model to Enhance Them All: Array Geometry Agnostic Multi-Channel Personalized Speech Enhancement](https://arxiv.org/abs/2110.10330)
+- [Self-supervised Speaker Recognition Training Using Human-Machine Dialogues](https://arxiv.org/abs/2202.03484)
+- [Self-Supervised Learning Method Using Multiple Sampling Strategies for General-Purpose Audio Representation](https://ieeexplore.ieee.org/document/9746798)
+
+### 2022.06.15 ICASSP 2022 Paper List
+- [Combining Unsupervised and Text Augmented Semi-Supervised Learning for Low Resourced Autoregressive Speech Recognition](https://arxiv.org/abs/2110.15836)
+- [Factorized Neural Transducer for Efficient Language Model Adaptation](https://arxiv.org/abs/2110.01500)
+- [Neufa: Neural Network Based End-to-End Forced Alignment with Bidirectional Attention Mechanism](https://arxiv.org/abs/2203.16838)
+- [Towards Reducing the Need for Speech Training Data To Build Spoken Language Understanding Systems](https://arxiv.org/abs/2203.00006)
