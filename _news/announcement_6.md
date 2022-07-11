@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-06-15 13:59:00-0400
+date: 2022-06-15 0:00:00-0400
 inline: true
 ---
 
-Our lab published 23 Interspeech paper in the up-coming Interspeech2022. Please check <a href="https://shinjiwlab.github.io/publications/">here</a> for details.
+Our lab has 23 paper accepted in the Interspeech2022. Detailed list will be available in <a href="https://shinjiwlab.github.io/publications/">publication page</a>.
