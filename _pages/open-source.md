@@ -63,6 +63,19 @@ Our lab has been led and participated in the development of several open-source 
 </table>
 <hr />
 
+<table cellspacing="0" cellpadding="0">
+<tr>
+<td class="col-sm w-25" style="display:table-cell; vertical-align:middle; text-align:center">
+      <a href="https://github.com/SJTMusicTeam/Muskits">
+        <img src="{{ site.baseurl }}/assets/img/muskit_logo.png" width="200" />
+      </a>
+</td>
+<td>
+  <strong>Muskits</strong>  is an open-source music processing toolkit, currently focus on benchmarking the end-to-end singing voice synthesis and expect to extend more tasks in the future. Muskit employs pytorch as a deep learning engine and also follows ESPnet and Kaldi style data processing, and recipes to provide a complete setup for various music processing experiments.
+</td></tr>
+</table>
+<hr />
+
 ### Datasets
 
 <table cellspacing="0" cellpadding="0">
@@ -81,12 +94,51 @@ Our lab has been led and participated in the development of several open-source 
 <table cellspacing="0" cellpadding="0">
 <tr>
 <td class="col-sm w-25">
+      <a href="https://github.com/mispchallenge/MISP2021-AVSR">
+        AVSR (MIPS2021)
+      </a>
+</td>
+<td>
+  <strong>Audio-Visual Speech Recognition (AVSR)</strong> corpus of MISP2021 challenge, a large-scale audio-visual Chinese conversational corpus consisting of 141h audio and video data collected by far/middle/near microphones and far/middle cameras in 34 real-home TV rooms. To our best knowledge, our corpus is the first distant multi-microphone conversational Chinese audio-visual corpus and the first large vocabulary continuous Chinese lip-reading dataset in the adverse home-tv scenario.
+</td></tr>
+</table>
+<hr />
+
+<table cellspacing="0" cellpadding="0">
+<tr>
+<td class="col-sm w-25">
+      <a href="https://github.com/mispchallenge/MISP2021-AVWWS">
+        AVWWS (MIPS2021)
+      </a>
+</td>
+<td>
+  <strong>Audio-Visual Wake Word Spotting (AVWWS)</strong> concerns the identification of predefined wake word(s) in utterances. ‘1’ indicates that the sample contains wake word, and ‘0’ indicates the opposite. For more information, please refer to the MISP Challenge task 1 description.
+</td></tr>
+</table>
+<hr />
+
+<table cellspacing="0" cellpadding="0">
+<tr>
+<td class="col-sm w-25">
       <a href="https://datasets.kensho.com/datasets/spgispeech">
         SPGISpeech
       </a>
 </td>
 <td>
   <strong>SPGISpeech</strong> is a corpus of 5,000 hours of professionally-transcribed financial audio. In contrast to previous transcription datasets, SPGISpeech contains a broad cross-section of L1 and L2 English accents, strongly varying audio quality, and both spontaneous and narrated speech. The transcripts have each been cross-checked by multiple professional editors for high accuracy and are fully formatted, including capitalization, punctuation, and denormalization of non-standard words.
+</td></tr>
+</table>
+<hr />
+
+<table cellspacing="0" cellpadding="0">
+<tr>
+<td class="col-sm w-25">
+      <a href="https://github.com/SpeechColab/GigaSpeech">
+        GigaSpeech
+      </a>
+</td>
+<td>
+  <strong>GigaSpeech</strong> is an evolving, multi-domain English speech recognition corpus with 10,000 hours of high quality labeled audio suitable for supervised training, and 40,000 hours of total audio suitable for semi-supervised and unsupervised training.
 </td></tr>
 </table>
 <hr />
@@ -114,6 +166,20 @@ Our lab has been led and participated in the development of several open-source 
 </td>
 <td>
   The substantive material of <strong>Puebla Nahuatl</strong> speech corpus was gathered over ten years by Jonathan D. Amith (PI) and a team of native-speaker colleagues who have participated in the project for many years, one from its inception in 2009. The corpus is designed for ASR & MT research in endangered language documentation.
+</td></tr>
+</table>
+<hr />
+
+
+<table cellspacing="0" cellpadding="0">
+<tr>
+<td class="col-sm w-25">
+      <a href="http://www.openslr.org/107/">
+        ASR corpus for endangered language documentation (Totonac)
+      </a>
+</td>
+<td>
+  The substantive material of <strong>Totonac</strong> from the northern sierras of Puebla and adjacent areas of Veracruz were compiled starting in 2016 by Jonathan D. Amith and continue to the present as part of a joint effort by Amith and Osbel López Francisco, a native speaker biologist from Zongozotla.
 </td></tr>
 </table>
 <hr />

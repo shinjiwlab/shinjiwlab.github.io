@@ -70,3 +70,9 @@ comments: false
 - [One Model to Enhance Them All: Array Geometry Agnostic Multi-Channel Personalized Speech Enhancement](https://arxiv.org/abs/2110.10330)
 - [Self-supervised Speaker Recognition Training Using Human-Machine Dialogues](https://arxiv.org/abs/2202.03484)
 - [Self-Supervised Learning Method Using Multiple Sampling Strategies for General-Purpose Audio Representation](https://ieeexplore.ieee.org/document/9746798)
+
+### 2022.06.15 ICASSP 2022 Paper List
+- [Combining Unsupervised and Text Augmented Semi-Supervised Learning for Low Resourced Autoregressive Speech Recognition](https://arxiv.org/abs/2110.15836)
+- [Factorized Neural Transducer for Efficient Language Model Adaptation](https://arxiv.org/abs/2110.01500)
+- [Neufa: Neural Network Based End-to-End Forced Alignment with Bidirectional Attention Mechanism](https://arxiv.org/abs/2203.16838)
+- [Towards Reducing the Need for Speech Training Data To Build Spoken Language Understanding Systems](https://arxiv.org/abs/2203.00006)
