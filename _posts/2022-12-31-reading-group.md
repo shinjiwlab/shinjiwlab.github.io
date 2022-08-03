@@ -76,3 +76,10 @@ comments: false
 - [Factorized Neural Transducer for Efficient Language Model Adaptation](https://arxiv.org/abs/2110.01500)
 - [Neufa: Neural Network Based End-to-End Forced Alignment with Bidirectional Attention Mechanism](https://arxiv.org/abs/2203.16838)
 - [Towards Reducing the Need for Speech Training Data To Build Spoken Language Understanding Systems](https://arxiv.org/abs/2203.00006)
+
+### 2022.07.27 ICML 2022 Paper List
+- [Revisiting End-to-End Speech-to-Text Translation From Scratch](https://proceedings.mlr.press/v162/zhang22i.html)
+- [Translatotron 2: High-quality direct speech-to-speech translation with voice preservation](https://proceedings.mlr.press/v162/jia22b.html)
+- [Efficient Representation Learning via Adaptive Context Pooling](https://proceedings.mlr.press/v162/huang22j.html)
+- [Characterizing and Overcoming the Greedy Nature of Learning in Multi-modal Deep Neural Networks](https://proceedings.mlr.press/v162/wu22d.html)
+- [GLaM: Efficient Scaling of Language Models with Mixture-of-Experts](https://proceedings.mlr.press/v162/du22c.html)
