@@ -83,3 +83,9 @@ comments: false
 - [Efficient Representation Learning via Adaptive Context Pooling](https://proceedings.mlr.press/v162/huang22j.html)
 - [Characterizing and Overcoming the Greedy Nature of Learning in Multi-modal Deep Neural Networks](https://proceedings.mlr.press/v162/wu22d.html)
 - [GLaM: Efficient Scaling of Language Models with Mixture-of-Experts](https://proceedings.mlr.press/v162/du22c.html)
+
+### 2022.08.03 ICML 2022 Paper List
+- [ContentVec: An Improved Self-Supervised Speech Representation by Disentangling Speakers](https://proceedings.mlr.press/v162/qian22b.html)
+- [A3T: Alignment-Aware Acoustic and Text Pretraining for Speech Synthesis and Editing](https://proceedings.mlr.press/v162/bai22d.html)
+- [Guided-TTS: A Diffusion Model for Text-to-Speech via Classifier Guidance](https://proceedings.mlr.press/v162/kim22d.html)
+- [Multi Resolution Analysis (MRA) for Approximate Self-Attention](https://proceedings.mlr.press/v162/zeng22a.html)
