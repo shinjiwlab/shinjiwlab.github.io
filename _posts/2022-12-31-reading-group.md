@@ -89,3 +89,8 @@ comments: false
 - [A3T: Alignment-Aware Acoustic and Text Pretraining for Speech Synthesis and Editing](https://proceedings.mlr.press/v162/bai22d.html)
 - [Guided-TTS: A Diffusion Model for Text-to-Speech via Classifier Guidance](https://proceedings.mlr.press/v162/kim22d.html)
 - [Multi Resolution Analysis (MRA) for Approximate Self-Attention](https://proceedings.mlr.press/v162/zeng22a.html)
+
+### 2022.08.10 ICASSP 2022 Paper List
+- [Consistent Training and Decoding for End-to-End Speech Recognition Using Lattice-Free MMI](https://ieeexplore.ieee.org/abstract/document/9746579)
+- [On Language Model Integration for RNN Transducer Based Speech Recognition](https://ieeexplore.ieee.org/abstract/document/9746948)
+- [Tight Integration Of Neural- And Clustering-Based Diarization Through Deep Unfolding Of Infinite Gaussian Mixture Model](https://ieeexplore.ieee.org/abstract/document/9746234)
