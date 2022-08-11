@@ -23,7 +23,7 @@ So, please subscribe to it if you're interested in the CMU speech!
 
 ## Previous Talks
 - August 8, 2022
-  - Title: An Unified Understanding of Voice Conversion and its Medical Application
+  - Title: [An Unified Understanding of Voice Conversion and its Medical Application](https://github.com/shinjiwlab/shinjiwlab.github.io/tree/source/assets/pdf/2022-08-08-voice_conversion.pdf)
   - Speaker: Wen-Chin Huang (Nagoya University)
   - Abstract: Voice conversion (VC) is the task of converting one kind of speech to another without changing the linguistic contents, and is the second most popular research field in speech synthesis. With the rise of deep neural networks, there are more and more VC methods being proposed each year, and it might be hard to understand the difference of these methods at first sight. In this talk, I will provide my own, unified understanding of VC, and show that how most successful VC methods implement the same underlying framework. I will also introduce my recent works on dysarthric VC, as a showcase of an application of VC to medicine.
   - Bio: Wen-Chin Huang is currently a Ph.D. candidate at Nagoya University, Nagoya, Japan. He received the B.S. degree from National Taiwan University, Taipei, Taiwan, in 2018 and the M.S. degree from Nagoya University, Nagoya, Japan in 2021. He was the recipient of the Best Student Paper Award in ISCSLP2018, the Best Paper Award in APSIPA ASC 2021, and the research fellowship for young scientists (DC1) from the Japan Society for the Promotion of Science in 2021. He was a co-organizer of the Voice Conversion Challenge 2020 and VoiceMOS Challenge 2022. His research focuses on deep learning applications to speech processing, with a main focus in voice conversion and speech quality assessment.
