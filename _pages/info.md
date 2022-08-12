@@ -12,6 +12,7 @@ This page has some information guidelines for members of WAVLab.
 * [AWS use instructions](https://shinjiwlab.github.io/activities/2022/aws-usage)
 * [PSC cluster use instructions](https://shinjiwlab.github.io/activities/2022/psc-usage)
 * [ESPnet2 recipes](https://shinjiwlab.github.io/activities/2022/espnet2-recipe)
+* [Lab logos and slides template](https://github.com/shinjiwlab/lab_logo) (Need to request access)
 
 
 
