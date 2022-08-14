@@ -283,7 +283,7 @@ order: 1
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/12.jpg">
         </a></div>
         <div class="caption">
-            Li-wei Chen
+            Li-wei Chen (co-supervising)
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
