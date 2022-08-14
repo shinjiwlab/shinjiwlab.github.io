@@ -206,14 +206,6 @@ order: 1
 #### PhD Students
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-    <a href="https://www.cs.cmu.edu/~sdalmia">
-        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/sid.jpg">
-    </a>
-        <div class="caption">
-            Siddharth Dalmia (co-supervising)
-        </div>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
     <div class="square">
     <a href="https://www.xinjianl.com//">
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/xinjianl.jpg">
@@ -238,8 +230,6 @@ order: 1
             Brian Yan
         </div>
     </div>
-</div>
-<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <a href="http://shijt.site/">
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/jiatong.jpg">
@@ -248,6 +238,8 @@ order: 1
             Jiatong Shi
         </div>
     </div>
+</div>
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
 	<div class="square">
 	    <a href="https://pyf98.github.io/">
@@ -274,36 +266,37 @@ order: 1
             Muqiao Yang (co-supervising)
         </div>
     </div>
-</div>
-<hr />
-
-#### Master Students
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        <a href="http://www.cs.cmu.edu/~peterw1/">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/peter.jpg">
-        </a>
-        <div class="caption">
-            Peter Wu (co-supervising)
-        </div>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <a href="https://www.lti.cs.cmu.edu/people/222227189/chaitanya-narisetty">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/chaitanya.jpg">
-        </a>
-        <div class="caption">
-            Chaitanya Narisetty
-        </div>
-    </div>
     <div class="col-sm mt-3 mt-md-0">
         <div class="square">
         <a href="https://www.linkedin.com/in/arora-sid/">
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/sarora.jpg">
         </a></div>
         <div class="caption">
-            Siddhant Arora (co-supervising)
+            Siddhant Arora
         </div>
     </div>
+</div>
+<div class="row mt-3">
+    <div class="col-sm mt-1 mt-md-1">
+        <div class="square">
+        <a href="https://shinjiwlab.github.io/members/">
+            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/12.jpg">
+        </a></div>
+        <div class="caption">
+            Li-wei Chen (co-supervising)
+        </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+    </div>
+</div>
+<hr />
+
+#### Master Students
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
 	<div class="square">
         <a href="https://www.linkedin.com/in/dan-berrebbi-254843169/">
@@ -311,16 +304,6 @@ order: 1
         </a></div>
         <div class="caption">
             Dan Berrebbi
-        </div>
-    </div>
-</div>
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        <a href="https://sujayskumar.com/">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/sujay.jpg">
-        </a>
-        <div class="caption">
-            Sujay Suresh Kumar
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
@@ -331,19 +314,13 @@ order: 1
         <div class="caption">
             Karthik Ganesan 
         </div>	    
-        </div>
-        <div class="col-sm mt-3 mt-md-0">
-        <div class="square">
-        <a href="https://www.linkedin.com/in/debayan-ghosh-74170010a/">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/debayan_ghosh.JPG">
-	</a></div>
-        <div class="caption">
-            Debayan Ghosh 
-        </div>	    
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
     </div>
     <div class="col-sm mt-3 mt-md-0">
     </div>
 </div>
+
 <hr />
 
 #### Undergraduate Students
@@ -377,57 +354,25 @@ order: 1
             Yosuke Kashiwagi
         </div>
     </div>
-    <div class="col-sm mt-1 mt-md-1">
-        <div class="square">
-        <a href="https://shinjiwlab.github.io/members/">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/yushi.jpg">
-        </a></div>
-        <div class="caption">
-            Yushi Ueda
-        </div>
-    </div>
-    <div class="col-sm mt-1 mt-md-1">
-        <div class="square">
-        <a href="https://yosukehiguchi.github.io/">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/yosuke.jpg">
-        </a></div>
-        <div class="caption">
-            Yosuke Higuchi
-        </div>
-    </div>
-    <div class="col-sm mt-1 mt-md-1">
-        <div class="square">
-        <a href="https://sites.google.com/view/yoshiki-masuyama/">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/yoshiki.jpg">
-        </a></div>
-        <div class="caption">
-            Yoshiki Masuyama
-        </div>
-    </div>
-</div>
-<div class="row mt-3">
-    <div class="col-sm mt-1 mt-md-1">
-        <div class="square">
-        <a href="https://github.com/popcornell">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/samuele.jpg">
-        </a></div>
-        <div class="caption">
-            Samuele Cornell
-        </div>
-    </div>
-     <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
     </div>
     <div class="col-sm mt-3 mt-md-0">
     </div>
     <div class="col-sm mt-3 mt-md-0">
     </div>
 </div>
+
 <hr />
 
 #### Alumni
 
 ##### Students
 <ul>
+<li>2020. 09 - 2022.08: Siddharth Dalmia (CMU, co-supervisor)</li>
+<li>2021. 01 - 2022.08: Chaitanya Narisetty (CMU)</li>
+<li>2021. 01 - 2022.08: Peter Wu (CMU, co-supervisor)</li>
+<li>2021. 09 - 2022.08: Sujay Suresh Kumar (MIIS directed study, CMU)</li>
+<li>2021. 09 - 2022.08: Debayan Ghosh (CMU)</li>
 <li>2017. 09 - 2021. 08: Aswin Shanmugam Subramanian (JHU)</li>
 <li>2017. 10 - 2021. 08: Matthew Maciejewski (JHU, co-supervisor)</li>
 <li>2020. 08 - 2021. 08: Tianzi Wang (JHU) </li>
@@ -438,9 +383,12 @@ order: 1
 
 ##### Visitors & Collaborators
 <ul>
+<li>2022. 04 - 2022. 09: Samuele Cornell (Universita Politecnica delle Marche)</li>
+<li>2022. 03 - 2022. 06: Yoshiki Masuyama (Tokyo Metropolitan University)</li>
+<li>2021. 07 - 2022. 07: Yushi Ueda (Japan Patent Office)</li>
 <li>2021. 08 - 2021. 12: Yen-Ju Lu (Research Center for Information Technology Innovation, Academia Sinica)</li>
 <li>2020. 01 - 2021. 01: Pengcheng Guo (Northwestern Polytechnical University)</li>
-<li>2019. 12 - 2020. 03: Yosuke Higuchi (Waseda University)</li>
+<li>2019. 12 - 2020. 03 & 2022. 03 - 2022. 06: Yosuke Higuchi (Waseda University)</li>
 <li>2019. 12 - 2020. 12: Jing Shi (Chinese Academy of Science)</li>
 <li>2019. 07 - 2019. 10: Katsuki Inoue (Okayama University)</li>
 <li>2018. 11 - 2019. 05: Murali Karthick Baskar (Brno University of Technology)</li>
