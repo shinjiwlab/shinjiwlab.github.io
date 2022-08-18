@@ -316,6 +316,13 @@ order: 1
         </div>	    
     </div>
     <div class="col-sm mt-3 mt-md-0">
+        <div class="square">
+        <a href="https://wanchichen.github.io/">
+            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/william_chen.png">
+	</a></div>
+        <div class="caption">
+            William Chen 
+        </div>	    
     </div>
     <div class="col-sm mt-3 mt-md-0">
     </div>
