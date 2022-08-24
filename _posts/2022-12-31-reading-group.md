@@ -94,3 +94,8 @@ comments: false
 - [Consistent Training and Decoding for End-to-End Speech Recognition Using Lattice-Free MMI](https://ieeexplore.ieee.org/abstract/document/9746579)
 - [On Language Model Integration for RNN Transducer Based Speech Recognition](https://ieeexplore.ieee.org/abstract/document/9746948)
 - [Tight Integration Of Neural- And Clustering-Based Diarization Through Deep Unfolding Of Infinite Gaussian Mixture Model](https://ieeexplore.ieee.org/abstract/document/9746234)
+
+### 2022.08.24 ICASSP 2022 Paper List
+- [Spatial-Temporal Graph Convolution Network for Multichannel Speech Enhancement](https://ieeexplore.ieee.org/document/9746054)
+- [Exploring Machine Speech Chain For Domain Adaptation](https://ieeexplore.ieee.org/document/9746721)
+- [Improving CTC-based speech recognition via knowledge transferring from pre-trained language models](https://arxiv.org/abs/2203.03582)
