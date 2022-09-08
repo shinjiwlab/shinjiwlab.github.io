@@ -211,7 +211,7 @@ order: 1
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/xinjianl.jpg">
     </a></div>
         <div class="caption">
-            Xinjian Li (co-supervising)
+            Xinjian Li
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
@@ -247,7 +247,7 @@ order: 1
     	    </a>
 	</div>
         <div class="caption">
-            Yifan Peng (co-supervising)
+            Yifan Peng
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
