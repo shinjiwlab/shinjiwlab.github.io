@@ -25,6 +25,12 @@ A tentative schedule can be found [here](https://docs.google.com/spreadsheets/d/
 
 ## Previous Talks
 
+- September 15, 2022
+  - Title: [End-to-End Unsupervised ASR and Its Application]({{ site.baseurl }}/assets/pdf/2022-09-15-jiatong.pdf)
+  - Speaker: Jiatong Shi
+  - Abstract: Unsupervised ASR is to learn an ASR model without parallel speech/text. Recently, with the help of self-supervised learning, end-to-end unsupervised ASR has become possible and has shown impressive performances. This talk goes through some of our efforts from the pre-training team, [JSALT2022](https://jsalt-2022-ssl.github.io/), including some experiences in end-to-end unsupervised ASR and its extended usages in self-supervised augmentation, acoustic segmentation, and connection between modalities. We will also discuss some ongoing open-source works.
+  - Bio: Jiatong Shi is a Ph.D. student, advised by Dr. Shinji Watanabe, at Watanabe’s Audio and Voice (WAV) Lab, Language Technologies Institute (LTI), Carnegie Mellon University (CMU), Pittsburgh, PA. He received his B.S. of computer science from Renmin University of China (RUC), advised by Dr. Qin Jin and M.S. of computer science from Johns Hopkins University (JHU) advised by Dr. Shinji Watanabe. He has been conducting research on various aspects of speech/audio processing, including speech recognition, speech translation, speech synthesis, speaker diarization, and singing voice synthesis. His recent focus is speech-to-speech translation.
+
 - September 1, 2022
   - Title: [Is everything end-to-end?]({{ site.baseurl }}/assets/pdf/2022-09-01-shinji.pdf)
   - Speaker: Shinji Watanabe (CMU)
