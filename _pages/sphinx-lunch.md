@@ -25,6 +25,12 @@ A tentative schedule can be found [here](https://docs.google.com/spreadsheets/d/
 
 ## Previous Talks
 
+- September 29, 2022
+  - Title: [Audio Visual Recognition and Understanding]({{ site.baseurl }}/assets/pdf/2022-09-29_Karthik.pdf)
+  - Speaker: Karthik Ganesan
+  - Abstract: Streaming audio-visual speech recognition (SAVSR) introduces an online setting to audio-visual speech recognition (AVSR), which frees the full utterance requirement prior to decoding that traditional speech recognition models are limited to. Streaming audio-visual speech recognition further challenges the model leaving itself to decide how much the model should wait to have retrieved enough information to start decoding. While transformer based models such as AvHuBERT have been successful in AVSR tasks through pretraining and cross-modal interactions, these models suffer in achieving reasonable Real-Time Factor (RTF) which is necessary for communication agents. We propose ESPnet Mulimodal, a multimodal frame work integrated to ESPnet, and provide baseline results for the task SAVSR. We also propose a streaming transformer. and multimodal fusion based model for SAVSR. Through ESPnet Mulitmodal, we expect to facilitate research in the field of audio-visual tasks including SAVSR.
+  - Bio: 
+
 - September 15, 2022
   - Title: [End-to-End Unsupervised ASR and Its Application]({{ site.baseurl }}/assets/pdf/2022-09-15-jiatong.pdf)
   - Speaker: Jiatong Shi
