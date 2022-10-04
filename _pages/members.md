@@ -368,7 +368,14 @@ order: 1
             Yosuke Kashiwagi
         </div>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-1 mt-md-1">
+        <div class="square">
+        <a href="https://takaaki-saeki.github.io/">
+            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/takaaki_saeki.jpg">
+        </a></div>
+        <div class="caption">
+            Takaaki Saeki
+        </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
     </div>
