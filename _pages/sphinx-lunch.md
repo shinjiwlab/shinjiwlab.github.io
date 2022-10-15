@@ -25,6 +25,12 @@ A tentative schedule can be found [here](https://docs.google.com/spreadsheets/d/
 
 ## Previous Talks
 
+- October 13, 2022
+  - Title: Robot Concept Learning in Situated Dialogue
+  - Speaker: Matthew Marge
+  - Abstract: Intelligent agents that refer to and make use of the physical world, like robots, will be more able to adapt to new situations if they can learn concepts in real time from humans. This process forms an interactive dialogue loop between robots asking questions to learn more about the physical world and humans using natural language to teach them. In this talk, I will present findings from the Human-Robot Dialogue Learning project that explored these topics. Key accomplishments include (1) an improved understanding of how humans teach robots compared to other humans, (2) a first-of-its-kind corpus of questions that robots can use to learn from human teachers, and (3) real-time algorithms that enable robots to generate questions that maximize learning in a cognitive robotic architecture. The end result is the novel capability for intelligent agents to use situated dialogue and one-shot learning to acquire more information about their surroundings with human teammates.
+  - Bio: Matthew Marge is a Senior Computer Scientist at DEVCOM Army Research Laboratory (ARL). He received the Ph.D. and M.S. degrees in Language and Information Technologies from the School of Computer Science at Carnegie Mellon University, the M.S. degree in Artificial Intelligence from the University of Edinburgh, and the B.S. degrees in Computer Science and Applied Mathematics and Statistics from Stony Brook University. Dr. Marge's research focuses on how robots and other artificial agents can establish common ground with people through dialogue. His current interests lie at the intersection of computational linguistics, human-machine interaction, and integrative AI systems, specializing in conversational AI. Dr. Marge is a recipient of the 2018 Office of the Secretary of Defense's Laboratory University Collaboration Initiative award, supporting his research on dialogue with robots. In addition to his position at ARL, he is an Adjunct Professor in the Computer Science and Linguistics Departments at Georgetown University.
+
 - September 29, 2022
   - Title: [Audio Visual Recognition and Understanding]({{ site.baseurl }}/assets/pdf/2022-09-29_Karthik.pdf)
   - Speaker: Karthik Ganesan
