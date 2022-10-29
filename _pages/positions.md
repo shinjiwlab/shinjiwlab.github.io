@@ -41,7 +41,7 @@ Please see the following for details of each application category.
 - [ ] &nbsp; If you do not put it in the subject, we regard that you do not thoroughly investigate our lab's activities in this webpage, and unfortunately, we may not respond to this email.
 - [ ] &nbsp; Note that your CV will be shared with other lab members (but we do not distribute it outside).
 - [ ] &nbsp; We care about the educational perspectives for the undergraduate/master students to be familiar with the speech research background, required programming skills, knowledge of the cluster, and use of speech and audio toolkit. This period would be at least the first couple of months or longer. We believe that this is an essential process for you to start a solid research activity. If you want to publish a paper as soon as possible, our lab is not the best option for you, unfortunately. I recommend you to contact the other faculties.
-- [ ] &nbsp; Please refer to [this page](../interview) to learn more about the interview and  admission process. 
+- [ ] &nbsp; Please refer to the Interview Guide to learn more about the interview and admission process. 
 
 ### Visting positions
 
@@ -49,7 +49,7 @@ Please see the following for details of each application category.
 - [ ] &nbsp; If you do not put it in the subject, we regard that you do not thoroughly investigate our lab's activities in this webpage, and unfortunately, we may not respond to this email.
 - [ ] &nbsp; Note that your CV will be shared with other lab members (but we do not distribute it outside).
 - [ ] &nbsp; We will not have funding support for the visitor position, basically. So, therefore, we will only accept self-funded researchers.
-- [ ] &nbsp; Please refer to [this page](../interview) to learn more about the interview and  admission process. 
+- [ ] &nbsp; Please refer to the Interview Guide to learn more about the interview and admission process. 
 
 ### Interview Guide
 This guide provides answers to common questions about the interview and admissions process. Be sure to read this before your interview, as it includes important information. Feel free to reach out if you have additional questions before or after your interviews.
