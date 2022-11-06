@@ -99,3 +99,8 @@ comments: false
 - [Spatial-Temporal Graph Convolution Network for Multichannel Speech Enhancement](https://ieeexplore.ieee.org/document/9746054)
 - [Exploring Machine Speech Chain For Domain Adaptation](https://ieeexplore.ieee.org/document/9746721)
 - [Improving CTC-based speech recognition via knowledge transferring from pre-trained language models](https://arxiv.org/abs/2203.03582)
+
+### 2022.11.3 INTERSPEECH 2022 Paper List
+- [CTC Variations Through New WFST Topologies](https://arxiv.org/abs/2110.03098)
+- [Contrastive Learning for Improving ASR Robustness in Spoken Language Understanding](https://arxiv.org/abs/2205.00693)
+- [Unsupervised Text-to-Speech Synthesis by Unsupervised Automatic Speech Recognition](https://arxiv.org/abs/2203.15796)
