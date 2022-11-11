@@ -25,6 +25,12 @@ A tentative schedule can be found [here](https://docs.google.com/spreadsheets/d/
 
 ## Previous Talks
 
+- November 10, 2022
+  - Title: [The Cocktail Party Problem: WER we are and WER we are going?]({{ site.baseurl }}/assets/pdf/2022-11-10_cocktail_party.pdf)
+  - Speaker: Samuele Cornell
+  - Abstract: Multi-talker, distant speech recognition is still an incredibly challenging task due to the noisy/reverberant nature of the speech signal and the spontaneous nature of the conversation which leads to colloquial language and overlapped speech. In this presentation, focusing on the famous CHiME challenges, I will give a brief overview of how this problem has been tackled recently and what are the current research trends and promising directions (e.g. integration of front-end beamforming and back-end speech recognition systems).
+  - Bio: Samuele Cornell is a doctoral candidate at UnivPM Department of Information Engineering. His current research interests are in the area of front-end pre-processing techniques for Automatic Speech Recognition applications such as: Source Separation, Speech Enhancement, Speech Segmentation and Beamforming. He also deals with Sound Event Detection and was among the organizers of the DCASE Task 4 2021 and 2022 Challenges. He is co-author of Asteroid Source Separation, SpeechBrain and ESPNet++ toolkits and contributes to other open-source toolkits in the speech processing area. In 2021 he interned for three months at Amazon Alexa AI with the wakeword team and in summer 2022 was with the Language Technologies Institute at Carnegie Mellon University.
+
 - October 13, 2022
   - Title: Robot Concept Learning in Situated Dialogue
   - Speaker: Matthew Marge
