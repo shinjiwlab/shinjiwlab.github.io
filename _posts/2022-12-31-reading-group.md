@@ -109,3 +109,8 @@ comments: false
 - [Text-Only Domain Adaptation Based on Intermediate CTC](https://www.isca-speech.org/archive/pdfs/interspeech_2022/sato22_interspeech.pdf)
 - [Distilling a Pretrained Language Model to a Multilingual ASR Model](https://arxiv.org/pdf/2206.12638.pdf)
 - [Deep versus Wide: An Analysis of Student Architectures for Task-Agnostic Knowledge Distillation of Self-Supervised Speech Models](https://arxiv.org/abs/2207.06867)
+
+### 2022.12.1 INTERSPEECH 2022 Paper List
+- [Deliberation Model for On-Device Spoken Language Understanding](https://arxiv.org/abs/2204.01893)
+- [Streaming Speaker-Attributed ASR with Token-Level Speaker Embeddings](https://www.isca-speech.org/archive/interspeech_2022/kanda22b_interspeech.html)
+- [Weakly-Supervised Neural Full-Rank Spatial Covariance Analysis for a Front-End System of Distant Speech Recognition](https://www.isca-speech.org/archive/interspeech_2022/bando22_interspeech.html)
