@@ -104,3 +104,8 @@ comments: false
 - [CTC Variations Through New WFST Topologies](https://arxiv.org/abs/2110.03098)
 - [Contrastive Learning for Improving ASR Robustness in Spoken Language Understanding](https://arxiv.org/abs/2205.00693)
 - [Unsupervised Text-to-Speech Synthesis by Unsupervised Automatic Speech Recognition](https://arxiv.org/abs/2203.15796)
+
+### 2022.11.10 INTERSPEECH 2022 Paper List
+- [Text-Only Domain Adaptation Based on Intermediate CTC](https://www.isca-speech.org/archive/pdfs/interspeech_2022/sato22_interspeech.pdf)
+- [Distilling a Pretrained Language Model to a Multilingual ASR Model](https://arxiv.org/pdf/2206.12638.pdf)
+- [Deep versus Wide: An Analysis of Student Architectures for Task-Agnostic Knowledge Distillation of Self-Supervised Speech Models](https://arxiv.org/abs/2207.06867)
