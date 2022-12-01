@@ -25,6 +25,12 @@ A tentative schedule can be found [here](https://docs.google.com/spreadsheets/d/
 
 ## Previous Talks
 
+- November 17, 2022
+  - Title: [Compositional End-to-End SLU]({{ site.baseurl }}/assets/pdf/2022-11-17_siddhant.pdf)
+  - Speaker: Siddhant Arora
+  - Abstract: End-to-end spoken language understanding (SLU) systems are gaining popularity over cascaded approaches due to their simplicity and ability to avoid error propagation. However, these systems model sequence labeling as a sequence prediction task causing a divergence from its well-established token-level tagging formulation. In work accepted at EMNLP 2022, we build compositional end-to-end SLU systems that explicitly separate the added complexity of recognizing spoken mentions in SLU from the NLU task of sequence labeling. We show that this composition of ASR and NLU formulations in our end-to-end SLU system outperforms both cascaded and direct end-to-end models, offers direct compatibility with pre-trained ASR and NLU systems, allows performance monitoring of individual components and enables the use of globally normalized losses like CRF, making them attractive in practical scenarios.
+  - Bio: Siddhant Arora is a Ph.D. student at Carnegie Mellon University's Language Technology Institute, advised by Prof. Shinji Watanabe. His research interests are in the field of Natural Language (NLP) and Speech Processing, particularly in Spoken Language Understanding and Spoken Dialog Systems. His prior research experience includes building compositional models, integrating pretrained models in the SLU framework, as well as interpretability and robust testing of ML systems.
+
 - November 10, 2022
   - Title: [The Cocktail Party Problem: WER we are and WER we are going?]({{ site.baseurl }}/assets/pdf/2022-11-10_cocktail_party.pdf)
   - Speaker: Samuele Cornell
