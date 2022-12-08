@@ -114,3 +114,8 @@ comments: false
 - [Deliberation Model for On-Device Spoken Language Understanding](https://arxiv.org/abs/2204.01893)
 - [Streaming Speaker-Attributed ASR with Token-Level Speaker Embeddings](https://www.isca-speech.org/archive/interspeech_2022/kanda22b_interspeech.html)
 - [Weakly-Supervised Neural Full-Rank Spatial Covariance Analysis for a Front-End System of Distant Speech Recognition](https://www.isca-speech.org/archive/interspeech_2022/bando22_interspeech.html)
+
+### 2022.12.8 NeurIPS 2022 Paper List
+- [Global Normalization for Streaming Speech Recognition in a Modular Framework](https://openreview.net/forum?id=monPF76G5Uv)
+- [Losses Can Be Blessings: Routing Self-Supervised Speech Representations Towards Efficient Multilingual and Multitask Speech Processing](https://openreview.net/forum?id=2EUJ4e6H4OX)
+- [Squeezeformer: An Efficient Transformer for Automatic Speech Recognition](https://openreview.net/forum?id=gE_vt-w4LhL)
