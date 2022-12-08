@@ -25,6 +25,12 @@ A tentative schedule can be found [here](https://docs.google.com/spreadsheets/d/
 
 ## Previous Talks
 
+- December 8, 2022
+  - Title: Recent Progresses in All-Neural Contextual Speech Recognition Technologies at Amazon Alexa
+  - Speaker: Jing Liu (Amazon)
+  - Abstract: Speech recognition technology is completing a dramatic shift from the conventional disjointly trained neural and non-neural sub-systems to an all-neural end-to-end (E2E) transducer architecture. This unified all-neural E2E architecture improves the state-of-the-art accuracy, while also achieving superior compute and memory compression, enabling low-latency streaming ASR on the edge where resources are constrained. One of the major challenges for E2E ASR systems is that they often have difficulty recognizing uncommon words that appear infrequently in the training data (e.g. personalized contact names, device names). In this talk, I will give an overview of the challenges and our recent progresses in the all-neural contextual ASR technology that powers Alexa, the virtual voice assistant that servers millions of customers daily.
+  - Bio: Jing Liu is a Sr. Applied Scientist at Amazon Alexa Speech. He earned his PhD degree in mathematics from Carnegie Mellon University and worked on quantitative research in the Wall Street for about 3 years prior to joining the Alexa Hybrid Science in Pittsburgh in 2017. Being a senior member in the team, he made key contributions to the launch of the first Edge ASR for Echo, Auto, FireTV and the transition to all-neural ASR technologies. Jing’s main focus has been low-latency far-field ASR systems for both edge and cloud.
+
 - November 17, 2022
   - Title: [Compositional End-to-End SLU]({{ site.baseurl }}/assets/pdf/2022-11-17_siddhant.pdf)
   - Speaker: Siddhant Arora
