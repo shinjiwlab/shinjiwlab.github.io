@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2023 Reading Group
-date: 2023-01-17 09:00:00-0800
+date: 2023-01-01 09:00:00-0800
 description: Paper list for reading group
 comments: false
 ---
