@@ -361,21 +361,14 @@ order: 1
 <div class="row mt-3">
     <div class="col-sm mt-1 mt-md-1">
         <div class="square">
-        <a href="https://shinjiwlab.github.io/members/">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/yosukeK.jpg">
-        </a></div>
-        <div class="caption">
-            Yosuke Kashiwagi
-        </div>
-    </div>
-    <div class="col-sm mt-1 mt-md-1">
-        <div class="square">
         <a href="https://takaaki-saeki.github.io/">
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/takaaki_saeki.jpg">
         </a></div>
         <div class="caption">
             Takaaki Saeki
         </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
     </div>
     <div class="col-sm mt-3 mt-md-0">
     </div>
@@ -404,6 +397,7 @@ order: 1
 
 ##### Visitors & Collaborators
 <ul>
+<li>2021. 12 - 2022. 12: Yosuke Kashiwagi (Sony)
 <li>2022. 04 - 2022. 09: Samuele Cornell (Universita Politecnica delle Marche)</li>
 <li>2022. 03 - 2022. 06: Yoshiki Masuyama (Tokyo Metropolitan University)</li>
 <li>2021. 07 - 2022. 07: Yushi Ueda (Japan Patent Office)</li>
