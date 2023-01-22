@@ -308,15 +308,6 @@ order: 1
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <div class="square">
-        <a href="https://karthikganesan.myportfolio.com/">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/karthik_ganesan.jpg">
-	</a></div>
-        <div class="caption">
-            Karthik Ganesan 
-        </div>	    
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <div class="square">
         <a href="https://wanchichen.github.io/">
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/william_chen.png">
 	</a></div>
@@ -332,6 +323,8 @@ order: 1
         <div class="caption">
             Shih-Lun Wu
         </div>	
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
     </div>
 </div>
 
@@ -382,11 +375,12 @@ order: 1
 
 ##### Students
 <ul>
-<li>2020. 09 - 2022.08: Siddharth Dalmia (CMU, co-supervisor)</li>
-<li>2021. 01 - 2022.08: Chaitanya Narisetty (CMU)</li>
-<li>2021. 01 - 2022.08: Peter Wu (CMU, co-supervisor)</li>
-<li>2021. 09 - 2022.08: Sujay Suresh Kumar (MIIS directed study, CMU)</li>
-<li>2021. 09 - 2022.08: Debayan Ghosh (CMU)</li>
+<li>2021. 09 - 2022. 12: Karthik Ganesan (MIIS directed study, CMU) </li>
+<li>2020. 09 - 2022. 08: Siddharth Dalmia (CMU, co-supervisor)</li>
+<li>2021. 01 - 2022. 08: Chaitanya Narisetty (CMU)</li>
+<li>2021. 01 - 2022. 08: Peter Wu (CMU, co-supervisor)</li>
+<li>2021. 09 - 2022. 08: Sujay Suresh Kumar (MIIS directed study, CMU)</li>
+<li>2021. 09 - 2022. 08: Debayan Ghosh (CMU)</li>
 <li>2017. 09 - 2021. 08: Aswin Shanmugam Subramanian (JHU)</li>
 <li>2017. 10 - 2021. 08: Matthew Maciejewski (JHU, co-supervisor)</li>
 <li>2020. 08 - 2021. 08: Tianzi Wang (JHU) </li>
