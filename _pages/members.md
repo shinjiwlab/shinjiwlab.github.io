@@ -397,7 +397,7 @@ order: 1
 
 ##### Visitors & Collaborators
 <ul>
-<li>2021. 12 - 2022. 12: Yosuke Kashiwagi (Sony)
+<li>2021. 12 - 2022. 12: Yosuke Kashiwagi (Sony)</li>
 <li>2022. 04 - 2022. 09: Samuele Cornell (Universita Politecnica delle Marche)</li>
 <li>2022. 03 - 2022. 06: Yoshiki Masuyama (Tokyo Metropolitan University)</li>
 <li>2021. 07 - 2022. 07: Yushi Ueda (Japan Patent Office)</li>
