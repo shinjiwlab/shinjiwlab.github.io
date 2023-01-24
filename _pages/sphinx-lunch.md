@@ -25,6 +25,12 @@ A tentative schedule can be found [here](https://docs.google.com/spreadsheets/d/
 
 ## Previous Talks
 
+- January 19, 2023
+  - Title: Self-supervised speech restoration for historical audio
+  - Speaker: Takaaki Saeki
+  - Abstract: Existing historical audio materials are precious resources that contain various linguistic and cultural information. However, restoring or analyzing such audio data is challenging because paired high-quality and degraded speech data is not available. In this talk, we present our recent work on self-supervised speech restoration for historical audio. Our model is based on an autoencoder, which disentangles distortionless speech features from acoustic distortions and is trained only with degraded speech data by simulating the recording process. We evaluated our method with real historical audio data and demonstrated the effectiveness. I will also discuss the ongoing work and future directions including larger-scale self-supervised learning by collecting various historical audio materials.
+  - Bio: Takaaki Saeki is a Ph.D. student advised by Prof. Hiroshi Saruwatari, at Graduate School of Information Science and Technology, the University of Tokyo, Japan. He is also a visiting scholar at Watanabe's Audio and Voice (WAV) Lab, Language Technologies Institute, Carnegie Mellon University, Pittsburgh, PA. He received his B.S. and M.S degrees from the University of Tokyo, Japan. He has been working on speech and audio processing, including text-to-speech (TTS) synthesis, voice conversion, automatic speech quality assessment, speech restoration, speech representation learning, multilingual speech processing, etc.
+
 - December 8, 2022
   - Title: Recent Progresses in All-Neural Contextual Speech Recognition Technologies at Amazon Alexa
   - Speaker: Jing Liu (Amazon)
