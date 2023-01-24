@@ -13,3 +13,10 @@ comments: false
 - [Learning Audio-Visual Dynamics Using Scene Graphs for Audio Source Separation](https://openreview.net/forum?id=JRXgTMqESS)
 - [INRAS: Implicit Neural Representation for Audio Scenes](https://openreview.net/forum?id=7KBzV5IL7W)
 - [Few-Shot Audio-Visual Learning of Environment Acoustics](https://openreview.net/forum?id=PIXGY1WgU-S)
+
+### 2023.1.24 SLT 2022 Paper List
+- [JOIST: A JOINT SPEECH AND TEXT STREAMING MODEL FOR ASR](https://arxiv.org/abs/2210.07353)
+- [Maestro-U: Leveraging joint speech-text representation learning for zero supervised speech ASR](https://arxiv.org/abs/2210.10027)
+- [MONOTONIC SEGMENTAL ATTENTION FOR AUTOMATIC SPEECH RECOGNITION](https://arxiv.org/abs/2210.14742)
+- [Dual Learning for Large Vocabulary On-Device ASR](https://arxiv.org/abs/2301.04327)
+- [HMM VS. CTC FOR AUTOMATIC SPEECH RECOGNITION: COMPARISON BASED ON FULL-SUM TRAINING FROM SCRATCH](https://arxiv.org/abs/2210.09951)
