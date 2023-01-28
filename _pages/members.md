@@ -350,7 +350,7 @@ order: 1
 </div>
 <hr />
 
-#### Visitors & Collaborators
+<!-- #### Visitors & Collaborators
 <div class="row mt-3">
     <div class="col-sm mt-1 mt-md-1">
         <div class="square">
@@ -367,7 +367,7 @@ order: 1
     </div>
     <div class="col-sm mt-3 mt-md-0">
     </div>
-</div>
+</div> -->
 
 <hr />
 
@@ -391,6 +391,7 @@ order: 1
 
 ##### Visitors & Collaborators
 <ul>
+<li>2022. 10 - 2023. 01: Takaaki Saeki (University of Tokyo)</li>
 <li>2021. 12 - 2022. 12: Yosuke Kashiwagi (Sony)</li>
 <li>2022. 04 - 2022. 09: Samuele Cornell (Universita Politecnica delle Marche)</li>
 <li>2022. 03 - 2022. 06: Yoshiki Masuyama (Tokyo Metropolitan University)</li>
