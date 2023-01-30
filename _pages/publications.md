@@ -2,11 +2,13 @@
 layout: page
 permalink: /publications/
 title: Publications
-years: [2022, 2021, 2020, 2019, 2018, 2017]
+years: [2023, 2022, 2021, 2020, 2019, 2018, 2017]
 nav: true
 order: 2
 ---
 
+
+- [2023 Papers](https://shinjiwlab.github.io/activities/2023/paper-list/)
 - [2022 Papers](https://shinjiwlab.github.io/activities/2022/paper-list/)
 - [2021 Papers](https://shinjiwlab.github.io/activities/2021/paper-list/)
 - [2020 Papers](https://shinjiwlab.github.io/activities/2020/paper-list/)
