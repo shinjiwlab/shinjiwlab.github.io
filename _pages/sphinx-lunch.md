@@ -25,6 +25,12 @@ A tentative schedule can be found [here](https://docs.google.com/spreadsheets/d/
 
 ## Previous Talks
 
+- Feb 16, 2023
+  - Title: Multi-blank Transducers for Speech Recognition
+  - Speaker: Hainan Xu (NVIDIA)
+  - Abstract: We propose a modification to RNN-Transducer (RNN-T) models for automatic speech recognition (ASR). In standard RNN-T, the emission of a blank symbol consumes exactly one input frame; in our proposed method, we introduce additional blank symbols, which consume two or more input frames when emitted. We refer to the added symbols as big blanks, and the method multi-blank RNN-T. For training multi-blank RNN-Ts, we propose a novel logit under-normalization method in order to prioritize emissions of big blanks. With experiments on multiple languages and datasets, we show that multi-blank RNN-T methods could bring relative speedups of over +90%/+139% to model inference for English Librispeech and German Multilingual Librispeech datasets, respectively. The multi-blank RNN-T method also improves ASR accuracy consistently. We will release our implementation of the method in the [NeMo](https://github.com/NVIDIA/NeMo/) toolkit.
+  - Bio: I am currently working in NVIDIA's NeMo Team, supervised by Boris Ginsburg. Before joining NVIDIA, I worked in Google's Speech Team under Bhuvana Ramabhadran from September 2019 to October 2021, after getting my Ph.D. degree in Computer Science from the Johns Hopkins University, working in the Center for Language and Speech Processing (CLSP) under former JHU Prof. Daniel Povey and Prof. Sanjeev Khudanpur. I received my B.S. in Software Engineering in 2012 from School of Software Engineering at Shanghai Jiaotong University in Shanghai, China. From 2012 to 2013, I worked with Professor Kai Yu in SJTU Speech Lab.
+
 - Feb 2, 2023
   - Title: Towards robust audio-visual learning
   - Speaker: Billy Li
