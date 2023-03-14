@@ -308,15 +308,6 @@ order: 1
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <div class="square">
-        <a href="https://karthikganesan.myportfolio.com/">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/karthik_ganesan.jpg">
-	</a></div>
-        <div class="caption">
-            Karthik Ganesan 
-        </div>	    
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <div class="square">
         <a href="https://wanchichen.github.io/">
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/william_chen.png">
 	</a></div>
@@ -332,6 +323,8 @@ order: 1
         <div class="caption">
             Shih-Lun Wu
         </div>	
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
     </div>
 </div>
 
@@ -357,17 +350,8 @@ order: 1
 </div>
 <hr />
 
-#### Visitors & Collaborators
+<!-- #### Visitors & Collaborators
 <div class="row mt-3">
-    <div class="col-sm mt-1 mt-md-1">
-        <div class="square">
-        <a href="https://shinjiwlab.github.io/members/">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/yosukeK.jpg">
-        </a></div>
-        <div class="caption">
-            Yosuke Kashiwagi
-        </div>
-    </div>
     <div class="col-sm mt-1 mt-md-1">
         <div class="square">
         <a href="https://takaaki-saeki.github.io/">
@@ -381,7 +365,9 @@ order: 1
     </div>
     <div class="col-sm mt-3 mt-md-0">
     </div>
-</div>
+    <div class="col-sm mt-3 mt-md-0">
+    </div>
+</div> -->
 
 <hr />
 
@@ -389,11 +375,12 @@ order: 1
 
 ##### Students
 <ul>
-<li>2020. 09 - 2022.08: Siddharth Dalmia (CMU, co-supervisor)</li>
-<li>2021. 01 - 2022.08: Chaitanya Narisetty (CMU)</li>
-<li>2021. 01 - 2022.08: Peter Wu (CMU, co-supervisor)</li>
-<li>2021. 09 - 2022.08: Sujay Suresh Kumar (MIIS directed study, CMU)</li>
-<li>2021. 09 - 2022.08: Debayan Ghosh (CMU)</li>
+<li>2021. 09 - 2022. 12: Karthik Ganesan (MIIS directed study, CMU) </li>
+<li>2020. 09 - 2022. 08: Siddharth Dalmia (CMU, co-supervisor)</li>
+<li>2021. 01 - 2022. 08: Chaitanya Narisetty (CMU)</li>
+<li>2021. 01 - 2022. 08: Peter Wu (CMU, co-supervisor)</li>
+<li>2021. 09 - 2022. 08: Sujay Suresh Kumar (MIIS directed study, CMU)</li>
+<li>2021. 09 - 2022. 08: Debayan Ghosh (CMU)</li>
 <li>2017. 09 - 2021. 08: Aswin Shanmugam Subramanian (JHU)</li>
 <li>2017. 10 - 2021. 08: Matthew Maciejewski (JHU, co-supervisor)</li>
 <li>2020. 08 - 2021. 08: Tianzi Wang (JHU) </li>
@@ -404,6 +391,8 @@ order: 1
 
 ##### Visitors & Collaborators
 <ul>
+<li>2022. 10 - 2023. 01: Takaaki Saeki (University of Tokyo)</li>
+<li>2021. 12 - 2022. 12: Yosuke Kashiwagi (Sony)</li>
 <li>2022. 04 - 2022. 09: Samuele Cornell (Universita Politecnica delle Marche)</li>
 <li>2022. 03 - 2022. 06: Yoshiki Masuyama (Tokyo Metropolitan University)</li>
 <li>2021. 07 - 2022. 07: Yushi Ueda (Japan Patent Office)</li>

@@ -15,7 +15,7 @@ We also welcome any CMU researchers and external researchers to join the meeting
 During the semester, we will regularly have the meeting in the following slot:
 
 - Date: Thursday 12:30pm - 1:30pm
-- Room: GHC 6721
+- Room: GHC 5117
 
 The time and room may change, especially if we have a guest speaker.
 We will announce the talk information through our mailing list ([Sphinxmail: Speech Group at Carnegie Mellon](https://mailman.srv.cs.cmu.edu/mailman/listinfo/sphinxmail). Approval by admin is required).
@@ -24,6 +24,18 @@ So, please subscribe to it if you're interested in the CMU speech!
 A tentative schedule can be found [here](https://docs.google.com/spreadsheets/d/1TOai33IkD7zAFBsNDkk29RRz5CpXN56vQRajlrs1kis/edit?usp=sharing). Please contant Yifan Peng (yifanpen@andrew.cmu.edu) if you would like to participate in our Sphinx Speech Lunch.
 
 ## Previous Talks
+
+- Feb 2, 2023
+  - Title: Towards robust audio-visual learning
+  - Speaker: Billy Li
+  - Abstract: Audio Visual Event Detection has benefited greatly from the advancement of deep learning in the past few years. Various model architectures have been applied to the task in multiple modalities, pushing the performance benchmark and enabling the deployment of such models in many critical tasks such as surveillance and malicious content filtering. However, the research community still lacks: 1) a systematic understanding of the different machine learning models' behavior given the unique nature of audio signals compared to the image or text counterparts. 2) The robustness of different models used for audio-visual learning also remains to be an under-studied area. To address the first point, we investigate best practices for building an audio-only and audio-visual learning system that performs well. Specifically, we analyze the features, compare different architectures, mainly focusing on convolutional family and Transformer family models, and understand the difference in training techniques to provide a comprehensive and thorough understanding. To address the second goal, we study the robustness of each model by gauging their behavior under noise and adversarial perturbation. We first demonstrate the existence of real-world threats in both the visual and audio domains. We then expand our scope of robustness analysis from unimodal audio input to multiple modalities including audio, video, image and text.
+  - Bio: Juncheng (Billy) Li is last year PhD student at Carnegie Mellon University’s Language Technology Institute at the School of Computer Science working with Prof. Florian Metze. Juncheng (Billy) Li had worked as a research scientist at the Bosch Center for Artificial Intelligence from 2015 till 2019 where he worked with Prof. Zico Kolter. Juncheng (Billy) has a background in Deep Learning in Acoustics signals and multimodal data, and he is currently working on exploring the adversarial robustness of the multimodal machine learning systems. Juncheng also acquired extensive experience in applying AI to industrial problems when he worked at Bosch, specifically, he has worked on projects including fault detection, machine simulation and sensor fusion. Juncheng has published at IEEE ICASSP, Interspeech, ICML and NeurIPS, and won the best student paper at ICASSP 2022, and best paper award at ICMR 2018.
+
+- January 19, 2023
+  - Title: Self-supervised speech restoration for historical audio
+  - Speaker: Takaaki Saeki
+  - Abstract: Existing historical audio materials are precious resources that contain various linguistic and cultural information. However, restoring or analyzing such audio data is challenging because paired high-quality and degraded speech data is not available. In this talk, we present our recent work on self-supervised speech restoration for historical audio. Our model is based on an autoencoder, which disentangles distortionless speech features from acoustic distortions and is trained only with degraded speech data by simulating the recording process. We evaluated our method with real historical audio data and demonstrated the effectiveness. I will also discuss the ongoing work and future directions including larger-scale self-supervised learning by collecting various historical audio materials.
+  - Bio: Takaaki Saeki is a Ph.D. student advised by Prof. Hiroshi Saruwatari, at Graduate School of Information Science and Technology, the University of Tokyo, Japan. He is also a visiting scholar at Watanabe's Audio and Voice (WAV) Lab, Language Technologies Institute, Carnegie Mellon University, Pittsburgh, PA. He received his B.S. and M.S degrees from the University of Tokyo, Japan. He has been working on speech and audio processing, including text-to-speech (TTS) synthesis, voice conversion, automatic speech quality assessment, speech restoration, speech representation learning, multilingual speech processing, etc.
 
 - December 8, 2022
   - Title: Recent Progresses in All-Neural Contextual Speech Recognition Technologies at Amazon Alexa

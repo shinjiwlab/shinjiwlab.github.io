@@ -18,5 +18,6 @@ This page has some information guidelines for members of WAVLab.
 
 Our galleries
 
+* [2023 Gallery](https://shinjiwlab.github.io/activities/2023/2023-record/)
 * [2022 Gallery](https://shinjiwlab.github.io/activities/2022/2022-record/)
 * [2021 Gallery](https://shinjiwlab.github.io/activities/2022/2021-record/)
