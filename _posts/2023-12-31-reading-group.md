@@ -20,3 +20,10 @@ comments: false
 - [MONOTONIC SEGMENTAL ATTENTION FOR AUTOMATIC SPEECH RECOGNITION](https://arxiv.org/abs/2210.14742)
 - [Dual Learning for Large Vocabulary On-Device ASR](https://arxiv.org/abs/2301.04327)
 - [HMM VS. CTC FOR AUTOMATIC SPEECH RECOGNITION: COMPARISON BASED ON FULL-SUM TRAINING FROM SCRATCH](https://arxiv.org/abs/2210.09951)
+
+### 2023.3.14 SLT 2022 Paper List
+- [An Investigation of Monotonic Transducers for Large-Scale Automatic Speech Recognition](https://arxiv.org/abs/2204.08858)
+- [SpeechCLIP: Integrating Speech with Pre-Trained Vision and Language Model](https://arxiv.org/abs/2210.00705)
+- [G-Augment: Searching for the Meta-Structure of Data Augmentation Policies for ASR](https://arxiv.org/abs/2210.10879)
+- [CCC-wav2vec 2.0: Clustering aided Cross Contrastive Self-supervised learning of speech representations](https://arxiv.org/abs/2210.02592)
+- [On the Use of Semantically-Aligned Speech Representations for Spoken Language Understanding](https://arxiv.org/abs/2210.05291)
