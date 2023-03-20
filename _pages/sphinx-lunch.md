@@ -25,6 +25,12 @@ A tentative schedule can be found [here](https://docs.google.com/spreadsheets/d/
 
 ## Previous Talks
 
+- Mar 16, 2023
+  - Title: Everyday Conversation Recognition with End-to-End Neural Networks
+  - Speaker: Xuankai Chang
+  - Abstract: Over the past decade, remarkable advancements have been made in automatic speech recognition (ASR) largely due to the rapid development of deep neural networks. However, ASR systems often encounter challenges in complex settings caused by background noise, reverberations, overlapping speech, etc. In this talk, we present our efforts towards recognizing everyday conversations using End-to-End neural networks. Our approach tackles the issue of noise and overlapping speech by leveraging single- and multi-channel signals.
+  - Bio: Xuankai Chang is a 4-th year PhD student at Carnegie Mellon University's Language Technology Institute at the school of Computer Science working with Prof. Shinji Watanabe. His research interests are in the field of speech processing such as speech recognition / enhancement / separation. He received his B.S. and M.S degrees from Shanghai Jiao Tong University, China.
+
 - Feb 16, 2023
   - Title: Multi-blank Transducers for Speech Recognition
   - Speaker: Hainan Xu (NVIDIA)
