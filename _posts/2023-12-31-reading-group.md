@@ -27,3 +27,8 @@ comments: false
 - [G-Augment: Searching for the Meta-Structure of Data Augmentation Policies for ASR](https://arxiv.org/abs/2210.10879)
 - [CCC-wav2vec 2.0: Clustering aided Cross Contrastive Self-supervised learning of speech representations](https://arxiv.org/abs/2210.02592)
 - [On the Use of Semantically-Aligned Speech Representations for Spoken Language Understanding](https://arxiv.org/abs/2210.05291)
+
+### 2023.3.28 EMNLP 2022 Paper List
+- [Joint Audio/Text Training for Transformer Rescorer of Streaming Speech Recognition](https://arxiv.org/abs/2211.00174)
+- [Self-supervised Rewiring of Pre-trained Speech Encoders: Towards Faster Fine-tuning with Less Labels in Speech Processing](https://arxiv.org/abs/2210.13030)
+- [SpeechUT: Bridging Speech and Text with Hidden-Unit for Encoder-Decoder Based Speech-Text Pre-training](https://arxiv.org/abs/2210.03730)
