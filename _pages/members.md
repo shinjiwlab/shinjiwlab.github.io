@@ -350,15 +350,15 @@ order: 1
 </div>
 <hr />
 
-<!-- #### Visitors & Collaborators
+#### Visitors & Collaborators
 <div class="row mt-3">
     <div class="col-sm mt-1 mt-md-1">
         <div class="square">
-        <a href="https://takaaki-saeki.github.io/">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/takaaki_saeki.jpg">
+        <a href="https://sites.google.com/view/wangyou-zhang/">
+            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/wangyou_zhang.jpg">
         </a></div>
         <div class="caption">
-            Takaaki Saeki
+            Wangyou Zhang
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
@@ -367,7 +367,7 @@ order: 1
     </div>
     <div class="col-sm mt-3 mt-md-0">
     </div>
-</div> -->
+</div>
 
 <hr />
 
