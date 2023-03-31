@@ -23,7 +23,33 @@ So, please subscribe to it if you're interested in the CMU speech!
 
 A tentative schedule can be found [here](https://docs.google.com/spreadsheets/d/1TOai33IkD7zAFBsNDkk29RRz5CpXN56vQRajlrs1kis/edit?usp=sharing). Please contant Yifan Peng (yifanpen@andrew.cmu.edu) if you would like to participate in our Sphinx Speech Lunch.
 
+## Future Talks (tentative schedule)
+
+- Apr 6, 2023
+  - Title: TBD
+  - Speaker: Muqiao Yang
+
+- Apr 20, 2023
+  - Title: TBD
+  - Speaker: Li-Wei Chen
+
+- Apr 27, 2023
+  - Title: TBD
+  - Speaker: Alexander Richard (Meta)
+
 ## Previous Talks
+
+- Mar 30, 2023
+  - Title: Reference Free Learning for Speech Enhancement and Speech Assessment
+  - Speaker: Anurag Kumar (Meta)
+  - Abstract: Improving perceptual quality and intelligibility of speech signals is critical for improving communications in real and virtual world. This is needed for people with normal hearing as well as those who have some form of hearing impairments.  In this talk, I will present an outline of some of my recent research on both methods to enhance degraded speech as well as methods for speech assessment.  I will go in depth of our recent works on unsupervised and self-supervised approaches for speech enhancement and how speech signals from the wild – for which target signal are not available - might be used for enhancement. These approaches enable easier adaptation to out of domain conditions as well as opens up the possibility of on-the-fly adaptation of enhancement systems. I will also present reference-less approaches for speech quality and intelligibility assessment - in particular the NORESQA framework which introduced a new way of non-intrusive speech assessment by leveraging non-matching references.
+  - Bio: Anurag Kumar is currently a Research Scientist and Technical Research Lead at Reality Labs Research, Meta. Anurag's primary research interests are in machine learning for audio and speech processing and audio-visual learning. Before joining Meta, Anurag obtained his PhD from Language Technologies Institute (LTI) in School of Computer Science, Carnegie Mellon University in 2018. Anurag obtained his undergraduate degree in Electrical Engineering from IIT Kanpur in 2013. Anurag’s PhD dissertation "Acoustic Intelligence in Machines" pioneered weak label learning for sounds which has since become a key area of research in the field of audio AI. Anurag has been recipient of several awards and recognition including Best Paper Finalist at CVPR 2022 and NCC 2014, Finalist in Qualcomm Innovation Fellowship 2017, Winner of Samsung Innovation Awards 2012, travel grants from IEEE SPS and EURASIP.
+
+- Mar 23, 2023
+  - Title: Adversarial robustness of modern speech recognition models: evaluation and implications
+  - Speaker: Raphael Olivier
+  - Abstract: Adversarial attacks on Machine Learning models are small perturbations of inputs which fool models into predicting the wrong outputs. In numerous real-world settings they are known to be the source of potential security liabilities. In this work we study the implications of these adversarial attacks when applied to Automatic Speech Recognition (ASR) models. Our main finding is that the recent progress in ASR performance has led to an increase in adversarial vulnerability, rather than an improvement in robustness . We illustrate two aspects of this phenomenon. First, even models like Whisper with state-of-the-art robustness to random noise and domain change show no significant adversarial robustness improvement, while their increased adoption makes threat models more realistic. Second, we show that popular ASR training paradigms like Self-Supervised Learning (SSL) have opened the way to new threat models like transferred adversarial attacks from a proxy model. We draw conclusions from those results, emphasizing the importance to include adversarial robustness in speech modeling pipelines from a security perspective, but also the interest of adversarial evaluation in better understanding those new learning paradigms.
+  - Bio: Raphaël is a PhD candidate at Carnegie Mellon University working with professor Bhiksha Raj. His research is at the intersection of speech technologies and AI safety, with a focus on adversarially robust speech recognition.
 
 - Mar 16, 2023
   - Title: Everyday Conversation Recognition with End-to-End Neural Networks
