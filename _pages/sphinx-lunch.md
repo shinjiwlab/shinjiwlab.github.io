@@ -25,10 +25,6 @@ A tentative schedule can be found [here](https://docs.google.com/spreadsheets/d/
 
 ## Future Talks (tentative schedule)
 
-- Apr 6, 2023
-  - Title: TBD
-  - Speaker: Muqiao Yang
-
 - Apr 20, 2023
   - Title: TBD
   - Speaker: Li-Wei Chen
@@ -38,6 +34,12 @@ A tentative schedule can be found [here](https://docs.google.com/spreadsheets/d/
   - Speaker: Alexander Richard (Meta)
 
 ## Previous Talks
+
+- Apr 6, 2023
+  - Title: Continual Learning in Speech and Audio Applications
+  - Speaker: Muqiao Yang
+  - Abstract: The outstanding performance of deep neural networks typically relies on the training on a large fixed set of data. However, in practical applications, the properties of data streams may vary over time and the model may have limited access to past data, where the model performance will be affected due to the catastrophic forgetting effect. In this talk, we will focus on multiple Speech and Audio tasks, including Automatic Speech Recognition, Acoustic Scene Classification and Spoken Language Understanding and investigate how different continual learning scenarios and methods work under such settings.
+  - Bio: Muqiao Yang is a 3rd year PhD student at Carnegie Mellon University, working with Prof. Bhiksha Raj and Prof. Shinji Watanabe. His research interest is mainly on machine learning in speech processing including speech recognition and speech enhancement. He received his B.E degree from Hong Kong Polytechnic University and M.S. degree from Carnegie Mellon University.
 
 - Mar 30, 2023
   - Title: Reference Free Learning for Speech Enhancement and Speech Assessment
