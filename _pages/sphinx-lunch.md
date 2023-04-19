@@ -25,19 +25,25 @@ A tentative schedule can be found [here](https://docs.google.com/spreadsheets/d/
 
 ## Future Talks (tentative schedule)
 
-- Apr 6, 2023
-  - Title: TBD
-  - Speaker: Muqiao Yang
-
 - Apr 20, 2023
-  - Title: TBD
-  - Speaker: Li-Wei Chen
+  - Title: End-to-End Speech Summarization: Global Acoustic Context
+  - Speaker: Roshan Sharma
+  - Abstract: Speech in the real world is verbose, and humans possess the special ability to recognize what is being said, understand it, and consequently summarize speech. Automatic methods for speech summarization are crucial to imbue such capabilities in the artificial intelligence of tomorrow. Current methods for speech summarization involve a cascade of speech recognition and transcript summarization, which suffer from error propagation and larger model sizes. We proposed training speech summarization models end-to-end and demonstrated that such models outperform cascade summarization approaches. Speech summarization becomes more complex as the input length increases to a few minutes or half an hour. In this talk, we address the challenge of efficient and performant training for long audio summarization.
+  - Bio: Roshan Sharma is a Ph.D. candidate in the Electrical and Computer Engineering Department at Carnegie Mellon University. He earned his B.Tech. with distinction in Electronics and Communication Engineering at Amrita Vishwa Vidyapeetham, India in 2018 and his M.S. in Electrical and Computer Engineering at Carnegie Mellon University in 2020. His research interests lie in speech recognition, spoken language understanding, and multimodal machine learning.
 
 - Apr 27, 2023
-  - Title: TBD
+  - Title: Audio-Visual Learning for Social Telepresence
   - Speaker: Alexander Richard (Meta)
+  - Abstract: These days, physical distance between people is one of the biggest obstacles to maintaining meaningful social relationships with family, friends, and co-workers. Even with today’s technology, remote communication is limited to a two-dimensional audio-visual experience and lacks the availability of a shared, three-dimensional space in which people can interact with each other over the distance. Our mission at Reality Labs Research (RLR) in Pittsburgh is to develop a telepresence system that is indistinguishable from reality, i.e., a system that provides photo- and phono-realistic social interactions in VR. Building such a system requires a leap forward in audio modeling: 3D virtual spaces call for highly realistic 3D spatial audio rendering and immersive experiences demand to strip a user’s input audio from all environmental influences such as noise and reverb. Addressing the first problem, I will talk about building neural renderers for spatial audio from capture stage design to model development. For the latter problem, I will present an approach to speech enhancement that is based on a codify-and-resynthesize paradigm. In the future, these technologies will help build a realistic virtual environment with lifelike avatars that allow for authentic social interactions, connecting people all over the world, anywhere and at any time.
+  - Bio: Alexander Richard is a Research Scientist at Reality Labs Research (RLR) in Pittsburgh leading the audio-visual research team. With his team, he concentrates on audio-visual learning to build photo- and phono-realistic immersive experiences in Virtual Reality that enable remote communication indistinguishable from reality. Combining computer vision, machine learning, and audio processing, he develops key technologies for audio-visual lifelike avatars and novel 3D rendering approaches for spatial and binaural audio. Before joining RLR, Alexander was a Speech Scientist at Amazon Alexa in Aachen, Germany. He received his PhD from the University of Bonn for his work on temporal segmentation of human actions in videos.
 
 ## Previous Talks
+
+- Apr 6, 2023
+  - Title: Continual Learning in Speech and Audio Applications
+  - Speaker: Muqiao Yang
+  - Abstract: The outstanding performance of deep neural networks typically relies on the training on a large fixed set of data. However, in practical applications, the properties of data streams may vary over time and the model may have limited access to past data, where the model performance will be affected due to the catastrophic forgetting effect. In this talk, we will focus on multiple Speech and Audio tasks, including Automatic Speech Recognition, Acoustic Scene Classification and Spoken Language Understanding and investigate how different continual learning scenarios and methods work under such settings.
+  - Bio: Muqiao Yang is a 3rd year PhD student at Carnegie Mellon University, working with Prof. Bhiksha Raj and Prof. Shinji Watanabe. His research interest is mainly on machine learning in speech processing including speech recognition and speech enhancement. He received his B.E degree from Hong Kong Polytechnic University and M.S. degree from Carnegie Mellon University.
 
 - Mar 30, 2023
   - Title: Reference Free Learning for Speech Enhancement and Speech Assessment
