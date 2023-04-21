@@ -330,16 +330,9 @@ order: 1
 
 <hr />
 
-#### Undergraduate Students
+<!-- #### Undergraduate Students
 <div class="row mt-3">
     <div class="col-sm mt-1 mt-md-1">
-        <div class="square">
-        <a href="https://shinjiwlab.github.io/members/">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/Dorsa.jpg">
-        </a></div>
-        <div class="caption">
-            Dorsa Zeinali
-        </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
     </div>
@@ -348,7 +341,7 @@ order: 1
     <div class="col-sm mt-3 mt-md-0">
     </div>
 </div>
-<hr />
+<hr /> -->
 
 #### Visitors & Collaborators
 <div class="row mt-3">
@@ -375,6 +368,7 @@ order: 1
 
 ##### Students
 <ul>
+<li>2021. 09 - 2022. 12: Dorsa Zeinali (CMU) </li>
 <li>2021. 09 - 2022. 12: Karthik Ganesan (MIIS directed study, CMU) </li>
 <li>2020. 09 - 2022. 08: Siddharth Dalmia (CMU, co-supervisor)</li>
 <li>2021. 01 - 2022. 08: Chaitanya Narisetty (CMU)</li>
