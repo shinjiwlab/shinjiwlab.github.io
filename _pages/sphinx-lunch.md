@@ -25,12 +25,6 @@ A tentative schedule can be found [here](https://docs.google.com/spreadsheets/d/
 
 ## Future Talks (tentative schedule)
 
-- Apr 20, 2023
-  - Title: End-to-End Speech Summarization: Global Acoustic Context
-  - Speaker: Roshan Sharma
-  - Abstract: Speech in the real world is verbose, and humans possess the special ability to recognize what is being said, understand it, and consequently summarize speech. Automatic methods for speech summarization are crucial to imbue such capabilities in the artificial intelligence of tomorrow. Current methods for speech summarization involve a cascade of speech recognition and transcript summarization, which suffer from error propagation and larger model sizes. We proposed training speech summarization models end-to-end and demonstrated that such models outperform cascade summarization approaches. Speech summarization becomes more complex as the input length increases to a few minutes or half an hour. In this talk, we address the challenge of efficient and performant training for long audio summarization.
-  - Bio: Roshan Sharma is a Ph.D. candidate in the Electrical and Computer Engineering Department at Carnegie Mellon University. He earned his B.Tech. with distinction in Electronics and Communication Engineering at Amrita Vishwa Vidyapeetham, India in 2018 and his M.S. in Electrical and Computer Engineering at Carnegie Mellon University in 2020. His research interests lie in speech recognition, spoken language understanding, and multimodal machine learning.
-
 - Apr 27, 2023
   - Title: Audio-Visual Learning for Social Telepresence
   - Speaker: Alexander Richard (Meta)
@@ -38,6 +32,12 @@ A tentative schedule can be found [here](https://docs.google.com/spreadsheets/d/
   - Bio: Alexander Richard is a Research Scientist at Reality Labs Research (RLR) in Pittsburgh leading the audio-visual research team. With his team, he concentrates on audio-visual learning to build photo- and phono-realistic immersive experiences in Virtual Reality that enable remote communication indistinguishable from reality. Combining computer vision, machine learning, and audio processing, he develops key technologies for audio-visual lifelike avatars and novel 3D rendering approaches for spatial and binaural audio. Before joining RLR, Alexander was a Speech Scientist at Amazon Alexa in Aachen, Germany. He received his PhD from the University of Bonn for his work on temporal segmentation of human actions in videos.
 
 ## Previous Talks
+
+- Apr 20, 2023
+  - Title: End-to-End Speech Summarization: Global Acoustic Context
+  - Speaker: Roshan Sharma
+  - Abstract: Speech in the real world is verbose, and humans possess the special ability to recognize what is being said, understand it, and consequently summarize speech. Automatic methods for speech summarization are crucial to imbue such capabilities in the artificial intelligence of tomorrow. Current methods for speech summarization involve a cascade of speech recognition and transcript summarization, which suffer from error propagation and larger model sizes. We proposed training speech summarization models end-to-end and demonstrated that such models outperform cascade summarization approaches. Speech summarization becomes more complex as the input length increases to a few minutes or half an hour. In this talk, we address the challenge of efficient and performant training for long audio summarization.
+  - Bio: Roshan Sharma is a Ph.D. candidate in the Electrical and Computer Engineering Department at Carnegie Mellon University. He earned his B.Tech. with distinction in Electronics and Communication Engineering at Amrita Vishwa Vidyapeetham, India in 2018 and his M.S. in Electrical and Computer Engineering at Carnegie Mellon University in 2020. His research interests lie in speech recognition, spoken language understanding, and multimodal machine learning.
 
 - Apr 6, 2023
   - Title: Continual Learning in Speech and Audio Applications
