@@ -4,7 +4,7 @@ permalink: /sponsors/
 title: Sponsors
 description: We appreciate the sponsorship from various partners. The list is sorted in alphabet order.
 nav: true
-order: 5
+order: 6
 ---
 
 
@@ -12,10 +12,14 @@ order: 5
 - Facebook
 - Google
 - Hitachi
+- Honda
 - Hyundai
+- HLTCOE, Johns Hopkins University
+- Line
 - MIT Lincoln Laboratory
 - Mitsubishi Electric Research Laboratories (MERL)
-- NAVER
+- Naver
+- NSF
 - NTT Communication Science Laboratories
 - Sony
 - Tencent AI Lab
