@@ -294,9 +294,10 @@ order: 1
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
+        <div class="square">
         <a href="https://jctian98.github.io/">
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/jinchuan.jpg">
-        </a>
+        </a></div>
         <div class="caption">
             Jinchuan Tian
         </div>
