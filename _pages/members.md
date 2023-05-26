@@ -186,7 +186,7 @@ order: 1
             Zhong-Qiu Wang
         </div>
     </div>
-	<div class="col-sm mt-3 mt-md-1">
+    <div class="col-sm mt-3 mt-md-1">
     <div class="square">
     <a href="www.linkedin.com/in/soumi-maiti-84ba6a20">
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/soumi.jpg">
@@ -195,7 +195,14 @@ order: 1
             Soumi Maiti
         </div>
     </div>
-    <div class="col-sm mt-1 mt-md-1">
+    <div class="col-sm mt-3 mt-md-1">
+    <div class="square">
+    <a href="https://jungjee.github.io/">
+        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/jeeweon.jpg">
+    </a></div>
+        <div class="caption">
+            Jee-weon Jung
+        </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
     </div>
@@ -287,6 +294,13 @@ order: 1
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
+        <div class="square">
+        <a href="https://jctian98.github.io/">
+            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/jinchuan.jpg">
+        </a></div>
+        <div class="caption">
+            Jinchuan Tian
+        </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
     </div>
@@ -355,6 +369,13 @@ order: 1
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
+        <div class="square">
+        <a href="https://kohei0209.github.io/">
+            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/kohei_saijo.jpg">
+        </a></div>
+        <div class="caption">
+            Kohei Saijo
+        </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
     </div>
