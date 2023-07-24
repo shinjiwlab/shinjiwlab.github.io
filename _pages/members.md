@@ -163,7 +163,7 @@ order: 1
     <div class="col-sm mt-3 mt-md-0">
     </div>
     <div class="col-sm mt-3 mt-md-1" style="display:table-cell; vertical-align:middle; text-align:center">
-    	<a href="https://sites.google.com/view/shinjiwatanabe">
+    	<a href="https://sites.google.com/view/shinjiwatanabe" target="_blank" rel="noopener noreferrer">
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/shinji_20210605.jpg">
         </a>
         <div class="caption">
@@ -179,7 +179,7 @@ order: 1
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-1">
     <div class="square">
-    <a href="https://zqwang7.github.io/">
+    <a href="https://zqwang7.github.io/" target="_blank" rel="noopener noreferrer">
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/zhongqiu.jpg">
     </a></div>
         <div class="caption">
@@ -188,7 +188,7 @@ order: 1
     </div>
     <div class="col-sm mt-3 mt-md-1">
     <div class="square">
-    <a href="www.linkedin.com/in/soumi-maiti-84ba6a20">
+    <a href="www.linkedin.com/in/soumi-maiti-84ba6a20" target="_blank" rel="noopener noreferrer">
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/soumi.jpg">
     </a></div>
         <div class="caption">
@@ -197,7 +197,7 @@ order: 1
     </div>
     <div class="col-sm mt-3 mt-md-1">
     <div class="square">
-    <a href="https://jungjee.github.io/">
+    <a href="https://jungjee.github.io/" target="_blank" rel="noopener noreferrer">
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/jeeweon.jpg">
     </a></div>
         <div class="caption">
@@ -214,7 +214,7 @@ order: 1
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
     <div class="square">
-    <a href="https://www.xinjianl.com//">
+    <a href="https://www.xinjianl.com//" target="_blank" rel="noopener noreferrer">
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/xinjianl.jpg">
     </a></div>
         <div class="caption">
@@ -222,7 +222,7 @@ order: 1
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-    <a href="https://www.xuankaic.com/">
+    <a href="https://www.xuankaic.com/" target="_blank" rel="noopener noreferrer">
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/xuankai.jpg">
     </a>
         <div class="caption">
@@ -230,7 +230,7 @@ order: 1
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-    <a href="https://www.cs.cmu.edu/~byan">
+    <a href="https://www.cs.cmu.edu/~byan" target="_blank" rel="noopener noreferrer">
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/brian.jpg">
     </a>
         <div class="caption">
@@ -238,7 +238,7 @@ order: 1
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <a href="http://shijt.site/">
+        <a href="http://shijt.site/" target="_blank" rel="noopener noreferrer">
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/jiatong.jpg">
         </a>
         <div class="caption">
@@ -249,7 +249,7 @@ order: 1
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
 	<div class="square">
-	    <a href="https://pyf98.github.io/">
+	    <a href="https://pyf98.github.io/" target="_blank" rel="noopener noreferrer">
 	        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/yifan.jpg">
     	    </a>
 	</div>
@@ -258,7 +258,7 @@ order: 1
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <a href="https://shinjiwlab.github.io/members/">
+        <a href="#">
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/jessica.jpg">
         </a>
         <div class="caption">
@@ -266,7 +266,7 @@ order: 1
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <a href="https://muqiaoy.github.io/">
+        <a href="https://muqiaoy.github.io/" target="_blank" rel="noopener noreferrer">
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/muqiaoy.png">
         </a>
         <div class="caption">
@@ -275,7 +275,7 @@ order: 1
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <div class="square">
-        <a href="https://www.linkedin.com/in/arora-sid/">
+        <a href="https://www.linkedin.com/in/arora-sid/" target="_blank" rel="noopener noreferrer">
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/sarora.jpg">
         </a></div>
         <div class="caption">
@@ -286,7 +286,7 @@ order: 1
 <div class="row mt-3">
     <div class="col-sm mt-1 mt-md-1">
         <div class="square">
-        <a href="https://shinjiwlab.github.io/members/">
+        <a href="#">
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/liwei.png">
         </a></div>
         <div class="caption">
@@ -295,7 +295,7 @@ order: 1
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <div class="square">
-        <a href="https://jctian98.github.io/">
+        <a href="https://jctian98.github.io/" target="_blank" rel="noopener noreferrer">
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/jinchuan.jpg">
         </a></div>
         <div class="caption">
@@ -313,7 +313,7 @@ order: 1
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
 	<div class="square">
-        <a href="https://www.linkedin.com/in/dan-berrebbi-254843169/">
+        <a href="https://www.linkedin.com/in/dan-berrebbi-254843169/" target="_blank" rel="noopener noreferrer">
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/dan.jpg">
         </a></div>
         <div class="caption">
@@ -322,7 +322,7 @@ order: 1
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <div class="square">
-        <a href="https://wanchichen.github.io/">
+        <a href="https://wanchichen.github.io/" target="_blank" rel="noopener noreferrer">
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/william_chen.png">
 	</a></div>
         <div class="caption">
@@ -331,7 +331,7 @@ order: 1
     </div>
     <div class="col-sm mt-3 mt-md-0">
 	 <div class="square">
-        <a href="https://slseanwu.github.io/">
+        <a href="https://slseanwu.github.io/" target="_blank" rel="noopener noreferrer">
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/shihlun.JPG">
 	</a></div>
         <div class="caption">
@@ -339,6 +339,13 @@ order: 1
         </div>	
     </div>
     <div class="col-sm mt-3 mt-md-0">
+	 <div class="square">
+        <a href="https://kwangheechoi.com/" target="_blank" rel="noopener noreferrer">
+            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/kwanghee.jpg">
+	    </a></div>
+        <div class="caption">
+            Kwanghee Choi
+        </div>	
     </div>
 </div>
 
@@ -361,7 +368,7 @@ order: 1
 <div class="row mt-3">
     <div class="col-sm mt-1 mt-md-1">
         <div class="square">
-        <a href="https://sites.google.com/view/wangyou-zhang/">
+        <a href="https://sites.google.com/view/wangyou-zhang/" target="_blank" rel="noopener noreferrer">
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/wangyou_zhang.jpg">
         </a></div>
         <div class="caption">
@@ -370,7 +377,7 @@ order: 1
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <div class="square">
-        <a href="https://kohei0209.github.io/">
+        <a href="https://kohei0209.github.io/" target="_blank" rel="noopener noreferrer">
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/kohei_saijo.jpg">
         </a></div>
         <div class="caption">
