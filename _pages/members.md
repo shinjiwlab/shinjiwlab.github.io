@@ -188,7 +188,7 @@ order: 1
     </div>
     <div class="col-sm mt-3 mt-md-1">
     <div class="square">
-    <a href="www.linkedin.com/in/soumi-maiti-84ba6a20" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.linkedin.com/in/soumi-maiti-84ba6a20" target="_blank" rel="noopener noreferrer">
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/soumi.jpg">
     </a></div>
         <div class="caption">
