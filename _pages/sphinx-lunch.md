@@ -29,6 +29,12 @@ A tentative schedule can be found [here](https://docs.google.com/spreadsheets/d/
 
 ## Previous Talks
 
+- June 22, 2023
+  - Title: How to best leverage unlabeled data for speech recognition?
+  - Speaker: Dan Berrebbi
+  - Abstract: For speech recognition (ASR) as for most machine learning fields, labeled data is very expensive to get and so is far less abundant than unlabeled data. Leveraging untranscribed audio data is thus critical to build strong ASR models. Self-supervised models (SSL) such as wav2vec2.0 or HuBERT, pre-trained on large amounts of unlabeled data with pretext tasks, seem to perfectly respond to that need. Indeed, even when fine-tuned on very small amounts of transcribed speech data, they outperform previous supervised work as well as human performances on LibriSpeech dataset (which is the reference ASR benchmark) by a large margin. However those models can perform badly in case of domain shifts. Moreover we do not really know how to efficiently fine-tune them, or use them for inference. We also do not know well how to benchmark, evaluate or compare them. Finally their pre-training is very hard to reproduce and so finding alternative ways to leverage unlabeled data is of broad interest. In this talk we will tackle the following questions : 1) How to efficiently use speech SSL models for ASR? 2) How to adapt them in domain-shift scenarios? 3) How to efficiently evaluate and benchmark such models? 4) Can some alternative unsupervised training methods such as semi-supervised learning outperform SSL models? This talk is gathering our recent publications at Interspeech 2022 & 2023, ICASSP 2023 and ICLR 2023.
+  - Bio: Dan Berrebbi is a MLT Master’s student at Language Technologies Institute, Carnegie Mellon University. He obtained his Bachelor and Master’s in Mathematics at Ecole Polytechnique in Paris and then joined Carnegie Mellon University in 2021 to complete his Master’s. He is working with Professor Shinji Watanabe on speech processing. His main research areas are multilingual and low-resource speech recognition as well as self and semi-supervised learning for speech recognition.
+    
 - Apr 27, 2023
   - Title: Audio-Visual Learning for Social Telepresence
   - Speaker: Alexander Richard (Meta)
