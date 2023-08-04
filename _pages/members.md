@@ -365,6 +365,8 @@ order: 1
 <hr /> -->
 
 #### Visitors & Collaborators
+
+
 <div class="row mt-3">
     <div class="col-sm mt-1 mt-md-1">
         <div class="square">
@@ -397,6 +399,15 @@ order: 1
     </div>
 </div>
 
+<div class="col-sm mt-3 mt-md-0">
+        <div class="square">
+        <a href="https://roshansh-cmu.github.io/" target="_blank" rel="noopener noreferrer">
+            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/roshansh.jpg">
+        </a></div>
+        <div class="caption">
+            Roshan Sharma (CMU)
+        </div>
+    </div>
 <hr />
 
 #### Alumni
