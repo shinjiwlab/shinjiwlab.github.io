@@ -13,9 +13,7 @@ This is Watanabe's Audio and Voice (WAV) Lab at the Language Technologies Instit
 
 
 <div class="col-sm mt-3 mt-md-0" style="display:table-cell; vertical-align:middle; text-align:center">
-	<a href="https://shinjiwlab.github.io/">
-        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/gallery/03-06-2022.jpg">
-    </a>
+    <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/gallery/03-06-2022.jpg">
     <div class="caption">
         Our Lab Party at the Porch before Interspeech, 03.06.2022
     </div>
