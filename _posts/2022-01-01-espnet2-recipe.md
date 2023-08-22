@@ -8,7 +8,7 @@ comments: false
 
 ## 0. Installation 
 
-For PSC usage and kaldi/espnet installation, please refer to [this wiki](https://shinjiwlab.github.io/activities/2022/psc-usage).
+For PSC usage and kaldi/espnet installation, please refer to [this wiki]({% post_url 2022-01-01-psc-usage %}).
 
 ## 1. Introduction 
 

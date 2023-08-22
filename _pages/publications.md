@@ -8,12 +8,12 @@ order: 2
 ---
 
 
-- [2023 Papers](https://shinjiwlab.github.io/activities/2023/paper-list/)
-- [2022 Papers](https://shinjiwlab.github.io/activities/2022/paper-list/)
-- [2021 Papers](https://shinjiwlab.github.io/activities/2021/paper-list/)
-- [2020 Papers](https://shinjiwlab.github.io/activities/2020/paper-list/)
-- [2019 Papers](https://shinjiwlab.github.io/activities/2019/paper-list/)
-- [2018 Papers](https://shinjiwlab.github.io/activities/2018/paper-list/)
+- [2023 Papers]({% post_url 2023-03-14-paper-list %})
+- [2022 Papers]({% post_url 2022-12-31-paper-list %})
+- [2021 Papers]({% post_url 2021-12-31-paper-list %})
+- [2020 Papers]({% post_url 2020-12-31-paper-list %})
+- [2019 Papers]({% post_url 2019-12-31-paper-list %})
+- [2018 Papers]({% post_url 2018-12-31-paper-list %})
 
 
 <div class="publications">
