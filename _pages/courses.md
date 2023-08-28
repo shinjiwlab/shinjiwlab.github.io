@@ -9,7 +9,7 @@ order: 5
 
 ### 2023 Fall
 
-* [Speech Recognition and Understanding (11-751)]({% post_url 2022-08-27-11751-2023f %})
+* [Speech Recognition and Understanding (11-751)]({% post_url 203-08-27-11751-2023f %})
 
 ### 2023 Spring
 
