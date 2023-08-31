@@ -15,7 +15,7 @@ We also welcome any CMU researchers and external researchers to join the meeting
 During the semester, we will regularly have the meeting in the following slot:
 
 - Date: Thursday 12:30pm - 1:30pm
-- Room: GHC 5117
+- Room: **GHC 7101 (changed!)**
 
 The time and room may change, especially if we have a guest speaker.
 We will announce the talk information through our mailing list ([Sphinxmail: Speech Group at Carnegie Mellon](https://mailman.srv.cs.cmu.edu/mailman/listinfo/sphinxmail). Approval by admin is required).
