@@ -29,6 +29,12 @@ A tentative schedule can be found [here](https://docs.google.com/spreadsheets/d/
 
 ## Previous Talks
 
+- August 31, 2023
+  - Title: Solving problems of a single-modal task with multi-modality
+  - Speaker: Minsu Kim (KAIST)
+  - Abstract: Speech processing technologies include diverse tasks with diverse modalities such as Audio-based Speech Recognition (ASR), Visual Speech Recognition (VSR), Text-to- Speech, Lip-to-Speech, Speech-driven talking face generation, etc. People usually utilize the modalities corresponding to the task at hand when developing a technology. For example, if we develop a VSR model, we usually utilize video and text modalities without considering other modalities (e.g., audio). In this talk, I will show some examples which try to solve a challenge of a single-modal task with multimodal data. They include the cases of employing 1) other modality containing rich task knowledge, 2) correspondence of multimodality, and 3) useful characteristics of different modalities. Finally, we can realize that numerous research opportunities emerge upon exploring various multimodal options pertinent to our current task.
+  - Bio: Minsu Kim is a Ph.D. student in the school of electrical engineering at Korea Advanced Institute of Science and Technology (KAIST), Daejeon, South Korea. He received the B.S. degree in electrical & electronic engineering from Yonsei University, Seoul, South Korea, in 2019. His research interest is multi-modal language processing including audio-visual speech processing, image/video analysis & generation, and speech translation.
+
 - June 22, 2023
   - Title: How to best leverage unlabeled data for speech recognition?
   - Speaker: Dan Berrebbi
