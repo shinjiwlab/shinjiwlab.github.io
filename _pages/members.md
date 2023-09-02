@@ -213,15 +213,6 @@ order: 1
 #### PhD Students
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-    <div class="square">
-    <a href="https://www.xinjianl.com//" target="_blank" rel="noopener noreferrer">
-        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/xinjianl.jpg">
-    </a></div>
-        <div class="caption">
-            Xinjian Li
-        </div>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
     <a href="https://www.xuankaic.com/" target="_blank" rel="noopener noreferrer">
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/xuankai.jpg">
     </a>
@@ -245,8 +236,6 @@ order: 1
             Jiatong Shi
         </div>
     </div>
-</div>
-<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
 	<div class="square">
 	    <a href="https://pyf98.github.io/" target="_blank" rel="noopener noreferrer">
@@ -257,6 +246,8 @@ order: 1
             Yifan Peng
         </div>
     </div>
+</div>
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <a href="#">
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/jessica.jpg">
@@ -282,8 +273,6 @@ order: 1
             Siddhant Arora
         </div>
     </div>
-</div>
-<div class="row mt-3">
     <div class="col-sm mt-1 mt-md-1">
         <div class="square">
         <a href="#">
@@ -293,6 +282,8 @@ order: 1
             Li-wei Chen (co-supervising)
         </div>
     </div>
+</div>
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <div class="square">
         <a href="https://jctian98.github.io/" target="_blank" rel="noopener noreferrer">
@@ -306,20 +297,13 @@ order: 1
     </div>
     <div class="col-sm mt-3 mt-md-0">
     </div>
+    <div class="col-sm mt-3 mt-md-0">
+    </div>
 </div>
 <hr />
 
 #### Master Students
 <div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-	<div class="square">
-        <a href="https://www.linkedin.com/in/dan-berrebbi-254843169/" target="_blank" rel="noopener noreferrer">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/dan.jpg">
-        </a></div>
-        <div class="caption">
-            Dan Berrebbi
-        </div>
-    </div>
     <div class="col-sm mt-3 mt-md-0">
         <div class="square">
         <a href="https://wanchichen.github.io/" target="_blank" rel="noopener noreferrer">
@@ -346,6 +330,8 @@ order: 1
         <div class="caption">
             Kwanghee Choi
         </div>	
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
     </div>
 </div>
 
@@ -379,15 +365,6 @@ order: 1
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <div class="square">
-        <a href="https://kohei0209.github.io/" target="_blank" rel="noopener noreferrer">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/kohei_saijo.jpg">
-        </a></div>
-        <div class="caption">
-            Kohei Saijo
-        </div>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <div class="square">
         <a href="https://sites.google.com/view/ms-dot-k" target="_blank" rel="noopener noreferrer">
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/minsukim.jpg">
         </a></div>
@@ -404,7 +381,7 @@ order: 1
             Roshan Sharma (CMU)
         </div>
     </div>
-        <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         <div class="square">
         <a href="https://wyh2000.github.io/" target="_blank" rel="noopener noreferrer">
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/yihanwu.jpg">
@@ -421,6 +398,8 @@ order: 1
 
 ##### Students
 <ul>
+<li>2021. 01 - 2023. 06: Xinjian Li (CMU) </li>
+<li>2021. 09 - 2023. 05: Dan Berrebbi (CMU) </li>
 <li>2021. 09 - 2022. 12: Dorsa Zeinali (CMU) </li>
 <li>2021. 09 - 2022. 12: Karthik Ganesan (MIIS directed study, CMU) </li>
 <li>2020. 09 - 2022. 08: Siddharth Dalmia (CMU, co-supervisor)</li>
@@ -438,6 +417,7 @@ order: 1
 
 ##### Visitors & Collaborators
 <ul>
+<li>2023. 05 - 2023. 08: Kohei Saijo (Waseda University)</li>
 <li>2022. 10 - 2023. 01: Takaaki Saeki (University of Tokyo)</li>
 <li>2021. 12 - 2022. 12: Yosuke Kashiwagi (Sony)</li>
 <li>2022. 04 - 2022. 09: Samuele Cornell (Universita Politecnica delle Marche)</li>
