@@ -196,4 +196,17 @@ To use a whole node with multiple gpus, you can use
 sbatch -n 4 -N 1 --time 48:00:00 -p gpuA40x4 --gres=gpu:4 -c 64 --mem 240000M --account=bbjs-delta-gpu run.sh
 ```
 
+## ESPnet I/O Issue Fix
 
+Delta will ocassionally have issues with file I/O, randomly preventing files from being accessed programmatically and causing training runs to crash. A simple fix is to catch the I/O exception and re-try. Issues with `sound` files for example, can be fixed by modifying [the sound reader](https://github.com/espnet/espnet/blob/master/espnet2/fileio/sound_scp.py#L29) into the following:
+
+
+```
+# the below code should replace the following: with soundfile.SoundFile(wav) as f: 
+
+try:
+  f = soundfile.SoundFile(wav)
+except:
+  time.sleep(5)
+  f = soundfile.SoundFile(wav)
+```
