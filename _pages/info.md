@@ -18,6 +18,6 @@ This page has some information guidelines for members of WAVLab.
 
 Our galleries
 
-* [2023 Gallery]({% post_url 2023-04-05-2023-record %})
+* [2023 Gallery]({% post_url 2023-09-24-2023-record %})
 * [2022 Gallery]({% post_url 2022-12-31-2022-record %})
 * [2021 Gallery]({% post_url 2021-12-13-2021-record %})
