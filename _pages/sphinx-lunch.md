@@ -25,9 +25,19 @@ A tentative schedule can be found [here](https://docs.google.com/spreadsheets/d/
 
 ## Future Talks (tentative schedule)
 
+- October 5, 2023
+  - Title: TBD
+  - Speaker: Grant Strimel (Amazon)
 
+- October 12, 2023
+  - Title: Computational Audition through Imprecise labels
+  - Speaker: Ankit Shah
 
 ## Previous Talks
+
+- September 28, 2023
+  - Title: Towards robust speech generation
+  - Speaker: Soumi Maiti
 
 - August 31, 2023
   - Title: Solving problems of a single-modal task with multi-modality
