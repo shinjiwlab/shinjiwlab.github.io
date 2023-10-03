@@ -2,7 +2,7 @@
 layout: distill
 title: Foundations for Speech Foundation Models
 description: A summary of our recent work at WAVLab towards building large-scale speech foundation models
-date: 2023-09-24
+date: 2023-10-03
 giscus_comments: true
 
 authors:
@@ -20,6 +20,8 @@ bibliography: 2023-09-24-foundations.bib
 toc:
   - name: "YODAS: 420k Hours of Annotated Multilingual Data"
   - name: "OWSM: Understanding Large-scale Weak Supervision"
+  - name: "WavLabLM: Multilingual Self-Supervised Speech Representations"
+  - name: "The ML-SUPERB Challenge: Community-Driven Benchmarking for over 150 Languages"
     # if a section has subsections, you can add them as follows:
     # subsections:
     #   - name: Example Child Subsection 1
@@ -46,9 +48,14 @@ _styles: >
 ---
 
 ## Introduction 
-The explosion in generative AI has taken the world by storm: powerful pretrained models like GPT-4 and Stable Diffusion have already entered the mainstream media and consumer pockets. While the trend towards large-scale models is no different in speech, a concensus has yet to be seen on what techniques will drive the speech foundation models of tomorrow. To help enable this progress, we are very excited to share the techniques and resources we have been developing at WAVLab, many of which will be publicly released for both academic and commerical use in the coming weeks.
+The explosion in generative AI has taken the world by storm: powerful pretrained models like GPT-4 and Stable Diffusion have already entered the mainstream media and consumer pockets. While the trend towards large-scale models is no different in speech, a concensus has yet to be seen on what techniques will drive the speech foundation models of tomorrow. To help enable this progress, we are very excited to share the techniques and resources we have been developing at WAVLab, many of which will be publicly released for both academic and commerical use in the coming weeks. This blog will talk about four works in particular:
 
-If you're reading this in 2023, many of the discussed works will be presented at [ASRU](http://www.asru2023.org/). Check out our presentations in Taipei if you want more details about YODAS, the ML-SUPERB Challenge, OWSM, and WavLabLM.
+- YODAS: An open-source multilingual dataset with over 420k hours of annotated data
+- OWSM: A transparent reproduction of OpenAI's Whisper from scratch
+- WavLabLM: Joint denoising for cross-lingual speech representation learning
+- ML-SUPERB Challenge: A community driven speech benchmark for 154 languages
+
+If you're reading this in 2023, these works will be presented at [ASRU](http://www.asru2023.org/). Check out our presentations in Taipei if you are interested in more details.
 
 ## YODAS: 420k Hours of Annotated Multilingual Data
 {% details Authors %}
@@ -58,7 +65,7 @@ If you're reading this in 2023, many of the discussed works will be presented at
 
 Unlike text-driven Large Language Models, many spoken language tasks are inherently multi-modal: we often interact with these speech models through text, either as an input or output. This makes paired speech-text data a neccessity, but it is much more difficult to acquire compared to unpaired speech or unpaired text. Companies like Google and Meta are able to train large-scale speech foundation models <d-cite key="pmlr-v202-radford23a, zhang2023google,barrault2023seamlessm4t,pratap2023scaling"></d-cite> through their access to considerable amounts of internal paired data that remain unreleased, often due to privacy or copyright restrictions. **How can researchers train more powerful models using the newest techniques, without access to sufficient amounts of data?**
 
-Our answer is YODAS, a Youtube-Oriented Dataset for Audio and Speech that consists of **over 500k hours of speech data across 140 languages, with 420k hours of the data having paired textual transcripts**. To create YODAS, we extensively crawled Youtube for about half a year, collecting both audio data and the provided transcriptions. These transcriptions however, are not synced with the speech. We need to first align each sentence in the transcript to timestamps in the audio, after which we can segment the audio into smaller clips. Without this step, the audio would be too long and not fit into the GPU for model training (we address this in a future work coming soon!).
+Our answer is YODAS, a Youtube-Oriented Dataset for Audio and Speech that consists of **over 500k hours of speech data across 140 languages, with 420k hours of the data having paired textual transcripts**. To create YODAS, we extensively crawled Youtube for about half a year, collecting both audio data and the provided transcriptions. These transcriptions however, are not synced with the speech. We need to first align each sentence in the transcript to timestamps in the audio, after which we can segment the audio into smaller clips. Without this step, the audio would be too long and not fit into the GPU for model training.
 
 To perform the segmentation, we used a pre-trained acoustic model <d-cite key="liUniversal"></d-cite> to align the speech and text. Along with the speech-text alignments, the model also gives us a score based off the CTC loss. We can thus use this as a metric to determine the quality of the aligned speech/text and filter out poor quality samples. A per-language and per-writing system breakdown of the filtered dataset are shown below:
 
@@ -108,7 +115,7 @@ OWSM is trained exclusively on publicly accessible datasets, which totals to ove
 
 Supervised models like OWSM and Whisper have impressive few-shot or zero-shot capabilities, but they still rely upon paired speech/text data, which always be more expensive to obtain than unlabeled speech. Thus from a practical standpoint, pure self-supervised learning is still necessary to extend speech technologies to more universal applications, such as speech processing for more languages. Encoders such as WavLM and HuBERT learn powerful speech representations using only unlabeled data, allowing them to achieve strong results with only small amounts of fine-tuning. However, most of these state-of-the-art models are pre-trained only English, which is sub-optimal for training models for low-resource languages due to the linguistic gap. 
 
-Of course, there has been a plethora of existing work on multilingual self-supervised speech models. XLS-R 53, XLSR-128, and MMS are all open-source self-supervised speech encoders trained on large amounts of unlabeled multilingual speech. But they all use the older wav2vec 2.0 pre-training objective, which has been shown to be outperformed by masked prediction models like WavLM and HuBERT. In fact, stronger multilingual speech encoders that use this type of pre-training exist, but they remain unreleased to the public. **To address this, we released WavLabLM, a self-supervised speech encoder trained on 40k hours of data across 136 languages. WavLabLM extends WavLM's state-of-the-art technique of joint denoising and prediction approach to multilingual speech, allowing it to achieve comparable performance to the wav2vec 2.0-based models with much less pre-training data.**
+Of course, there has been a plethora of existing work on multilingual self-supervised speech models. XLS-R 53, XLSR-128, and MMS <d-cite key="pratap2023scaling"></d-cite> are all open-source self-supervised speech encoders trained on large amounts of unlabeled multilingual speech. But they all use the older wav2vec 2.0 pre-training objective, which has been shown to be outperformed by masked prediction models like WavLM <d-cite key="chen2022wavlm"></d-cite> and HuBERT <d-cite key="hsu2021hubert"></d-cite>. In fact, stronger multilingual speech encoders that use this type of pre-training exist, but they remain unreleased to the public <d-cite key="zhang2023google"></d-cite>. **To address this, we released WavLabLM, a self-supervised speech encoder trained on 40k hours of data across 136 languages. WavLabLM extends WavLM's state-of-the-art technique of joint denoising and prediction approach to multilingual speech, allowing it to achieve comparable performance to the wav2vec 2.0-based models with much less pre-training data.**
 
 WavLabLM is built on the discrete masked-prediction technique proposed by HuBERT. We first extract self-supervised representations from the unlabeled speech using a HuBERT model, which are then quantized into discrete units via k-means clustering. Random portions of the input speech is masked and fed into WavLabLM, which must predict the corresponding discrete units of the masked speech using the information in the unmasked speech. Furthermore, the input speech is augmented by random distractors the model must avoid. In every training step, we randomly sample another utterance or some random noise to mix into the actual input. This is the denoising portion of the pre-training approach, allowing the model to become more robust to noise and not overfit to clean single-speaker speech.
 
@@ -121,13 +128,13 @@ During this process, we found that multilingual pre-training introduces new comp
 
 ## The ML-SUPERB Challenge: Community-Driven Benchmarking for over 150 Languages
 {% details Authors %}
-*Jiatong Shi, Dan Berrebbi, William Chen, Ho-Lam Chung, En-Pei Hu, Wei Ping Huang, Xuankai Chang, Shang-Wen Li, Abdelrahman Mohamed, Hung-yi Lee, Shinji Watanabe*
+*Jiatong Shi, William Chen, Dan Berrebbi, Hsiu-Hsuan Wang, Wei-Ping Huang, En-Pei Hu, Ho-Lam Chuang, Xuankai Chang, Yuxun Tang, Shang-Wen Li, Abdelrahman Mohamed, Hung-yi Lee, Shinji Watanabe*
 {% enddetails %}
 &nbsp;
 
-Speech enjoys a variety of self-supervised models, all of which use different types of architectures or pre-training tasks. *But how do you know which models are the best for a given task?* Traditionally, the [SUPERB Benchmark]() has been the go-to resource for answering this question. It tests the ability of these models across various speech processing tasks, ranging from speaker identification to speech recognition. However, all of the tasks in SUPERB are in English. So while it can answer the aforementioned question well, another one remains open: **What are the best models for a given language?** We sought to answer this question when we developed the Multilingual SUPERB (ML-SUPERB) Benchmark.
+Speech enjoys a variety of self-supervised models, all of which use different types of architectures or pre-training tasks. *But how do you know which models are the best for a given task?* Traditionally, the [SUPERB Benchmark](https://superbbenchmark.org/leaderboard) has been the go-to resource for answering this question. It tests the ability of these models across various speech processing tasks, ranging from speaker identification to speech recognition. However, all of the tasks in SUPERB are in English. So while it can answer the aforementioned question well, another one remains open: **What are the best models for a given language?** We sought to answer this question when we developed the Multilingual SUPERB (ML-SUPERB) Benchmark <d-cite key="shi2023ml"></d-cite>.
 
-The ML-SUPERB benchmarks self-supervised models on speech recognition for 143 languages. This evaluation is split across 2 data tracks: a 10-minute track and 1-hour track, which corresponds to the amount of labeled data used to finetune the model *per language*. Within each track is several training settings. The monolingual setting tests the model on monolingual ASR for 13 languages separately. The multilingual setting evaluates the model on language identification (LID), multilingual ASR, and joint LID+ASR on all 143 languages.
+ML-SUPERB benchmarks self-supervised models on speech recognition for 143 languages. This evaluation is split across 2 data tracks: a 10-minute track and 1-hour track, which corresponds to the amount of labeled data used to finetune the model *per language*. Within each track is several training settings. The monolingual setting tests the model on monolingual ASR for 13 languages separately. The multilingual setting evaluates the model on language identification (LID), multilingual ASR, and joint LID+ASR on all 143 languages.
 
 While ML-SUPERB had the highest language coverage yet of any speech benchmark, it is far from the ~8000 languages spoken around the world. Further growing this coverage, however, is no simple task. Paired speech/text data is expensive to obtain, particularly for languages with smaller populations. Data quality is also a concern, as the findings that can be gleamed from the benchmark rely upon the reliability of its data sources. **Given these challenges, how can we extend speech technologies to new languages?** We believed that the solution laid in community-driven efforts, integrating the work of researchers across the globe. The ML-SUPERB Challenge was thus born, inviting researchers to contribute corpora for new languages and design new methods for multilingual speech processing.
 
@@ -137,6 +144,7 @@ Geographical distributions of the languages submitted to the ML-SUPERB Challenge
 </div>
 
 **In total, we received 54 languages submitted to the challenge, increasing the number of unique languages in the benchmark to 154.** A few of the new languages added include Quechua and Taiwanese Hokkien. While some submitted languages overlapped with those originally in the benchmark, they extended the corpora to new coversational, dialectal, and recording scenarios. We used these submissions to construct a hidden set for ML-SUPERB, which was used to further evaluate new and existing self-supervised models. Importantly, the new hidden set mostly consists of *conversational* speech, whereas the existing public set was mostly *read speech*. We found that model performance could vary significantly between the two regimes, showing that further work is necessary to build truly universal speech representations.
+
 
 ## VoxtLM: Multi-task Spoken Language Modelling
 
