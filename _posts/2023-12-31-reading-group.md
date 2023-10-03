@@ -32,3 +32,9 @@ comments: false
 - [Joint Audio/Text Training for Transformer Rescorer of Streaming Speech Recognition](https://arxiv.org/abs/2211.00174)
 - [Self-supervised Rewiring of Pre-trained Speech Encoders: Towards Faster Fine-tuning with Less Labels in Speech Processing](https://arxiv.org/abs/2210.13030)
 - [SpeechUT: Bridging Speech and Text with Hidden-Unit for Encoder-Decoder Based Speech-Text Pre-training](https://arxiv.org/abs/2210.03730)
+
+### 2023.10.3 ACL 2023 Paper List
+- [SpeechMatrix: A Large-Scale Mined Corpus of Multilingual Speech-to-Speech Translations](https://aclanthology.org/2023.acl-long.899/)
+- [Efficient Transformers with Dynamic Token Pooling](https://arxiv.org/abs/2211.09761)
+- [A Simple Concatenation can Effectively Improve Speech Translation](https://aclanthology.org/2023.acl-short.153/)
+- [CTC-based Non-autoregressive Speech Translation](https://aclanthology.org/2023.acl-long.744/)
