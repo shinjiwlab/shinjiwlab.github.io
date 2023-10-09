@@ -25,15 +25,17 @@ A tentative schedule can be found [here](https://docs.google.com/spreadsheets/d/
 
 ## Future Talks (tentative schedule)
 
-- October 5, 2023
-  - Title: TBD
-  - Speaker: Grant Strimel (Amazon)
-
 - October 12, 2023
   - Title: Computational Audition through Imprecise labels
   - Speaker: Ankit Shah
 
 ## Previous Talks
+
+- October 5, 2023
+  - Title: Adaptive Non-Causality for Speech Recognition
+  - Speaker: Grant Strimel (Amazon)
+  - Abstract: Streaming speech recognition architectures are employed for low-latency, real-time applications. Such architectures are often characterized by their causality – how much forward context is consumed before making a prediction on an individual frame. In this talk we will review prior approaches to balance competing objectives of low latency and the accuracy benefit derived from “look ahead” information. We then will discuss an approach we proposed called the Adaptive Non-Causal Attention Transducer (ANCAT). The architecture is non-causal in the traditional sense, but executes in a low-latency, streaming manner by dynamically choosing when to rely on future context and to what degree within the audio stream. The resulting mechanism, when coupled with novel regularization algorithms (which we will dive into) , delivers comparable accuracy to non-causal configurations while improving significantly upon latency, closing the gap with their fully-causal model counterparts.
+  - Bio: Grant Strimel is a Principal Scientist at Amazon AGI and part of the Alexa Speech Recognition and Deep Learning groups. He joined Alexa Pittsburgh in 2018 where the organization has now grown to over fifty scientists and engineers working on natural language processing experiences through both edge-first and cloud-centric solutions. His primary focus for Amazon has been on low-latency, real-time ML design for speech applications.
 
 - September 28, 2023
   - Title: Towards robust speech generation
