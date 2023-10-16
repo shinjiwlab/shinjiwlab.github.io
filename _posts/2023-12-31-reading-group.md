@@ -38,3 +38,10 @@ comments: false
 - [Efficient Transformers with Dynamic Token Pooling](https://arxiv.org/abs/2211.09761)
 - [A Simple Concatenation can Effectively Improve Speech Translation](https://aclanthology.org/2023.acl-short.153/)
 - [CTC-based Non-autoregressive Speech Translation](https://aclanthology.org/2023.acl-long.744/)
+
+### 2023.10.10 ACL 2023 Paper List
+- [When Does Translation Require Context? A Data-driven, Multilingual Exploration](https://aclanthology.org/2023.acl-long.36/)
+- [Introducing Semantics into Speech Encoders](https://aclanthology.org/2023.acl-long.639/)
+- [Pre-Training to Learn in Context](https://aclanthology.org/2023.acl-long.267.pdf)
+- [Learning Language-Specific Layers for Multilingual Machine Translation](https://aclanthology.org/2023.acl-long.825/)
+- [Finding the Pillars of Strength for Multi-Head Attention](https://aclanthology.org/2023.acl-long.812/)
