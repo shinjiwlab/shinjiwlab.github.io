@@ -55,13 +55,15 @@ The explosion in generative AI has taken the world by storm: powerful pretrained
 - WavLabLM: Joint denoising for cross-lingual speech representation learning
 - ML-SUPERB Challenge: A community driven speech benchmark for 154 languages
 
-If you're reading this in 2023, these works will be presented at [ASRU](http://www.asru2023.org/). Check out our presentations in Taipei if you are interested in more details.
+If you're reading this in 2023, these works will be presented at [ASRU](http://www.asru2023.org/). Come visit our presentations in Taipei if you are interested in more details! Be sure to check out the Colab demos for OWSM and WavLabLM linked below too.
 
 ## YODAS: 420k Hours of Annotated Multilingual Data
 {% details Authors %}
 *Xinjian Li, Shinnosuke Takamichi, Takaaki Saeki, William Chen, Sayaka Shiota, Shinji Watanabe*
 {% enddetails %}
 &nbsp;
+
+*Paper and Data coming soon*
 
 Unlike text-driven Large Language Models, many spoken language tasks are inherently multi-modal: we often interact with these speech models through text, either as an input or output. This makes paired speech-text data a neccessity, but it is much more difficult to acquire compared to unpaired speech or unpaired text. Companies like Google and Meta are able to train large-scale speech foundation models <d-cite key="pmlr-v202-radford23a, zhang2023google,barrault2023seamlessm4t,pratap2023scaling"></d-cite> through their access to considerable amounts of internal paired data that remain unreleased, often due to privacy or copyright restrictions. **How can researchers train more powerful models using the newest techniques, without access to sufficient amounts of data?**
 
@@ -89,13 +91,13 @@ Number of occurences of each character type in the YODAS transcripts, on a log-s
 &nbsp;
 
 
-[Model](https://huggingface.co/pyf98/owsm_v3) | [Paper](https://arxiv.org/abs/2309.13876) | [Code](https://github.com/espnet/espnet/tree/master/egs2/mixed_v3/s2t1)
+[Model](https://huggingface.co/pyf98/owsm_v3) | [Paper](https://arxiv.org/abs/2309.13876) | [Code](https://github.com/espnet/espnet/tree/master/egs2/mixed_v3/s2t1) | [Demo](https://colab.research.google.com/drive/1tJpY0GTWBQvoXPtiznJ78jb9Bt4xWOMe?usp=sharing)
 
 While the attention of speech researchers has been mostly occupied by self-supervised BERT-style models in the past several years, the introduction of Whisper <d-cite key="pmlr-v202-radford23a"></d-cite> has significantly strengthened the case for semi-supervised / weakly-supervised models. Whisper is trained on an extremely large scale collection of paired speech/text data, sacrificing data quality for quantity. This leads to very impressive zero-shot performance on new domains and tasks, such as unseen speech translation pairs and code-switched ASR <d-cite key="peng23d_interspeech"></d-cite>.
 
-But using such large-scale proprietary models for research is risky. As the scale of AI models grow, the chance of data corruption only gets higher. **How can researchers understand the capabilites of these models without knowing the data they are trained on?** Our goal is to produce a model with the capabilities of Whisper, but with full transparency on the training data. We are excited to share our first steps towards this direction: OWSM (Open Whisper-style Speech Model).
+But using such large-scale proprietary models for research is risky. As the scale of AI models grow, the chance of data corruption only gets higher. **How can researchers understand the capabilites of these models without knowing the data they are trained on?** Our goal is to produce a model with the capabilities of Whisper, but with full transparency on the training data. We are excited to share our first steps towards this direction: OWSM (Open Whisper-style Speech Model, pronounced "Awesome!").
 
-Similar to Whisper, OWSM is a Transformer encoder-decoder trained on 30 second segments of paired speech/text data. The model is trained to perform multiple tasks, such as ASR, language identification, speech translation, and timestamp prediction. However, there are also a few key differences. OWSM downsamples the input by 4 times instead of 2 times, for better training efficiency. We also employ an auxilliary CTC loss, which stabilizes training. It also allows OWSM to perform joint CTC/attention decoding, which helps prevents repeated tokens and makes inference parameters easier to tune. Finally, OWSM supports any-to-any speech translation, while Whisper can only perform any-to-English.
+Similar to Whisper, OWSM is a Transformer encoder-decoder trained on 30 second segments of paired speech/text data. The model is trained to perform multiple tasks, such as ASR, language identification, speech translation, and timestamp prediction. However, there are also a few key differences. OWSM downsamples the input by 4 times instead of 2 times, for better training efficiency. We also employ an auxilliary CTC loss, which stabilizes training. It allows OWSM to perform joint CTC/attention decoding, which helps prevents repeated tokens and makes inference parameters easier to tune. Finally, OWSM supports any-to-any speech translation, while Whisper can only perform any-to-English.
 
 {% include figure.html path="assets/img/blog/owsm_pipeline.png" class="img-fluid rounded z-depth-0" zoomable=true %}
 <div class="caption">
@@ -111,9 +113,9 @@ OWSM is trained exclusively on publicly accessible datasets, which totals to ove
 {% enddetails %}
 &nbsp;
 
-[Model](https://huggingface.co/espnet/WavLabLM-MS-40k) | [Paper](https://arxiv.org/abs/2309.15317) | *Code coming soon*
+[Model](https://huggingface.co/espnet/WavLabLM-MS-40k) | [Paper](https://arxiv.org/abs/2309.15317) | *Code coming soon* | [Demo](https://colab.research.google.com/drive/1xfWfWe2cOwq2R0bPATAgmTu2akAFoab_?usp=sharing)
 
-Supervised models like OWSM and Whisper have impressive few-shot or zero-shot capabilities, but they still rely upon paired speech/text data, which always be more expensive to obtain than unlabeled speech. Thus from a practical standpoint, pure self-supervised learning is still necessary to extend speech technologies to more universal applications, such as speech processing for more languages. Encoders such as WavLM and HuBERT learn powerful speech representations using only unlabeled data, allowing them to achieve strong results with only small amounts of fine-tuning. However, most of these state-of-the-art models are pre-trained only English, which is sub-optimal for training models for low-resource languages due to the linguistic gap. 
+Supervised models like OWSM and Whisper have impressive few-shot or zero-shot capabilities, but they still rely upon paired speech/text data, which always be more expensive to obtain than unlabeled speech. Thus from a practical standpoint, pure self-supervised learning is still necessary to extend speech technologies to more universal applications, such as speech processing for more languages. Encoders such as WavLM<d-cite key="chen2022wavlm"></d-cite> and HuBERT <d-cite key="hsu2021hubert"></d-cite> learn powerful speech representations using only unlabeled data, allowing them to achieve strong results with only small amounts of fine-tuning. However, most of these state-of-the-art models are pre-trained only English, which is sub-optimal for training models for low-resource languages due to the linguistic gap. 
 
 Of course, there has been a plethora of existing work on multilingual self-supervised speech models. XLS-R 53, XLSR-128, and MMS <d-cite key="pratap2023scaling"></d-cite> are all open-source self-supervised speech encoders trained on large amounts of unlabeled multilingual speech. But they all use the older wav2vec 2.0 pre-training objective, which has been shown to be outperformed by masked prediction models like WavLM <d-cite key="chen2022wavlm"></d-cite> and HuBERT <d-cite key="hsu2021hubert"></d-cite>. In fact, stronger multilingual speech encoders that use this type of pre-training exist, but they remain unreleased to the public <d-cite key="zhang2023google"></d-cite>. **To address this, we released WavLabLM, a self-supervised speech encoder trained on 40k hours of data across 136 languages. WavLabLM extends WavLM's state-of-the-art technique of joint denoising and prediction approach to multilingual speech, allowing it to achieve comparable performance to the wav2vec 2.0-based models with much less pre-training data.**
 
@@ -132,6 +134,8 @@ During this process, we found that multilingual pre-training introduces new comp
 {% enddetails %}
 &nbsp;
 
+[Paper](https://arxiv.org/abs/2310.05513)
+
 Speech enjoys a variety of self-supervised models, all of which use different types of architectures or pre-training tasks. *But how do you know which models are the best for a given task?* Traditionally, the [SUPERB Benchmark](https://superbbenchmark.org/leaderboard) has been the go-to resource for answering this question. It tests the ability of these models across various speech processing tasks, ranging from speaker identification to speech recognition. However, all of the tasks in SUPERB are in English. So while it can answer the aforementioned question well, another one remains open: **What are the best models for a given language?** We sought to answer this question when we developed the Multilingual SUPERB (ML-SUPERB) Benchmark <d-cite key="shi2023ml"></d-cite>.
 
 ML-SUPERB benchmarks self-supervised models on speech recognition for 143 languages. This evaluation is split across 2 data tracks: a 10-minute track and 1-hour track, which corresponds to the amount of labeled data used to finetune the model *per language*. Within each track is several training settings. The monolingual setting tests the model on monolingual ASR for 13 languages separately. The multilingual setting evaluates the model on language identification (LID), multilingual ASR, and joint LID+ASR on all 143 languages.
@@ -146,5 +150,9 @@ Geographical distributions of the languages submitted to the ML-SUPERB Challenge
 **In total, we received 54 languages submitted to the challenge, increasing the number of unique languages in the benchmark to 154.** A few of the new languages added include Quechua and Taiwanese Hokkien. While some submitted languages overlapped with those originally in the benchmark, they extended the corpora to new coversational, dialectal, and recording scenarios. We used these submissions to construct a hidden set for ML-SUPERB, which was used to further evaluate new and existing self-supervised models. Importantly, the new hidden set mostly consists of *conversational* speech, whereas the existing public set was mostly *read speech*. We found that model performance could vary significantly between the two regimes, showing that further work is necessary to build truly universal speech representations.
 
 
-## VoxtLM: Multi-task Spoken Language Modelling
+## What's Next?
+
+- We are in the process of releasing the YODAS dataset, which is its own challenge due to the size (100+TB!)
+- Our next generation of models will combine all of these works togther! We plan to combine integrate SSL pre-training into OWSM, and then train it on YODAS + more data. 
+- ML-SUPERB will be extended to even more languages and tasks.
 
