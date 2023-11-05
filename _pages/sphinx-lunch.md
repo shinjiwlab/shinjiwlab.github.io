@@ -25,7 +25,22 @@ A tentative schedule can be found [here](https://docs.google.com/spreadsheets/d/
 
 ## Future Talks (tentative schedule)
 
+- November 9, 2023
+  - Title: Universal Speech Enhancement: What Can We Do With Real Data?
+  - Speaker: Wangyou Zhang
+  - Abstract: Speech enhancement (SE) methods based on deep learning have shown impressive performance on many simulation conditions (TIMIT/WSJ/Librispeech/...+Noise), whereas the generalization to a wider range of real conditions has not been addressed. In fact, many high-performing SE methods tend to overfit the simulation condition in training, whose inductive bias may be easily violated in real conditions. In the era of large-scale pre-training, it is natural to ask whether we can make use of the large-scale real recording data to train a truly universal SE model that can be used for all speech-as-input tasks in real-world conditoins. In this talk, I try to answer the following two questions by summarizing exisiting works on these directions: 1) what can we do to utilize real data for SE training? 2) what models can be used to achieve universal SE? Finally, I will finish the talk by proposing new problems in the related topics.
+
+- Novemver 16, 2023
+  - Title: TBD
+  - Speaker: Zhong-Qiu Wang
+  - Abstract: TBD
+
 ## Previous Talks
+
+- November 2, 2023
+  - Title: Music generation with precise control
+  - Speakers: Chris Donahue and Shih-Lun Wu
+  - Abstract: In the first half of the session, Chris will discuss some recent work on generating music with precise control and composable outputs. Music audio generation has seen an explosion of activity - we now have the ability to generate music in broad styles with natural language control. However, despite the impressive breadth of these models, they have not yet had a salient impact on music in the real world. Instead, music AI models with more narrow capabilities have had disproportionate impact (e.g. source separation, voice cloning). In this talk, Chris will argue that current narrow models are more appealing to creators because they offer more creative potential for two reasons: (i) they offer precise and familiar forms of control, and (ii) their outputs are composable and integrate with conventional workflows. Chris will discuss two of his recent papers, SingSong (Donahue+ 23) and the Anticipatory Music Transformer (Thickstun+ 23) which seek to bring more creative potential to broadly-capable music generative models. In the second half of the session, Shih-Lun will introduce his recent work, Music ControlNet (Wu+ 23, unpublished), which imbues diffusion-based text-to-music generation models with precise melody, dynamics, and rhythm controls. Music ControlNet builds upon the ControlNet line of research in image generation, and adapts their framework to accept time-varying controls in audio domain. Shih-Lun will demonstrate that Music ControlNet can respond precisely to any composition of the controls it has been trained on, and can also generalize to out-of-distribution control signals that creators may realistically provide.
 
 - October 12, 2023
   - Title: Computational Audition through Imprecise labels
