@@ -45,3 +45,8 @@ comments: false
 - [Pre-Training to Learn in Context](https://aclanthology.org/2023.acl-long.267.pdf)
 - [Learning Language-Specific Layers for Multilingual Machine Translation](https://aclanthology.org/2023.acl-long.825/)
 - [Finding the Pillars of Strength for Multi-Head Attention](https://aclanthology.org/2023.acl-long.812/)
+
+### 2023.11.7 WASPAA 2023 Paper List
+- [Differentiable Representation of Warping based on Lie Group Theory](https://ieeexplore.ieee.org/document/10248099)
+- [A Differentiable Image Source Model for Room Acoustics Optimization](https://ieeexplore.ieee.org/document/10248140)
+- [Yet Another Generative Model For Room Impulse Response Estimation](https://ieeexplore.ieee.org/document/10248189)
