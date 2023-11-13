@@ -25,17 +25,17 @@ A tentative schedule can be found [here](https://docs.google.com/spreadsheets/d/
 
 ## Future Talks (tentative schedule)
 
-- November 9, 2023
-  - Title: Universal Speech Enhancement: What Can We Do With Real Data?
-  - Speaker: Wangyou Zhang
-  - Abstract: Speech enhancement (SE) methods based on deep learning have shown impressive performance on many simulation conditions (TIMIT/WSJ/Librispeech/...+Noise), whereas the generalization to a wider range of real conditions has not been addressed. In fact, many high-performing SE methods tend to overfit the simulation condition in training, whose inductive bias may be easily violated in real conditions. In the era of large-scale pre-training, it is natural to ask whether we can make use of the large-scale real recording data to train a truly universal SE model that can be used for all speech-as-input tasks in real-world conditoins. In this talk, I try to answer the following two questions by summarizing exisiting works on these directions: 1) what can we do to utilize real data for SE training? 2) what models can be used to achieve universal SE? Finally, I will finish the talk by proposing new problems in the related topics.
-
 - Novemver 16, 2023
   - Title: TBD
   - Speaker: Zhong-Qiu Wang
   - Abstract: TBD
 
 ## Previous Talks
+
+- November 9, 2023
+  - Title: Universal Speech Enhancement: What Can We Do With Real Data?
+  - Speaker: Wangyou Zhang
+  - Abstract: Speech enhancement (SE) methods based on deep learning have shown impressive performance on many simulation conditions (TIMIT/WSJ/Librispeech/...+Noise), whereas the generalization to a wider range of real conditions has not been addressed. In fact, many high-performing SE methods tend to overfit the simulation condition in training, whose inductive bias may be easily violated in real conditions. In the era of large-scale pre-training, it is natural to ask whether we can make use of the large-scale real recording data to train a truly universal SE model that can be used for all speech-as-input tasks in real-world conditoins. In this talk, I try to answer the following two questions by summarizing exisiting works on these directions: 1) what can we do to utilize real data for SE training? 2) what models can be used to achieve universal SE? Finally, I will finish the talk by proposing new problems in the related topics.
 
 - November 2, 2023
   - Title: Music generation with precise control
