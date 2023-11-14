@@ -50,3 +50,8 @@ comments: false
 - [Differentiable Representation of Warping based on Lie Group Theory](https://ieeexplore.ieee.org/document/10248099)
 - [A Differentiable Image Source Model for Room Acoustics Optimization](https://ieeexplore.ieee.org/document/10248140)
 - [Yet Another Generative Model For Room Impulse Response Estimation](https://ieeexplore.ieee.org/document/10248189)
+
+### 2023.11.14 WASPAA 2023 Paper List
+- [Low-Complexity Higher Order Scattering Delay Networks](https://ieeexplore.ieee.org/abstract/document/10248064)
+- [All-In-One Metrical And Functional Structure Analysis With Neighborhood Attentions on Demixed Audio](https://ieeexplore.ieee.org/abstract/document/10248148)
+- [Diffusion Posterior Sampling for Informed Single-Channel Dereverberation](https://arxiv.org/abs/2306.12286)
