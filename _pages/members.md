@@ -204,8 +204,6 @@ order: 1
             Jee-weon Jung
         </div>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-    </div>
     <div class="col-sm mt-3 mt-md-1">
     <div class="square">
     <a href="https://github.com/popcornell" target="_blank" rel="noopener noreferrer">
@@ -214,8 +212,6 @@ order: 1
         <div class="caption">
             Samuele Cornell
         </div>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
     </div>
 </div>
 <hr />
@@ -376,15 +372,6 @@ order: 1
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <div class="square">
-        <a href="https://sites.google.com/view/ms-dot-k" target="_blank" rel="noopener noreferrer">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/minsukim.jpg">
-        </a></div>
-        <div class="caption">
-            Minsu Kim
-        </div>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <div class="square">
         <a href="https://roshansh-cmu.github.io/" target="_blank" rel="noopener noreferrer">
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/roshansh.jpg">
         </a></div>
@@ -400,6 +387,8 @@ order: 1
         <div class="caption">
             Yihan Wu
         </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
     </div>
 </div>
 
@@ -428,6 +417,7 @@ order: 1
 
 ##### Visitors & Collaborators
 <ul>
+<li>2023. 08 - 2023. 10: Minsu Kim (Korea Advanced Institute of Science and Technology)</li>
 <li>2023. 05 - 2023. 08: Kohei Saijo (Waseda University)</li>
 <li>2022. 10 - 2023. 01: Takaaki Saeki (University of Tokyo)</li>
 <li>2021. 12 - 2022. 12: Yosuke Kashiwagi (Sony)</li>
