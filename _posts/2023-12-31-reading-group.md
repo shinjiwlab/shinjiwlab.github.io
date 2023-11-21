@@ -55,3 +55,8 @@ comments: false
 - [Low-Complexity Higher Order Scattering Delay Networks](https://ieeexplore.ieee.org/abstract/document/10248064)
 - [All-In-One Metrical And Functional Structure Analysis With Neighborhood Attentions on Demixed Audio](https://ieeexplore.ieee.org/abstract/document/10248148)
 - [Diffusion Posterior Sampling for Informed Single-Channel Dereverberation](https://arxiv.org/abs/2306.12286)
+
+### 2023.11.21 WASPAA 2023 Paper List
+- [Miipher: A Robust Speech Restoration Model Integrating Self-Supervised Speech and Text Representations](https://arxiv.org/abs/2303.01664)
+- [A High-Rate Extension To SoundStream](https://ieeexplore.ieee.org/document/10248100)
+- [Time-Domain Audio Source Separation Based on Gaussian Processes with Deep Kernel Learning](https://ieeexplore.ieee.org/document/10248168)
