@@ -7,9 +7,11 @@ nav: true
 order: 5
 ---
 
-Our lab has been led and participated in the development of several open-source toolkits and datasets. The followings are some selected ones.
+Our lab has led and participated in the development of several open-source toolkits, projects, and datasets. Some selected ones are listed below.
 
 ### Softwares
+
+<hr />
 
 <table cellspacing="0" cellpadding="0">
 <tr>
@@ -76,7 +78,28 @@ Our lab has been led and participated in the development of several open-source 
 </table>
 <hr />
 
+
+### Projects
+
+<hr />
+
+<table cellspacing="0" cellpadding="0">
+<tr>
+<td class="col-sm w-25">
+      <a href="{% post_url 2024-01-01-owsm %}">
+        OWSM
+      </a>
+</td>
+<td>
+  <strong>Open Whisper-style Speech Models</strong> (<strong>OWSM</strong>, pronounced as "awesome") are a series of speech foundation models developed by WAVLab at Carnegie Mellon University. We reproduce Whisper-style training using publicly available data and our open-source toolkit ESPnet. By publicly releasing data preparation scripts, training and inference code, pre-trained model weights and training logs, we aim to promote transparency and open science in large-scale speech pre-training.
+</td></tr>
+</table>
+<hr />
+
+
 ### Datasets
+
+<hr />
 
 <table cellspacing="0" cellpadding="0">
 <tr>
@@ -183,3 +206,4 @@ Our lab has been led and participated in the development of several open-source 
 </td></tr>
 </table>
 <hr />
+
