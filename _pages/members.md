@@ -389,6 +389,13 @@ order: 1
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
+        <div class="square">
+        <a href="https://scholar.google.com/citations?user=v7nc-MwAAAAJ" target="_blank" rel="noopener noreferrer">
+            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/chendali.jpg">
+        </a></div>
+        <div class="caption">
+            Chenda Li
+        </div>
     </div>
 </div>
 
