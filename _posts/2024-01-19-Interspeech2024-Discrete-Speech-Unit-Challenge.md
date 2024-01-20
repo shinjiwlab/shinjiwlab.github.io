@@ -33,12 +33,20 @@ Participation is open to all. Each team can participate in any task. This challe
 
 ### Baseline systems & toolkits
 - [Automatic speech recognition (ASR)](https://github.com/espnet/espnet/tree/master/egs2)
-- [Text-to-speech (TTS)]()
-- [Singing voice synthesis (SVS)]()
+- [Text-to-speech (TTS)](https://github.com/espnet/espnet/tree/tts2/egs2/ljspeech/tts2)
+- [Singing voice synthesis (SVS)](https://github.com/A-Quarter-Mile/espnet/tree/tmp_muskit/egs2/opencpop/svs2)
+- [Discrete vocoder training](https://github.com/kan-bayashi/ParallelWaveGAN)
+
+### Dataset
+
+- ASR: [Librispeech](https://www.openslr.org/12) and [ML-SUPERB](https://drive.google.com/file/d/1zslKQwadZaYWXAmfBCvlos9BVQ9k6PHT/view?usp=sharing)
+- TTS: [LJSpeech](https://keithito.com/LJ-Speech-Dataset/) and [Expresso](https://speechbot.github.io/expresso/)
+- SVS: [Opencpop](https://wenet.org.cn/opencpop/)
+
 
 ### Rules
 * For each task, the training data must follow the baseline systems. However, there is no constraint on the data used in the foundation models.
-* For submission, more details will be provided later.
+* For submission, more details will be provided later for each task.
 
 <!---
 ### Paper submission
