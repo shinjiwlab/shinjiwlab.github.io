@@ -32,7 +32,7 @@ Participation is open to all. Each team can participate in any task. This challe
 
 
 ### Baseline systems & toolkits
-- [Automatic speech recognition (ASR)](https://github.com/espnet/espnet/tree/master/egs2)
+- [Automatic speech recognition (ASR)](https://github.com/simpleoier/espnet/tree/is2024_dsu_asr2/egs2/interspeech2024_dsu_challenge/asr2)
 - [Text-to-speech (TTS)](https://github.com/espnet/espnet/tree/tts2/egs2/ljspeech/tts2)
 - [Singing voice synthesis (SVS)](https://github.com/A-Quarter-Mile/espnet/tree/tmp_muskit/egs2/opencpop/svs2)
 - [Discrete vocoder training](https://github.com/kan-bayashi/ParallelWaveGAN)
