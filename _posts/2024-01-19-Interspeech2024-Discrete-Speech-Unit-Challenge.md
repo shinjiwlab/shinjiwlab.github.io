@@ -17,9 +17,9 @@ Description here
 In conventional speech processing approaches, models typically take either raw waveforms or high-dimensional features derived from these waveforms as input. For instance, spectral speech features continue to be widely employed, while learning-based deep neural network features have gained prominence in recent years. A promising alternative arises in the form of discrete speech representation, where speech signals within a temporal window can be represented by a single index $d$ within a range $K$: $d \in \{1, 2, \dots, K\}$.
 
 Three challenging tasks are proposed for using discrete speech representations. 
-    1. Automatic speech recognition (ASR): We will evaluate the ASR performance of the proposed systems on the proposed data.
-    2. Text-to-speech (TTS): We will evaluate the quality of the generated speech.
-    3. Singing voice synthesis (SVS): We will evaluate the quality of the synthesized singing voice.
+1. Automatic speech recognition (ASR): We will evaluate the ASR performance of the proposed systems on the proposed data.
+2. Text-to-speech (TTS): We will evaluate the quality of the generated speech.
+3. Singing voice synthesis (SVS): We will evaluate the quality of the synthesized singing voice.
 
 
 Participation is open to all. Each team can participate in any task. This challenge has preliminarily been accepted as a special session for Interspeech 2024, and participants are strongly encouraged to submit papers to the special session. The focus of the special session is to promote the adoption of discrete speech representations and encourages novel insights.
@@ -53,10 +53,14 @@ Participation is open to all. Each team can participate in any task. This challe
 
 ### ASR Challenge
 
-* Data
-* Framework
-* Evaluation metrics
+* Data: LibriSpeech_100 + ML-SUPERBB 1h set
+* Framework: We recommend to use ESPnet for fair comparison. Feel free to let us know your preferrence.
+* Evaluation metrics: Word Error Rates (WERs) on 5 test sets.
 * Submission
+  * Submission package details:
+    1. The discrete speech units corresponding to the test sets in kaldi format.
+    2. The predicted transcription corresponding to the test sets.
+    3. A technical report in Interspeech2024 paper format (no length limit)
 
 ### TTS Challenge - Acoustic+Vocoder
 
