@@ -44,13 +44,43 @@ Participation is open to all. Each team can participate in any task. This challe
 - SVS: [Opencpop](https://wenet.org.cn/opencpop/)
 
 
-### Rules
+<!-- ### Rules
 * For each task, the training data must follow the baseline systems. However, there is no constraint on the data used in the foundation models.
 * For submission, more details will be provided later for each task.
+ -->
 
-<!---
-### Paper submission
---->
+## Detailed tracks and rules
+
+### ASR Challenge
+
+* Data
+* Framework
+* Evaluation metrics
+* Submission
+
+### TTS Challenge
+
+* Data
+* Framework
+* Evaluation metrics
+* Submission
+
+### SVS Challenge
+
+* Data
+* Framework
+* Evaluation metrics
+* Submission
+
+### Research in discrete representation of speech and audio
+
+* Call for research papers: As a special session, the track also accepts research papers in discrete representation of speech and audio. The paper could be related to any of the following topics:
+  * Discrete speech/audio/music representation learning
+  * Discrete representation application for any speech/audio processing downstream tasks (ASR, TTS, etc.)
+  * Evaluation of speech/audio discrete representation
+  * Efficient discrete speech/audio discrete representation
+  * Interpretability in discrete speech/audio discrete representation
+  * Other novel usage of discrete representation in speech/audio
 
 ##  Paper submission
 
