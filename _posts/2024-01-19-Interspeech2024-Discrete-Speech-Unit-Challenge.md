@@ -58,19 +58,53 @@ Participation is open to all. Each team can participate in any task. This challe
 * Evaluation metrics
 * Submission
 
-### TTS Challenge
+### TTS Challenge - Acoustic+Vocoder
 
-* Data
-* Framework
-* Evaluation metrics
+* Data: LJSpeech, following the train-dev-test split in [here](https://github.com/ftshijt/Interspeech2024_DiscreteSpeechChallenge).
+* Framework: No framework restriction in TTS-Acoustic+Vocoder challenge, but the organizers have prepared the baseline training scripts (baseline model to be released soon) in [ESPnet](https://github.com/espnet/espnet/tree/tts2/egs2/ljspeech/tts2).
+* Evaluation metrics: Mean cepstral distortion, F0 root mean square error, Bitrate, [UTMOS](https://github.com/sarulab-speech/UTMOS22/tree/master)
 * Submission
+   * Submission package details:
+     * The synthesized voice of LJSpeech test set using full training set (with at least 16kHz).
+     * The synthesized voice of LJSpeech test set using 1-hour training set (with at least 16kHz).
+     * The discrete representation corresponding to the test set
+     * A technical report in Interspeech2024 paper format (no length limit)
+   * Notes:
+     * We encourage participants to additional contrast results in addition to their primary submission. However, due to the budget, we cannot gaurantee those all submitted results will be evaluated in the subjective metric.
+     * More details about the submission process will be updated later.
+
+
+### TTS Challenge - Vocoder
+
+* Data: Expresso, following the train-dev-test split in [here](https://github.com/ftshijt/Interspeech2024_DiscreteSpeechChallenge) (Note that this is different from the original train-dev-test split in the benchmark paper).
+* Framework: No framework restriction in TTS-Vocoder challenge, but the organizers have prepared the baseline training scripts (baseline model to be released soon) in [ESPnet](https://github.com/espnet/espnet/tree/tts2/egs2/ljspeech/tts2) and [ParallelWaveGAN](https://github.com/kan-bayashi/ParallelWaveGAN).
+* Evaluation metrics: Mean cepstral distortion, F0 root mean square error, Bitrate, [UTMOS](https://github.com/sarulab-speech/UTMOS22/tree/master)
+* Submission
+   * Submission package details:
+     * The synthesized voice of LJSpeech test set using full training set (with at least 16kHz).
+     * The discrete representation corresponding to the test set
+     * A technical report in Interspeech2024 paper format (no length limit)
+   * Notes:
+     * We encourage participants to additional contrast results in addition to their primary submission. However, due to the budget, we cannot gaurantee those all submitted results will be evaluated in the subjective metric.
+     * More details about the submission process will be updated later.
+
 
 ### SVS Challenge
 
-* Data
-* Framework
+* Data: Opencpop, following the original segmentation and train/test split.
+* Framework: No framework restriction in SVS challenge, but the organizers have prepared the baseline training scripts (baseline model to be released soon) in [ESPnet-Muskits](https://github.com/A-Quarter-Mile/espnet/tree/tmp_muskit/egs2/opencpop/svs2).
 * Evaluation metrics
+   * Objective metrics: Mean cepstral distortion, F0 root mean square error, Bitrate for efficiency measure
+   * Subjective metrics: Mean Opinion Score by organizers
 * Submission
+   * Submission package details:
+     * The synthesized voice of Opencpop test set (with at least 16kHz)
+     * The discrete representation corresponding to the test set
+     * A technical report in Interspeech2024 paper format (no length limit)
+   * Notes:
+     * We encourage participants to additional contrast results in addition to their primary submission. However, due to the budget, we cannot gaurantee those all submitted results will be evaluated in the subjective metric.
+     * More details about the submission process will be updated later.
+
 
 ### Research in discrete representation of speech and audio
 
@@ -81,6 +115,8 @@ Participation is open to all. Each team can participate in any task. This challe
   * Efficient discrete speech/audio discrete representation
   * Interpretability in discrete speech/audio discrete representation
   * Other novel usage of discrete representation in speech/audio
+* Please refer to the "Paper submission" section for detail guidance of paper submission.
+
 
 ##  Paper submission
 
@@ -111,3 +147,9 @@ The schedule for the challenge is as follows
 * Yossi Adi (Hebrew University, Israel)
 * Xie Chen (Shanghai Jiao Tong University, China)
 * Qin Jin (Renmin University of China, China)
+
+## Contact
+- ASR Challenge - xuankaic@andrew.cmu.edu
+- TTS Challenge - jiatongs@andrew.cmu.edu
+- SVS Challenge - jiatongs@andrew.cmu.edu
+- Research Paper - shinjiw@ieee.org
