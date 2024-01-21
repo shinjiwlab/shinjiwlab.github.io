@@ -6,12 +6,22 @@ description: Delta cluster usage.
 comments: false
 ---
 
-# Misc. resources
+# Account creation
+- Create an account for NCSA on [ACCESS](https://allocations.access-ci.org/)
+- Send the username to allocation managers (e.g. Xuankai) to add the user in our group.
 
-[General user guide for Delta](https://wiki.ncsa.illinois.edu/display/DSC/Delta+User+Guide)
+## login
+* Delta: check https://wiki.ncsa.illinois.edu/display/DSC/Delta+User+Guide#DeltaUserGuide-DirectAccesslogin_nodes
+
+# Important
+1. `Home` directory is of limited space. Please do most of your work in ocean storage (`$ cd ${PROJECT}`)
+2. When you publish a paper, please **acknowledge the Delta and ACCESS**. We will get benefit when we apply for Delta credits next time.
+   * [Acknowledgement webpage](https://access-ci.org/about/acknowledging-access/)
+      * Example: Experiments of this work used the Bridges2 system at PSC and Delta system at NCSA through allocations CIS210014 and IRI120008P from the Advanced Cyberinfrastructure Coordination Ecosystem: Services \& Support (ACCESS) program, supported by National Science Foundation grants \#2138259,\#tel:2138286, \#tel:2138307, \#tel:2137603, and \#tel:2138296.
 
 # Summary of NCSA usage and the partitions
 * NCSA has limited service units (SUs) for resource availability.
+* [General user guide for Delta](https://wiki.ncsa.illinois.edu/display/DSC/Delta+User+Guide)
 * `sinfo` lists all the available partitions in NCSA and their status.
 <table class="table">
     <thead>
@@ -39,13 +49,6 @@ comments: false
         </tr>
      </tbody>
 </table>
-
-## Account creation
-- Create an account for NCSA on [ACCESS](https://allocations.access-ci.org/)
-- Send the username to allocation managers (e.g. Xuankai) to add the user in our group.
-
-## login
-* Delta: check https://wiki.ncsa.illinois.edu/display/DSC/Delta+User+Guide#DeltaUserGuide-DirectAccesslogin_nodes
 
 ## Other usage
 * Submitting jobs with dependency
@@ -116,13 +119,6 @@ comments: false
     # Other:
     slurm-tool v|version         Print versions of slurm-tool tool and slurm itself
     ```
-
-# Important
-* `Home` directory is of limited space. Please do most of your work in ocean storage (`$ cd ${PROJECT}`)
-* When you publish a paper, please acknowledge the Delta. We will get benefit when we apply for Delta credits next time.
-  * [Acknowledgement webpage](https://wiki.ncsa.illinois.edu/display/DSC/Delta+User+Guide#DeltaUserGuide-Acknowledge/)
-    * Example: This research is part of the Delta research computing project, which is supported by the National Science Foundation (award OCI 2005572), and the State of Illinois. Delta is a joint effort of the University of Illinois at Urbana-Champaign and its National Center for Supercomputing Applications.
-
 
 # ESPnet installation steps
 

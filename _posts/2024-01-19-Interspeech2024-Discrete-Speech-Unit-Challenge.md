@@ -32,17 +32,55 @@ Participation is open to all. Each team can participate in any task. This challe
 
 
 ### Baseline systems & toolkits
-- [Automatic speech recognition (ASR)](https://github.com/espnet/espnet/tree/master/egs2)
-- [Text-to-speech (TTS)]()
-- [Singing voice synthesis (SVS)]()
+- [Automatic speech recognition (ASR)](https://github.com/simpleoier/espnet/tree/is2024_dsu_asr2/egs2/interspeech2024_dsu_challenge/asr2)
+- [Text-to-speech (TTS)](https://github.com/espnet/espnet/tree/tts2/egs2/ljspeech/tts2)
+- [Singing voice synthesis (SVS)](https://github.com/A-Quarter-Mile/espnet/tree/tmp_muskit/egs2/opencpop/svs2)
+- [Discrete vocoder training](https://github.com/kan-bayashi/ParallelWaveGAN)
 
-### Rules
+### Dataset
+
+- ASR: [Librispeech](https://www.openslr.org/12) and [ML-SUPERB](https://drive.google.com/file/d/1zslKQwadZaYWXAmfBCvlos9BVQ9k6PHT/view?usp=sharing)
+- TTS: [LJSpeech](https://keithito.com/LJ-Speech-Dataset/) and [Expresso](https://speechbot.github.io/expresso/)
+- SVS: [Opencpop](https://wenet.org.cn/opencpop/)
+
+
+<!-- ### Rules
 * For each task, the training data must follow the baseline systems. However, there is no constraint on the data used in the foundation models.
-* For submission, more details will be provided later.
+* For submission, more details will be provided later for each task.
+ -->
 
-<!---
-### Paper submission
---->
+## Detailed tracks and rules
+
+### ASR Challenge
+
+* Data
+* Framework
+* Evaluation metrics
+* Submission
+
+### TTS Challenge
+
+* Data
+* Framework
+* Evaluation metrics
+* Submission
+
+### SVS Challenge
+
+* Data
+* Framework
+* Evaluation metrics
+* Submission
+
+### Research in discrete representation of speech and audio
+
+* Call for research papers: As a special session, the track also accepts research papers in discrete representation of speech and audio. The paper could be related to any of the following topics:
+  * Discrete speech/audio/music representation learning
+  * Discrete representation application for any speech/audio processing downstream tasks (ASR, TTS, etc.)
+  * Evaluation of speech/audio discrete representation
+  * Efficient discrete speech/audio discrete representation
+  * Interpretability in discrete speech/audio discrete representation
+  * Other novel usage of discrete representation in speech/audio
 
 ##  Paper submission
 
