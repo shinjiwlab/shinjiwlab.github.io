@@ -153,7 +153,4 @@ The schedule for the challenge is as follows
 * Qin Jin (Renmin University of China, China)
 
 ## Contact
-- ASR Challenge - xuankaic@andrew.cmu.edu
-- TTS Challenge - jiatongs@andrew.cmu.edu
-- SVS Challenge - jiatongs@andrew.cmu.edu
-- Research Paper - shinjiw@ieee.org
+- discrete_speech_challenge@googlegroups.com
