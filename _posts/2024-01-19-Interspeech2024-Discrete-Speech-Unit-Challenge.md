@@ -50,7 +50,7 @@ Participation is open to all. Each team can participate in any task. This challe
 
 - Specific Restrictions for Supervision Data: The key restriction is on using test sets from certain datasets for supervision in specific tasks. Specifically:
   - Automatic Speech Recognition (ASR): The test sets of the Librispeech and ML-SUPERB datasets cannot be used for learning the discrete representation. However, their training sets are permissible.
-  - Text-to-Speech (TTS): The test sets of the LJSpeech and Expresso datasets are off-limits for discrete representation learning, but their training sets can be used.
+  - Text-to-Speech (TTS): The test sets of the LJSpeech and Expresso datasets are off-limits for discrete representation learning, but their training sets can be used. For TTS training, phone alignment information for non-autoregressive training can be also used in training phase.
   - Singing Voice Synthesis (SVS): The test set of the Opencpop dataset is restricted for use in discrete representation learning, though the training set is allowed.
 
 <!-- ### Rules
