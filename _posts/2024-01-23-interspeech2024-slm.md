@@ -34,6 +34,13 @@ We welcome submissions on various topics related to spoken language models, incl
 
 Please follow the regular INTERSPEECH paper submission guidelines in the [official website](https://interspeech2024.org/paper-submission/). Be sure to list “Spoken Language Models for Universal Speech Processing” as your paper subject area when making a submission.
 
+Important Dates for [INTERSPEECH 2024](https://interspeech2024.org/call-for-papers/):
+
+- Paper Submission Portal Open: 20 January 2024
+- Paper Submission Deadline: 2 March 2024
+- Paper Update Deadline: 9 March 2024
+- Paper Acceptance Notification: 6 June 2024
+
 ## Organizers
 
 - [Yifan Peng](https://pyf98.github.io/) (Carnegie Mellon University)
