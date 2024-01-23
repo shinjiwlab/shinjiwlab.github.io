@@ -32,7 +32,7 @@ We welcome submissions on various topics related to spoken language models, incl
 
 ## Paper Submission
 
-
+Please follow the regular INTERSPEECH paper submission guidelines in the [official website](https://interspeech2024.org/paper-submission/). Be sure to list “Spoken Language Models for Universal Speech Processing” as your paper subject area when making a submission.
 
 ## Organizers
 
