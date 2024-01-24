@@ -3,7 +3,7 @@ layout: page
 permalink: /info/
 title: Info
 nav: true
-order: 7
+order: 8
 ---
 
 This page has some information guidelines for members of WAVLab.

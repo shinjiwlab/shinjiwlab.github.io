@@ -4,7 +4,7 @@ permalink: /courses/
 title: Courses
 description: This page holds the courses related to our lab.
 nav: true
-order: 5
+order: 6
 ---
 
 ### 2023 Fall

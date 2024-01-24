@@ -4,7 +4,7 @@ permalink: /sponsors/
 title: Sponsors
 description: We appreciate the sponsorship from various partners. The list is sorted in alphabet order.
 nav: true
-order: 6
+order: 7
 ---
 
 
