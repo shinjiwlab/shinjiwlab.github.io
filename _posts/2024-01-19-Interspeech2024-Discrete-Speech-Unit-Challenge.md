@@ -37,12 +37,21 @@ Participation is open to all. Each team can participate in any task. This challe
 - [Singing voice synthesis (SVS)](https://github.com/A-Quarter-Mile/espnet/tree/tmp_muskit/egs2/opencpop/svs2)
 - [Discrete vocoder training](https://github.com/kan-bayashi/ParallelWaveGAN)
 
-### Dataset
+
+### Track-specific dataset
 
 - ASR: [Librispeech](https://www.openslr.org/12) and [ML-SUPERB](https://drive.google.com/file/d/1zslKQwadZaYWXAmfBCvlos9BVQ9k6PHT/view?usp=sharing)
 - TTS: [LJSpeech](https://keithito.com/LJ-Speech-Dataset/) and [Expresso](https://speechbot.github.io/expresso/)
 - SVS: [Opencpop](https://wenet.org.cn/opencpop/)
 
+
+### Data for discrete representation learning and extraction
+- General Policy: There are no restrictions on using datasets for learning and extracting discrete representations. This applies broadly to all datasets.
+
+- Specific Restrictions for Supervision Data: The key restriction is on using test sets from certain datasets for supervision in specific tasks. Specifically:
+  - Automatic Speech Recognition (ASR): The test sets of the Librispeech and ML-SUPERB datasets cannot be used for learning the discrete representation. However, their training sets are permissible.
+  - Text-to-Speech (TTS): The test sets of the LJSpeech and Expresso datasets are off-limits for discrete representation learning, but their training sets can be used. For TTS training, phone alignment information for non-autoregressive training can be also used in training phase.
+  - Singing Voice Synthesis (SVS): The test set of the Opencpop dataset is restricted for use in discrete representation learning, though the training set is allowed.
 
 <!-- ### Rules
 * For each task, the training data must follow the baseline systems. However, there is no constraint on the data used in the foundation models.
@@ -55,7 +64,10 @@ Participation is open to all. Each team can participate in any task. This challe
 
 * Data: LibriSpeech_100 + ML-SUPERBB 1h set
 * Framework: We recommend to use ESPnet for fair comparison. Feel free to let us know your preferrence.
-* Evaluation metrics: Word Error Rates (WERs) on 5 test sets.
+* Evaluation metrics: Word Error Rates (WERs) on Librispeech dev/test sets and Character Error Rates (CERs) on ML-SUPERB.
+* Ranking: 
+  * Word/Character Error Rate: The primary method for ranking all systems is based on their Word/Character Error Rate. This metric measures the performance of a system in terms of the accuracy of the words recognized or generated compared to a reference. 
+  * Efficiency of discrete tokens (bitrate): In addition to WER, the efficiency of discrete tokens in the systems will also be evaluated and ranked based on bitrate.
 * Submission
   * Submission package details:
     1. The discrete speech units corresponding to the test sets in kaldi format.
@@ -65,8 +77,11 @@ Participation is open to all. Each team can participate in any task. This challe
 ### TTS Challenge - Acoustic+Vocoder
 
 * Data: LJSpeech, following the train-dev-test split in [here](https://github.com/ftshijt/Interspeech2024_DiscreteSpeechChallenge).
-* Framework: No framework restriction in TTS-Acoustic+Vocoder challenge, but the organizers have prepared the baseline training scripts (baseline model to be released soon) in [ESPnet](https://github.com/espnet/espnet/tree/tts2/egs2/ljspeech/tts2).
+* Framework: No framework or model restriction in TTS-Acoustic+Vocoder challenge, but the organizers have prepared the baseline training scripts (baseline model to be released soon) in [ESPnet](https://github.com/espnet/espnet/tree/tts2/egs2/ljspeech/tts2).
 * Evaluation metrics: Mean cepstral distortion, F0 root mean square error, Bitrate, [UTMOS](https://github.com/sarulab-speech/UTMOS22/tree/master)
+* Ranking:
+  * UTMOS: The The primary method for ranking all systems is based on their UTMOS score.
+  * Efficiency of discrete tokens (bitrate): the efficiency of discrete tokens in the systems will also be evaluated and ranked based on bitrate.
 * Submission
    * Submission package details:
      * The synthesized voice of LJSpeech test set using full training set (with at least 16kHz).
@@ -81,8 +96,11 @@ Participation is open to all. Each team can participate in any task. This challe
 ### TTS Challenge - Vocoder
 
 * Data: Expresso, following the train-dev-test split in [here](https://github.com/ftshijt/Interspeech2024_DiscreteSpeechChallenge) (Note that this is different from the original train-dev-test split in the benchmark paper).
-* Framework: No framework restriction in TTS-Vocoder challenge, but the organizers have prepared the baseline training scripts (baseline model to be released soon) in [ESPnet](https://github.com/espnet/espnet/tree/tts2/egs2/ljspeech/tts2) and [ParallelWaveGAN](https://github.com/kan-bayashi/ParallelWaveGAN).
+* Framework: No framework or model restriction in TTS-Vocoder challenge, but the organizers have prepared the baseline training scripts (baseline model to be released soon) in [ESPnet](https://github.com/espnet/espnet/tree/tts2/egs2/ljspeech/tts2) and [ParallelWaveGAN](https://github.com/kan-bayashi/ParallelWaveGAN).
 * Evaluation metrics: Mean cepstral distortion, F0 root mean square error, Bitrate, [UTMOS](https://github.com/sarulab-speech/UTMOS22/tree/master)
+* Ranking:
+  * UTMOS: The The primary method for ranking all systems is based on their UTMOS score.
+  * Efficiency of discrete tokens (bitrate): the efficiency of discrete tokens in the systems will also be evaluated and ranked based on bitrate.
 * Submission
    * Submission package details:
      * The synthesized voice of LJSpeech test set using full training set (with at least 16kHz).
@@ -96,10 +114,13 @@ Participation is open to all. Each team can participate in any task. This challe
 ### SVS Challenge
 
 * Data: Opencpop, following the original segmentation and train/test split.
-* Framework: No framework restriction in SVS challenge, but the organizers have prepared the baseline training scripts (baseline model to be released soon) in [ESPnet-Muskits](https://github.com/A-Quarter-Mile/espnet/tree/tmp_muskit/egs2/opencpop/svs2).
+* Framework: No framework or model restriction in SVS challenge, but the organizers have prepared the baseline training scripts (baseline model to be released soon) in [ESPnet-Muskits](https://github.com/A-Quarter-Mile/espnet/tree/tmp_muskit/egs2/opencpop/svs2).
 * Evaluation metrics
    * Objective metrics: Mean cepstral distortion, F0 root mean square error, Bitrate for efficiency measure
-   * Subjective metrics: Mean Opinion Score by organizers
+   * Subjective metrics: Mean Opinion Score (MOS) by organizers
+* Ranking:
+  * MOS: The The primary method for ranking all systems is based on their MOS score.
+  * Efficiency of discrete tokens (bitrate): the efficiency of discrete tokens in the systems will also be evaluated and ranked based on bitrate.
 * Submission
    * Submission package details:
      * The synthesized voice of Opencpop test set (with at least 16kHz)
