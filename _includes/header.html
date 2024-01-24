@@ -31,7 +31,15 @@
               {% endif %}
             </a>
           </li>
-
+          <!-- Blog -->
+          <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
+            <a class="nav-link" href="{{ '/blog/' | relative_url }}">
+              Activities
+              {% if page.title == "blog" %}
+              <span class="sr-only">(current)</span>
+              {% endif %}
+            </a>
+          </li>
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: "order" %}
           {% for p in sorted_pages %}
@@ -47,15 +55,7 @@
           {% endif %}
           {% endfor %}
           {% if site.blog_name %}
-          <!-- Blog -->
-          <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/blog/' | relative_url }}">
-              Activities
-              {% if page.title == "blog" %}
-              <span class="sr-only">(current)</span>
-              {% endif %}
-            </a>
-          </li>
+
           {% endif %}
           {% if site.enable_darkmode %}
             <div class = "toggle-container">

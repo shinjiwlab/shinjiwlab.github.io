@@ -3,7 +3,7 @@ layout: page
 permalink: /sphinx_lunch
 title: Sphinx Lunch
 nav: true
-order: 9
+order: 10
 ---
 
 Welcome to the Sphinx Speech Lunch at Carnegie Mellon University!
