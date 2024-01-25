@@ -36,13 +36,16 @@ Participation is open to all. Each team can participate in any task. This challe
   * Results
     * WER is computed on English test sets (dev-clean / dev-other / test-clean / test-other)
     * CER is computed on the multi-lingual test set (test_1h)
-
-    |  | dev-clean | dev-other | test-clean | test-other | test_1h (CER) |
-    |:--: | :-----: | :------: | :--------: | :--------: | :----------: |
-    | wavlm_large_l21 | 4.5 | 8.1 | 4.4 | 8.3 | 72.6 |
+    * Wavlm-large-layer21 results:
+      * Librispeech: dev-clean (4.5), dev-other (8.1), test-clean (4.4), test-other (8.3)
+      * ML-SUPERB: test_1h (72.6)
 - [Text-to-speech (TTS)](https://github.com/espnet/espnet/tree/tts2/egs2/ljspeech/tts2)
+  * Results
+    * Full LJSpeech with HuBERT-large units: MCD (7.19), F0 RMSE (0.26), WER (8.1), UTMOS (3.73)
 - [Singing voice synthesis (SVS)](https://github.com/A-Quarter-Mile/espnet/tree/tmp_muskit/egs2/opencpop/svs2)
+    * Opencpop with WavLM-large units: MCD (8.47), F0 RMSE (0.18)
 - [Discrete vocoder training](https://github.com/kan-bayashi/ParallelWaveGAN)
+    * Expresso with HuBERT-large units: MCD (8.37), F0 RMSE (0.34), UTMOS (3.65)
 
 
 ### Track-specific dataset
