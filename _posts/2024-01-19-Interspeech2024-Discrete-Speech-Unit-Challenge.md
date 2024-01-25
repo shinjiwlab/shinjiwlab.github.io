@@ -36,16 +36,86 @@ Participation is open to all. Each team can participate in any task. This challe
   * Results
     * WER is computed on English test sets (dev-clean / dev-other / test-clean / test-other)
     * CER is computed on the multi-lingual test set (test_1h)
-    * Wavlm-large-layer21 results:
-      * Librispeech: dev-clean (4.5), dev-other (8.1), test-clean (4.4), test-other (8.3)
-      * ML-SUPERB: test_1h (72.6)
+<table class="table">
+  <thread>
+    <tr>
+      <th scope="col">Model</th>
+      <th scope="col">dev-clean (LS)</th>
+      <th scope="col">dev-other (LS)</th>
+      <th scope="col">test-clean (LS)</th>
+      <th scope="col">test-other (LS)</th>
+      <th scope="col">test-1h (ML-SUPERB)</th>
+    </tr>
+  </thread>
+  <tbody>
+    <tr>
+      <th scope="col">Wavlm-large-layer21</th>
+      <th scope="col">4.5</th>
+      <th scope="col">8.1</th>
+      <th scope="col">4.4</th>
+      <th scope="col">8.3</th>
+      <th scope="col">72.6</th>
+    </tr>
+  </tbody>
+</table>
 - [Text-to-speech (TTS)](https://github.com/espnet/espnet/tree/tts2/egs2/ljspeech/tts2)
   * Results
-    * Full LJSpeech with HuBERT-large units: MCD (7.19), F0 RMSE (0.26), WER (8.1), UTMOS (3.73)
+<table class="table">
+  <thread>
+    <tr>
+      <th scope="col">Model</th>
+      <th scope="col">MCD</th>
+      <th scope="col">Log F0 RMSE</th>
+      <th scope="col">WER</th>
+      <th scope="col">UTMOS</th>
+    </tr>
+  </thread>
+  <tbody>
+    <tr>
+      <th scope="col">HuBERT-base-layer6</th>
+      <th scope="col">7.19</th>
+      <th scope="col">0.26</th>
+      <th scope="col">8.1</th>
+      <th scope="col">3.73</th>
+    </tr>
+  </tbody>
+</table>
 - [Singing voice synthesis (SVS)](https://github.com/A-Quarter-Mile/espnet/tree/tmp_muskit/egs2/opencpop/svs2)
-    * Opencpop with WavLM-large units: MCD (8.47), F0 RMSE (0.18)
+<table class="table">
+  <thread>
+    <tr>
+      <th scope="col">Model</th>
+      <th scope="col">MCD</th>
+      <th scope="col">Log F0 RMSE</th>
+    </tr>
+  </thread>
+  <tbody>
+    <tr>
+      <th scope="col">WavLM-large-layer6</th>
+      <th scope="col">8.47</th>
+      <th scope="col">0.18</th>
+    </tr>
+  </tbody>
+</table>
 - [Discrete vocoder training](https://github.com/kan-bayashi/ParallelWaveGAN)
-    * Expresso with HuBERT-large units: MCD (8.37), F0 RMSE (0.34), UTMOS (3.65)
+<table class="table">
+  <thread>
+    <tr>
+      <th scope="col">Model</th>
+      <th scope="col">MCD</th>
+      <th scope="col">Log F0 RMSE</th>
+      <th scope="col">UTMOS</th>
+    </tr>
+  </thread>
+  <tbody>
+    <tr>
+      <th scope="col">HuBERT-base-layer6</th>
+      <th scope="col">8.37</th>
+      <th scope="col">0.34</th>
+      <th scope="col">3.65</th>
+    </tr>
+  </tbody>
+</table>
 
 
 ### Track-specific dataset
