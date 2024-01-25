@@ -14,7 +14,7 @@ Description here
 
 ## Introduction
 
-In conventional speech processing approaches, models typically take either raw waveforms or high-dimensional features derived from these waveforms as input. For instance, spectral speech features continue to be widely employed, while learning-based deep neural network features have gained prominence in recent years. A promising alternative arises in the form of discrete speech representation, where speech signals within a temporal window can be represented by a single index $d$ within a range $K$: $d \in \{1, 2, \dots, K\}$.
+In conventional speech processing approaches, models typically take either raw waveforms or high-dimensional features derived from these waveforms as input. For instance, spectral speech features continue to be widely employed, while learning-based deep neural network features have gained prominence in recent years. A promising alternative arises in the form of discrete speech representation, where speech signals within a temporal window can be represented by a discrete token as shown in this [work](https://arxiv.org/pdf/2309.15800.pdf).
 
 Three challenging tasks are proposed for using discrete speech representations. 
 1. Automatic speech recognition (ASR): We will evaluate the ASR performance of the proposed systems on the proposed data.
@@ -33,6 +33,13 @@ Participation is open to all. Each team can participate in any task. This challe
 
 ### Baseline systems & toolkits
 - [Automatic speech recognition (ASR)](https://github.com/simpleoier/espnet/tree/is2024_dsu_asr2/egs2/interspeech2024_dsu_challenge/asr2)
+  * Results
+    * WER is computed on English test sets (dev-clean / dev-other / test-clean / test-other)
+    * CER is computed on the multi-lingual test set (test_1h)
+
+    |  | dev-clean | dev-other | test-clean | test-other | test_1h (CER) |
+    |:--: | :-----: | :------: | :--------: | :--------: | :----------: |
+    | wavlm_large_l21 | 4.5 | 8.1 | 4.4 | 8.3 | 72.6 |
 - [Text-to-speech (TTS)](https://github.com/espnet/espnet/tree/tts2/egs2/ljspeech/tts2)
 - [Singing voice synthesis (SVS)](https://github.com/A-Quarter-Mile/espnet/tree/tmp_muskit/egs2/opencpop/svs2)
 - [Discrete vocoder training](https://github.com/kan-bayashi/ParallelWaveGAN)
