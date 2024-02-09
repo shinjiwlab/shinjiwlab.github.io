@@ -194,7 +194,7 @@ Participation is open to all. Each team can participate in any task. This challe
 ### SVS Challenge
 
 * Data: Opencpop, following the original segmentation and train/test split.
-* Framework: No framework or model restriction in SVS challenge, but the organizers have prepared the baseline training scripts (baseline model to be released soon) in [ESPnet-Muskits](https://github.com/A-Quarter-Mile/espnet/tree/tmp_muskit/egs2/opencpop/svs2).
+* Framework: No framework or model restriction in the SVS challenge, but the organizers have prepared the baseline training scripts (baseline model to be released soon) in [ESPnet-Muskits](https://github.com/A-Quarter-Mile/espnet/tree/tmp_muskit/egs2/opencpop/svs2).
 * Evaluation metrics
    * Objective metrics: Mean cepstral distortion, F0 root mean square error, Bitrate for efficiency measure
    * Subjective metrics: Mean Opinion Score (MOS) by organizers
@@ -252,7 +252,11 @@ The schedule for the challenge is as follows
     - We will use the scripts in https://github.com/espnet/espnet/tree/master/egs2/TEMPLATE/tts1#evaluation for objective metrics.
 - What does it mean for "No framework or model restrictions in TTS/SVS"?
     - As we offered baselines in ESPnet, we do not have any requirements for only using ESPnet. In short, you may use any toolkits (e.g., coqui-TTS, speechbrain, etc.) or any models (Tacotron, Fastspeech, diffusion-based models, decoder-only AR models such as Vall-E or spearTTS) for the purpose, as long as you follow the other guidelines in the challenge.
-
+- 'Submission package details' in the TTS vocoder challenge says "with at least 16kHz". However, the Expresso dataset is 48 kHz. Should I conduct experiments at 48kHz, or is it acceptable to conduct experiments at any sampling rate greater than 16kHz?
+    - For target audio, we will do a resample to 16kHz if participants submit >16kHz audio (that is mostly because the evaluation metrics (e.g., WER/UTMOS) are performed on 16kHz audio-only.
+- Will the organizers also consider other metrics for the evaluation (especially for TTS and SVS)?
+    - We may add additional metrics for participants' reference. However, we will stick to the current ranking metrics for now to keep it fair for all the participants.
+    
 
 <!---
 ### Organizers
