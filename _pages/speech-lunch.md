@@ -28,6 +28,12 @@ A tentative schedule can be found [here](https://docs.google.com/spreadsheets/d/
 
 ## Previous Talks
 
+- February 8, 2024
+  - Title: Learning from Unlabeled Speech through Pre-training
+  - Speaker: Alexander Haojan Liu
+  - Abstract: In the first part of the talk, I will present DinoSR, a latest self-supervised learning method that can be viewed as a completion of recent speech representation models. Key results on recognition and acoustic unit discovery will be covered. The second part of the talk will cover generative pre-training for speech through flow matching. Similar to the spirit of self-supervised learning, I will show that a general-purpose generative model can be pre-trained from unlabeled speech, and later applied to different tasks in speech such as synthesis, denoising, and separation.
+  - Bio: Alexander Haojan Liu is a 4th Ph.D. student in Computer Science at MIT Computer Science and Artificial Intelligence Laboratory (CSAIL). He is a member of the Spoken Language System (SLS) Group leading by Dr. James Glass. His research interests are in the field of machine learning, natural language processing (speech processing in particular), and computer vision. Currently, his work focuses on self-supervised learning of audio and their applications.
+
 - December 7, 2023
   - Title: Unifying Speech Processing Applications with Speech Foundation Models
   - Speaker: Shinji Watanabe
