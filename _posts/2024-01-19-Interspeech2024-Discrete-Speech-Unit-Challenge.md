@@ -256,6 +256,8 @@ The schedule for the challenge is as follows
     - For target audio, we will do a resample to 16kHz if participants submit >16kHz audio (that is mostly because the evaluation metrics (e.g., WER/UTMOS) are performed on 16kHz audio-only.
 - Will the organizers also consider other metrics for the evaluation (especially for TTS and SVS)?
     - We may add additional metrics for participants' reference. However, we will stick to the current ranking metrics for now to keep it fair for all the participants.
+- Can the participants use additional information for training the TTS acoustic model (such as use Mel spectrogram to train VAE or duration information to train fastspeech-like models)?
+   - Yeah, additional information from the audio can be used for the TTS acoustic model as long as the output of TTS acoustic model is in discrete space.
     
 
 <!---
