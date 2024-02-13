@@ -225,9 +225,9 @@ Participation is open to all. Each team can participate in any task. This challe
 
 ##  Paper submission
 
-Papers for the Interspeech Special Session have to be submitted following the same schedule and procedure as regular papers of [INTERSPEECH 2024](https://interspeech2024.org/). The submitted papers will undergo the same review process by anonymous and independent reviewers.
+Papers for the Interspeech Special Session have to be submitted following the same schedule and procedure as regular papers of [INTERSPEECH 2024](https://interspeech2024.org/). The submitted papers will undergo the same review process by anonymous and independent reviewers. 
 
-Submission URL : (TBA)
+Please use the [submission URL](https://cmt3.research.microsoft.com/INTERSPEECH2024)) to submit papers and select "14.10 Speech Processing Using Discrete Speech Units (Special Session)" as the primary subject areas for your paper submission.
 
 <!---
 ### Schedules
@@ -237,8 +237,8 @@ Submission URL : (TBA)
 The schedule for the challenge is as follows
 * Feb 20, 2024: Leaderboard is online and accepting submissions
 * Mar  2, 2024: Paper Submission Deadline
-* Mar  9, 2024: Paper Revision Deadline
-* After Mar. 9: The Leaderboard will still be open and new submissions will be evaluated
+* Mar  11, 2024: Paper Revision Deadline
+* After Mar. 11: The Leaderboard will still be open and new submissions will be evaluated
 
 
 ## FAQ
