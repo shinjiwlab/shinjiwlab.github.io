@@ -233,6 +233,15 @@ order: 1
             Samuele Cornell
         </div>
     </div>
+    <div class="col-sm mt-3 mt-md-1">
+    <div class="square">
+    <a href="https://scholar.google.co.kr/citations?user=MSIvlNoAAAAJ&hl=ko&authuser=1" target="_blank" rel="noopener noreferrer">
+        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/hyejin.png">
+    </a></div>
+        <div class="caption">
+            Hye-jin Shim
+        </div>
+    </div>
 </div>
 <hr />
 

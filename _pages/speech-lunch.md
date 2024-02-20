@@ -1,12 +1,12 @@
 ---
 layout: page
-permalink: /sphinx_lunch
-title: Sphinx Lunch
+permalink: /speech_lunch
+title: Speech Lunch
 nav: true
 order: 10
 ---
 
-Welcome to the Sphinx Speech Lunch at Carnegie Mellon University!
+Welcome to the Speech (Sphinx) Lunch at Carnegie Mellon University!
 This lunch meeting is designed to discuss any speech-related research items regularly.
 The meeting consists of presentations by CMU faculties, CMU students, and guest speakers.
 We welcome any reserach topics, including an ordinary presentation, conference presentation rehearsals, preliminary research ideas, research discussions, and so on.
@@ -15,22 +15,23 @@ We also welcome any CMU researchers and external researchers to join the meeting
 During the semester, we will regularly have the meeting in the following slot:
 
 - Date: Thursday 12:30pm - 1:30pm
-- Room: **GHC 7101 (changed!)**
+- Room: GHC 7101
 
 The time and room may change, especially if we have a guest speaker.
 We will announce the talk information through our mailing list ([Sphinxmail: Speech Group at Carnegie Mellon](https://mailman.srv.cs.cmu.edu/mailman/listinfo/sphinxmail). Approval by admin is required).
 So, please subscribe to it if you're interested in the CMU speech!
 
-A tentative schedule can be found [here](https://docs.google.com/spreadsheets/d/1TOai33IkD7zAFBsNDkk29RRz5CpXN56vQRajlrs1kis/edit?usp=sharing). Please contant Yifan Peng (yifanpen@andrew.cmu.edu) if you would like to participate in our Sphinx Speech Lunch.
+A tentative schedule can be found [here](https://docs.google.com/spreadsheets/d/1TOai33IkD7zAFBsNDkk29RRz5CpXN56vQRajlrs1kis/edit?usp=sharing). Please contant Yifan Peng (yifanpen@andrew.cmu.edu) if you would like to participate in our Speech (Sphinx) Lunch.
 
 ## Future Talks (tentative schedule)
 
-- Novemver 16, 2023
-  - Title: TBD
-  - Speaker: Zhong-Qiu Wang
-  - Abstract: TBD
 
 ## Previous Talks
+
+- December 7, 2023
+  - Title: Unifying Speech Processing Applications with Speech Foundation Models
+  - Speaker: Shinji Watanabe
+  - Abstract: After the success of large language models in natural language processing, the field of speech processing is currently exploring the possibility of combining speech and language modalities to create a foundation model. This single unified model could perform multiple speech processing applications, such as speech recognition, synthesis, translation, and spoken language processing. Our group is dedicated to achieving this goal through the development of speech foundation models, including speech/text decoder-only models, whisper-style multi-tasking, universal spoken language understanding, and multilingual SUPERB projects. In addition to showcasing the above research outcomes during this talk, we will describe the engineering efforts involved in building such a large foundation model from scratch on an academic computing scale for reproducibility.
 
 - November 9, 2023
   - Title: Universal Speech Enhancement: What Can We Do With Real Data?
