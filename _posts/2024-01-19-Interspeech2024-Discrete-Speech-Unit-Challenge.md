@@ -64,15 +64,19 @@ Participation is open to all. Each team can participate in any task. This challe
 
 * Data: LibriSpeech_100 + ML-SUPERBB 1h set
 * Framework: We recommend to use ESPnet for fair comparison. Feel free to let us know your preferrence.
-* Evaluation metrics: Word Error Rates (WERs) on Librispeech dev/test sets and Character Error Rates (CERs) on ML-SUPERB.
-* Ranking: 
-  * Word/Character Error Rate: The primary method for ranking all systems is based on their Word/Character Error Rate. This metric measures the performance of a system in terms of the accuracy of the words recognized or generated compared to a reference. 
+* Evaluation metrics: 1) Character Error Rates (CERs) on LibriSpeech and ML-SUPERB evaluation sets; 2) the bitrate of the discrete unit.
+  * Character Error Rate (CER): This metric measures the performance of a system in terms of the accuracy of the words recognized or generated compared to a reference. The primary method for ranking all systems is based on the CER of the evaluation sets: 1) EN: dev-clean / dev-other / test-clean / test-other; 2) ML: test-1h. First, the agggregated CERs on EN and ML cases are computed independently.
   * Efficiency of discrete tokens (bitrate): In addition to WER, the efficiency of discrete tokens in the systems will also be evaluated and ranked based on bitrate.
+* Ranking: The overall ranking is based on the Average Rank, which is the average of all three ranking positions (aggregated CER on LibriSpeech evaluation sets, CER on ML-SUPERB test set, and the bitrate of the overall test sets).
 * Submission
   * Submission package details:
-    1. The discrete speech units corresponding to the test sets in kaldi format.
-    2. The predicted transcription corresponding to the test sets.
-    3. A technical report in Interspeech2024 paper format (no length limit)
+    1. The vocabulary file of input, which includes all possible input token types and special tokens (`<sos>`, `<eos>`, `<blank>`, etc). E.g. if bpe is used, this file is `data/token_list/src_bpe_unigram3000_rm_wavlm_largge_21_km2000/bpe.vocab` following the baseline framework. If bpe is not used, this file is `data/token_list/char/tokens.txt`.
+    2. The input discrete speech units corresponding to the test sets in kaldi format. E.g. if you follow the baseline and use bpe, the input file can be derived by `paste <(cut -f1 -d" " dump/raw/test_1h/text.rm.wavlm_large_21_km2000) <(spm_encode --model=data/token_list/src_bpe_unigram3000_rm_wavlm_large_21_km2000/bpe.model --output_format=id <dump/raw/test_1h/text.rm.wavlm_large_21_km2000) > output`. Example output
+    ```
+    AccentedFrenchOpenSLR57_fra_000005      784 0 1953 1126 9 1126 547 273 443 541 16 768 10 806 1380 1151 61 382 1004 765 2162 1698 128 2621 357 914 480 715 89 1369 893 1307 266 64 266 681 828 641 689 1026 488 448 182 860 1552 628 233 1156 22 438 659 2239 1125 888 22 888 1493 752 283 123 1296 266 64 1000 1187 548 1481 671 318 629 652 89 312 1451 88 1826 504 1588 145 1296 266 64 542 340 1805 651 217 962 1519 229 10 403 600
+    ```
+    3. The predicted transcription corresponding to the test sets.
+    4. A technical report in Interspeech2024 paper format (no length limit)
 
 ### TTS Challenge - Acoustic+Vocoder
 
