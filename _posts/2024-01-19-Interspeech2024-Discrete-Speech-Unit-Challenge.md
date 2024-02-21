@@ -144,33 +144,88 @@ Participation is open to all. Each team can participate in any task. This challe
 
 * Data: LibriSpeech_100 + ML-SUPERBB 1h set
 * Framework: We recommend to use ESPnet for fair comparison. Feel free to let us know your preferrence.
-* Evaluation metrics: Word Error Rates (WERs) on Librispeech dev/test sets and Character Error Rates (CERs) on ML-SUPERB.
-* Ranking: 
-  * Word/Character Error Rate: The primary method for ranking all systems is based on their Word/Character Error Rate. This metric measures the performance of a system in terms of the accuracy of the words recognized or generated compared to a reference. 
-  * Efficiency of discrete tokens (bitrate): In addition to WER, the efficiency of discrete tokens in the systems will also be evaluated and ranked based on bitrate.
-* Submission
-  * Submission package details:
-    1. The discrete speech units corresponding to the test sets in kaldi format.
-    2. The predicted transcription corresponding to the test sets.
-    3. A technical report in Interspeech2024 paper format (no length limit)
+* Evaluation metrics: 1) Character Error Rates (CERs) on LibriSpeech and ML-SUPERB evaluation sets; 2) the bitrate of the discrete unit.
+  * Character Error Rate (CER): This metric measures the performance of a system in terms of the accuracy of the words recognized or generated compared to a reference. All systems are ranked based on the CERs of the evaluation sets separately: 1) EN: dev-clean / dev-other / test-clean / test-other; 2) ML: test-1h. Note that the ranking of the EN case is based on the aggreggated CER: (total errors of {dev,test}-{clean,other}) / (total length of {dev,test}-{clean,other}) 
+* Ranking: The overall ranking is based on the Average Rank, which is the average of all three ranking positions:
+  * R1: aggregated CER on LibriSpeech evaluation sets;
+  * R2: CER on ML-SUPERB test set;
+  * R3: the bitrate of the overall test sets.
+
+  The overall ranking position is (R1 + R2 + R3) / 3. If more than 1 systems have the same overall ranking position, they are further ranked by the CER of the test-1h.
+* Submission package details:
+  1. The vocabulary file of input, which includes all possible input token types and special tokens (`<sos>`, `<eos>`, `<blank>`, etc) within a json format. The key is the order of input streams, while the value is the token list corresponding to the key. Example out:
+    ```
+    {
+      0: ["0", "1", "2", ...],
+      1: ["100", "101", "102", ...],
+      ...
+    }
+    ```
+
+    In the case of baseline, you may convert the vocab file at `data/token_list/src_bpe_unigram3000_rm_wavlm_largge_21_km2000/bpe.vocab`  to an example output like:
+    ```
+    {
+      0: ["<unk>", "<s>", "</s>", "么", "喤", "佨", "叡", ...]
+    }
+    ```
+
+  2. The input discrete speech units corresponding to the test sets in a json format. The key of the submission file is the utterance id (refer to ESPnet recipe), the value is a two-dimensional list, with each list corresponds to a stream of discrete tokens.
+
+     E.g. if you follow the baseline and use bpe, the input file can be derived by `paste <(cut -f1 -d" " dump/raw/test_1h/text.rm.wavlm_large_21_km2000) <(spm_encode --model=data/token_list/src_bpe_unigram3000_rm_wavlm_large_21_km2000/bpe.model --output_format=id <dump/raw/test_1h/text.rm.wavlm_large_21_km2000) > output`. Example output (baseline):
+    ```
+    {
+      "AccentedFrenchOpenSLR57_fra_000005": [[784, 0, 1953, 1126, 9, 1126, 547, 273, 443, 541, 16, 768, 10, 806, 1380, 1151, 61, 382, 1004, 765, 2162, 1698, 128, 2621, 357, 914, 480, 715, 89, 1369, 893, 1307, 266, 64, 266, 681, 828, 641, 689, 1026, 488, 448, 182, 860, 1552, 628, 233, 1156, 22, 438, 659, 2239, 1125, 888, 22, 888, 1493, 752, 283, 123, 1296, 266, 64, 1000, 1187, 548, 1481, 671, 318, 629, 652, 89, 312, 1451, 88, 1826, 504, 1588, 145, 1296, 266, 64, 542, 340, 1805, 651, 217, 962, 1519, 229, 10, 403, 600]]
+    }
+    ```
+
+    If you are using multiple streams, the other streams would be in additional list. Example output:
+    ```
+    {
+      "AccentedFrenchOpenSLR57_fra_000005": [
+              [784, 0, 1953, 1126, 9, 1126, 547, 273, 443, 541, 16, 768, 10, 806, 1380, 1151, 61, 382, 1004, 765, 2162, 1698, 128, 2621, 357, 914, 480, 715, 89, 1369, 893, 1307, 266, 64, 266, 681, 828, 641, 689, 1026, 488, 448, 182, 860, 1552, 628, 233, 1156, 22, 438, 659, 2239, 1125, 888, 22, 888, 1493, 752, 283, 123, 1296, 266, 64, 1000, 1187, 548, 1481, 671, 318, 629, 652, 89, 312, 1451, 88, 1826, 504, 1588, 145, 1296, 266, 64, 542, 340, 1805, 651, 217, 962, 1519, 229, 10, 403, 600],
+              [784, 0, 1953, 1126, 9, 1126, 547, 273, 443, 541, 16, 768, 10, 806, 1380, 1151, 61, 382, 1004, 765, 2162, 1698, 128, 2621, 357, 914, 480, 715, 89, 1369, 893, 1307, 266, 64, 266, 681, 828, 641, 689, 1026, 488, 448, 182, 860, 1552, 628, 233, 1156, 22, 438, 659, 2239, 1125, 888, 22, 888, 1493, 752, 283, 123, 1296, 266, 64, 1000, 1187, 548, 1481, 671, 318, 629, 652, 89, 312, 1451, 88, 1826, 504, 1588, 145, 1296, 266, 64, 542, 340, 1805, 651, 217, 962, 1519, 229, 10, 403, 600],
+          ]
+    }
+    ```
+    Noted that the token number in each stream is not necessararily the same to each other (e.g., the first stream may have a resolution of 20ms, but the second may be 40ms etc.)
+
+  3. The predicted transcription corresponding to the test sets.
+  4. A technical report in Interspeech2024 paper format (no length limit, can be submitted one week after the Interspeech submission deadline (i.e., 2024/03/18 AOE))
 
 ### TTS Challenge - Acoustic+Vocoder
 
 * Data: LJSpeech, following the train-dev-test split in [here](https://github.com/ftshijt/Interspeech2024_DiscreteSpeechChallenge).
 * Framework: No framework or model restriction in TTS-Acoustic+Vocoder challenge, but the organizers have prepared the baseline training scripts (baseline model to be released soon) in [ESPnet](https://github.com/espnet/espnet/tree/tts2/egs2/ljspeech/tts2).
 * Evaluation metrics: Mean cepstral distortion, F0 root mean square error, Bitrate, [UTMOS](https://github.com/sarulab-speech/UTMOS22/tree/master)
-* Ranking:
-  * UTMOS: The The primary method for ranking all systems is based on their UTMOS score.
-  * Efficiency of discrete tokens (bitrate): the efficiency of discrete tokens in the systems will also be evaluated and ranked based on bitrate.
+* Ranking: The overall ranking is based on the Average Rank, which is the average of two ranking positions:
+  * R1: UTMOS;
+  * R2: the bitrate of the overall test sets.
+
+  The overall ranking position is (R1 + R2) / 2. If more than 1 systems have the same overall ranking position, they are further ranked by R1.
 * Submission
    * Submission package details:
-     * The synthesized voice of LJSpeech test set using full training set (with at least 16kHz).
-     * The synthesized voice of LJSpeech test set using 1-hour training set (with at least 16kHz).
-     * The discrete representation corresponding to the test set
-     * A technical report in Interspeech2024 paper format (no length limit)
-   * Notes:
-     * We encourage participants to additional contrast results in addition to their primary submission. However, due to the budget, we cannot gaurantee those all submitted results will be evaluated in the subjective metric.
-     * More details about the submission process will be updated later.
+     1. The synthesized voice of LJSpeech test set using full training set (with at least 16kHz, in zipped format).
+     2. The synthesized voice of LJSpeech test set using 1-hour training set (with at least 16kHz, in zipped format).
+     3. The input discrete speech units corresponding to the test set in a json format. The key of the submission file is the utterance id (refer to the ID in data-split repo), the value is a two-dimensional list, with each list corresponds to a stream of discrete tokens.
+
+     Example output (baseline):
+    ```
+    {
+      "LJ050-0029": [[784, 0, 1953, 1126, 9, 1126, 547, 273, 443, 541, 16, 768, 10, 806, 1380, 1151, 61, 382, 1004, 765, 2162, 1698, 128, 2621, 357, 914, 480, 715, 89, 1369, 893, 1307, 266, 64, 266, 681, 828, 641, 689, 1026, 488, 448, 182, 860, 1552, 628, 233, 1156, 22, 438, 659, 2239, 1125, 888, 22, 888, 1493, 752, 283, 123, 1296, 266, 64, 1000, 1187, 548, 1481, 671, 318, 629, 652, 89, 312, 1451, 88, 1826, 504, 1588, 145, 1296, 266, 64, 542, 340, 1805, 651, 217, 962, 1519, 229, 10, 403, 600]]
+    }
+    ```
+
+    If you are using multiple streams, the other streams would be in additional list. Example output:
+    ```
+    {
+      "LJ050-0029": [
+              [784, 0, 1953, 1126, 9, 1126, 547, 273, 443, 541, 16, 768, 10, 806, 1380, 1151, 61, 382, 1004, 765, 2162, 1698, 128, 2621, 357, 914, 480, 715, 89, 1369, 893, 1307, 266, 64, 266, 681, 828, 641, 689, 1026, 488, 448, 182, 860, 1552, 628, 233, 1156, 22, 438, 659, 2239, 1125, 888, 22, 888, 1493, 752, 283, 123, 1296, 266, 64, 1000, 1187, 548, 1481, 671, 318, 629, 652, 89, 312, 1451, 88, 1826, 504, 1588, 145, 1296, 266, 64, 542, 340, 1805, 651, 217, 962, 1519, 229, 10, 403, 600],
+              [784, 0, 1953, 1126, 9, 1126, 547, 273, 443, 541, 16, 768, 10, 806, 1380, 1151, 61, 382, 1004, 765, 2162, 1698, 128, 2621, 357, 914, 480, 715, 89, 1369, 893, 1307, 266, 64, 266, 681, 828, 641, 689, 1026, 488, 448, 182, 860, 1552, 628, 233, 1156, 22, 438, 659, 2239, 1125, 888, 22, 888, 1493, 752, 283, 123, 1296, 266, 64, 1000, 1187, 548, 1481, 671, 318, 629, 652, 89, 312, 1451, 88, 1826, 504, 1588, 145, 1296, 266, 64, 542, 340, 1805, 651, 217, 962, 1519, 229, 10, 403, 600],
+          ]
+    }
+    ```
+    Noted that the token number in each stream is not necessararily the same to each other (e.g., the first stream may have a resolution of 20ms, but the second may be 40ms etc.)
+     4. A technical report in Interspeech2024 paper format (no length limit, can be submitted one week after the Interspeech submission deadline (i.e., 2024/03/18 AOE))
 
 
 ### TTS Challenge - Vocoder
@@ -178,17 +233,35 @@ Participation is open to all. Each team can participate in any task. This challe
 * Data: Expresso, following the train-dev-test split in [here](https://github.com/ftshijt/Interspeech2024_DiscreteSpeechChallenge) (Note that this is different from the original train-dev-test split in the benchmark paper).
 * Framework: No framework or model restriction in TTS-Vocoder challenge, but the organizers have prepared the baseline training scripts (baseline model to be released soon) in [ESPnet](https://github.com/espnet/espnet/tree/tts2/egs2/ljspeech/tts2) and [ParallelWaveGAN](https://github.com/kan-bayashi/ParallelWaveGAN).
 * Evaluation metrics: Mean cepstral distortion, F0 root mean square error, Bitrate, [UTMOS](https://github.com/sarulab-speech/UTMOS22/tree/master)
-* Ranking:
-  * UTMOS: The The primary method for ranking all systems is based on their UTMOS score.
-  * Efficiency of discrete tokens (bitrate): the efficiency of discrete tokens in the systems will also be evaluated and ranked based on bitrate.
+* Ranking: The overall ranking is based on the Average Rank, which is the average of two ranking positions:
+  * R1: UTMOS;
+  * R2: the bitrate of the overall test sets.
+
+  The overall ranking position is (R1 + R2) / 2. If more than 1 systems have the same overall ranking position, they are further ranked by R1.
 * Submission
    * Submission package details:
-     * The synthesized voice of LJSpeech test set using full training set (with at least 16kHz).
-     * The discrete representation corresponding to the test set
-     * A technical report in Interspeech2024 paper format (no length limit)
-   * Notes:
-     * We encourage participants to additional contrast results in addition to their primary submission. However, due to the budget, we cannot gaurantee those all submitted results will be evaluated in the subjective metric.
-     * More details about the submission process will be updated later.
+     1. The synthesized voice of LJSpeech test set using full training set (with at least 16kHz, in zipped format).
+     2. The input discrete speech units corresponding to the test set in a json format. The key of the submission file is the utterance id (refer to the ID in data-split repo), the value is a two-dimensional list, with each list corresponds to a stream of discrete tokens.
+
+     Example output (baseline):
+    ```
+    {
+      "ex01_confused_00001": [[784, 0, 1953, 1126, 9, 1126, 547, 273, 443, 541, 16, 768, 10, 806, 1380, 1151, 61, 382, 1004, 765, 2162, 1698, 128, 2621, 357, 914, 480, 715, 89, 1369, 893, 1307, 266, 64, 266, 681, 828, 641, 689, 1026, 488, 448, 182, 860, 1552, 628, 233, 1156, 22, 438, 659, 2239, 1125, 888, 22, 888, 1493, 752, 283, 123, 1296, 266, 64, 1000, 1187, 548, 1481, 671, 318, 629, 652, 89, 312, 1451, 88, 1826, 504, 1588, 145, 1296, 266, 64, 542, 340, 1805, 651, 217, 962, 1519, 229, 10, 403, 600]]
+    }
+    ```
+
+    If you are using multiple streams, the other streams would be in additional list. Example output:
+    ```
+    {
+      "ex01_confused_00001": [
+              [784, 0, 1953, 1126, 9, 1126, 547, 273, 443, 541, 16, 768, 10, 806, 1380, 1151, 61, 382, 1004, 765, 2162, 1698, 128, 2621, 357, 914, 480, 715, 89, 1369, 893, 1307, 266, 64, 266, 681, 828, 641, 689, 1026, 488, 448, 182, 860, 1552, 628, 233, 1156, 22, 438, 659, 2239, 1125, 888, 22, 888, 1493, 752, 283, 123, 1296, 266, 64, 1000, 1187, 548, 1481, 671, 318, 629, 652, 89, 312, 1451, 88, 1826, 504, 1588, 145, 1296, 266, 64, 542, 340, 1805, 651, 217, 962, 1519, 229, 10, 403, 600],
+              [784, 0, 1953, 1126, 9, 1126, 547, 273, 443, 541, 16, 768, 10, 806, 1380, 1151, 61, 382, 1004, 765, 2162, 1698, 128, 2621, 357, 914, 480, 715, 89, 1369, 893, 1307, 266, 64, 266, 681, 828, 641, 689, 1026, 488, 448, 182, 860, 1552, 628, 233, 1156, 22, 438, 659, 2239, 1125, 888, 22, 888, 1493, 752, 283, 123, 1296, 266, 64, 1000, 1187, 548, 1481, 671, 318, 629, 652, 89, 312, 1451, 88, 1826, 504, 1588, 145, 1296, 266, 64, 542, 340, 1805, 651, 217, 962, 1519, 229, 10, 403, 600],
+          ]
+    }
+    ```
+    Noted that the token number in each stream is not necessararily the same to each other (e.g., the first stream may have a resolution of 20ms, but the second may be 40ms etc.)
+     3. A technical report in Interspeech2024 paper format (no length limit, can be submitted one week after the Interspeech submission deadline (i.e., 2024/03/18 AOE))
+
 
 
 ### SVS Challenge
@@ -198,17 +271,35 @@ Participation is open to all. Each team can participate in any task. This challe
 * Evaluation metrics
    * Objective metrics: Mean cepstral distortion, F0 root mean square error, Bitrate for efficiency measure
    * Subjective metrics: Mean Opinion Score (MOS) by organizers
-* Ranking:
-  * MOS: The The primary method for ranking all systems is based on their MOS score.
-  * Efficiency of discrete tokens (bitrate): the efficiency of discrete tokens in the systems will also be evaluated and ranked based on bitrate.
+* Ranking: The overall ranking is based on the Average Rank, which is the average of two ranking positions:
+  * R1: MOS;
+  * R2: the bitrate of the overall test sets.
+
+  The overall ranking position is (R1 + R2) / 2. If more than 1 systems have the same overall ranking position, they are further ranked by R1.
 * Submission
    * Submission package details:
-     * The synthesized voice of Opencpop test set (with at least 16kHz)
-     * The discrete representation corresponding to the test set
-     * A technical report in Interspeech2024 paper format (no length limit)
-   * Notes:
-     * We encourage participants to additional contrast results in addition to their primary submission. However, due to the budget, we cannot gaurantee those all submitted results will be evaluated in the subjective metric.
-     * More details about the submission process will be updated later.
+     1. The synthesized voice of Opencpop test set using full training set (with at least 16kHz, in zipped format).
+     2. The input discrete speech units corresponding to the test set in a json format. The key of the submission file is the utterance id (refer to the ID in data-split repo), the value is a two-dimensional list, with each list corresponds to a stream of discrete tokens.
+
+     Example output (baseline):
+    ```
+    {
+      "ex01_confused_00001": [[784, 0, 1953, 1126, 9, 1126, 547, 273, 443, 541, 16, 768, 10, 806, 1380, 1151, 61, 382, 1004, 765, 2162, 1698, 128, 2621, 357, 914, 480, 715, 89, 1369, 893, 1307, 266, 64, 266, 681, 828, 641, 689, 1026, 488, 448, 182, 860, 1552, 628, 233, 1156, 22, 438, 659, 2239, 1125, 888, 22, 888, 1493, 752, 283, 123, 1296, 266, 64, 1000, 1187, 548, 1481, 671, 318, 629, 652, 89, 312, 1451, 88, 1826, 504, 1588, 145, 1296, 266, 64, 542, 340, 1805, 651, 217, 962, 1519, 229, 10, 403, 600]]
+    }
+    ```
+
+    If you are using multiple streams, the other streams would be in additional list. Example output:
+    ```
+    {
+      "ex01_confused_00001": [
+              [784, 0, 1953, 1126, 9, 1126, 547, 273, 443, 541, 16, 768, 10, 806, 1380, 1151, 61, 382, 1004, 765, 2162, 1698, 128, 2621, 357, 914, 480, 715, 89, 1369, 893, 1307, 266, 64, 266, 681, 828, 641, 689, 1026, 488, 448, 182, 860, 1552, 628, 233, 1156, 22, 438, 659, 2239, 1125, 888, 22, 888, 1493, 752, 283, 123, 1296, 266, 64, 1000, 1187, 548, 1481, 671, 318, 629, 652, 89, 312, 1451, 88, 1826, 504, 1588, 145, 1296, 266, 64, 542, 340, 1805, 651, 217, 962, 1519, 229, 10, 403, 600],
+              [784, 0, 1953, 1126, 9, 1126, 547, 273, 443, 541, 16, 768, 10, 806, 1380, 1151, 61, 382, 1004, 765, 2162, 1698, 128, 2621, 357, 914, 480, 715, 89, 1369, 893, 1307, 266, 64, 266, 681, 828, 641, 689, 1026, 488, 448, 182, 860, 1552, 628, 233, 1156, 22, 438, 659, 2239, 1125, 888, 22, 888, 1493, 752, 283, 123, 1296, 266, 64, 1000, 1187, 548, 1481, 671, 318, 629, 652, 89, 312, 1451, 88, 1826, 504, 1588, 145, 1296, 266, 64, 542, 340, 1805, 651, 217, 962, 1519, 229, 10, 403, 600],
+          ]
+    }
+    ```
+    Noted that the token number in each stream is not necessararily the same to each other (e.g., the first stream may have a resolution of 20ms, but the second may be 40ms etc.)
+    3. A technical report in Interspeech2024 paper format (no length limit, can be submitted one week after the Interspeech submission deadline (i.e., 2024/03/18 AOE))
+
 
 
 ### Research in discrete representation of speech and audio
