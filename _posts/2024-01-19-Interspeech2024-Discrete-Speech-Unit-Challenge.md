@@ -242,7 +242,7 @@ Participation is open to all. Each team can participate in any task. This challe
   The overall ranking position is (R1 + R2) / 2. If more than 1 systems have the same overall ranking position, they are further ranked by R1.
 * Submission
    * Submission package details:
-     1. The synthesized voice of LJSpeech test set using full training set (with at least 16kHz, in zipped format).
+     1. The synthesized voice of Expresso test set using full training set (with at least 16kHz, in zipped format).
      2. The input discrete speech units corresponding to the test set in a json format. The key of the submission file is the utterance id (refer to the ID in data-split repo), the value is a two-dimensional list, with each list corresponds to a stream of discrete tokens.
 
      Example output (baseline):
