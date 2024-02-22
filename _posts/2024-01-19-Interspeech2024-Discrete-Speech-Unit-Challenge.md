@@ -145,13 +145,14 @@ Participation is open to all. Each team can participate in any task. This challe
 * Data: LibriSpeech_100 + ML-SUPERBB 1h set
 * Framework: We recommend to use ESPnet for fair comparison. Feel free to let us know your preferrence.
 * Evaluation metrics: 1) Character Error Rates (CERs) on LibriSpeech and ML-SUPERB evaluation sets; 2) the bitrate of the discrete unit.
-  * Character Error Rate (CER): This metric measures the performance of a system in terms of the accuracy of the words recognized or generated compared to a reference. All systems are ranked based on the CERs of the evaluation sets separately: 1) EN: dev-clean / dev-other / test-clean / test-other; 2) ML: test-1h. Note that the ranking of the EN case is based on the aggreggated CER: (total errors of {dev,test}-{clean,other}) / (total length of {dev,test}-{clean,other}) 
+  * Character Error Rate (CER): This metric measures the performance of a system in terms of the accuracy of the words recognized or generated compared to a reference. All systems are ranked based on the CERs of the evaluation sets separately: 1) EN: dev-clean / dev-other / test-clean / test-other; 2) ML: test-1h. Note that the ranking of the EN case is based on the micro-average CER of all Librispeech test sets (i.e., total errors of {dev,test}-{clean,other}) / (total length of {dev,test}-{clean,other}).
+  * Bitrate of the discrete unit: This metric measures the efficiency of the discrete representation. Considering different sequence reduction methods (e.g., BPE, deduplication, etc.), we estimate bitrate by considering the whole test set (i.e., all librispeech evaluation sets and ML-SUPERB test sets). Denote the discrete token as $$\{\mathbf{S}_1, ..., \mathbf{S}_M\}$$ where $$\mathbf{S}_i$$ is the $$i^{\text{th}}$$ stream of discrete token and $$M$$ is the number of streams. We then define the vocabulary size of $$i^{\text{th}}$$ stream as $$V_i$$ and the length of $$i^{\text{th}}$$ stream as $$L_i$$. Considering the total length of test sets as $$N$$ (in seconds), the bitrate of the discrete token $$B$$ is defined as $$B = \text{log}_2(\prod_{i=1}^M(V_i * L_i / N))$$
 * Ranking: The overall ranking is based on the Average Rank, which is the average of all three ranking positions:
-  * R1: aggregated CER on LibriSpeech evaluation sets;
+  * R1: micro average CER on all LibriSpeech evaluation sets;
   * R2: CER on ML-SUPERB test set;
   * R3: the bitrate of the overall test sets.
 
-  The overall ranking position is (R1 + R2 + R3) / 3. If more than 1 systems have the same overall ranking position, they are further ranked by the CER of the test-1h.
+  The overall ranking position is (R1 + R2 + R3) / 3. If more than 1 systems have the same overall ranking position, they are further ranked by the CER of the test-1h (Please see FAQ section for a detailed example of the ranking).
 * Submission package details:
   1. The vocabulary file of input, which includes all possible input token types and special tokens (`<sos>`, `<eos>`, `<blank>`, etc) within a json format. The key is the order of input streams, while the value is the token list corresponding to the key. Example out:
     ```
@@ -198,11 +199,12 @@ Participation is open to all. Each team can participate in any task. This challe
 * Data: LJSpeech, following the train-dev-test split in [here](https://github.com/ftshijt/Interspeech2024_DiscreteSpeechChallenge).
 * Framework: No framework or model restriction in the TTS-Acoustic+Vocoder challenge, but the organizers have prepared the baseline training scripts (baseline model to be released soon) in [ESPnet](https://github.com/espnet/espnet/tree/tts2/egs2/ljspeech/tts2).
 * Evaluation metrics: Mean cepstral distortion, F0 root mean square error, Bitrate, [UTMOS](https://github.com/sarulab-speech/UTMOS22/tree/master)
+  * Bitrate of the discrete unit: This metric measures the efficiency of the discrete representation. Considering different sequence reduction methods (e.g., BPE, deduplication, etc.), we estimate bitrate by considering the LJSpeech test set (according to the official split provided in the challenge). Denote the discrete token as $$\{\mathbf{S}_1, ..., \mathbf{S}_M\}$$ where $$\mathbf{S}_i$$ is the $$i^{\text{th}}$$ stream of discrete token and $$M$$ is the number of streams. We then define the vocabulary size of $$i^{\text{th}}$$ stream as $$V_i$$ and the length of $$i^{\text{th}}$$ stream as $$L_i$$. Considering the total length of test sets as $$N$$ (in seconds), the bitrate of the discrete token $$B$$ is defined as $$B = \text{log}_2(\prod_{i=1}^M(V_i * L_i / N))$$
 * Ranking: The overall ranking is based on the Average Rank, which is the average of two ranking positions:
   * R1: UTMOS;
   * R2: the bitrate of the overall test sets.
 
-  The overall ranking position is (R1 + R2) / 2. If more than 1 systems have the same overall ranking position, they are further ranked by R1.
+  The overall ranking position is (R1 + R2) / 2. If more than 1 systems have the same overall ranking position, they are further ranked by R1 (Please see FAQ section for a detailed example of the ranking).
 * Submission
    * Submission package details:
      1. The synthesized voice of LJSpeech test set using full training set (with at least 16kHz, in zipped format).
@@ -235,6 +237,7 @@ Participation is open to all. Each team can participate in any task. This challe
 * Data: Expresso, following the train-dev-test split in [here](https://github.com/ftshijt/Interspeech2024_DiscreteSpeechChallenge) (Note that this is different from the original train-dev-test split in the benchmark paper).
 * Framework: No framework or model restriction in TTS-Vocoder challenge, but the organizers have prepared the baseline training scripts (baseline model to be released soon) in [ESPnet](https://github.com/espnet/espnet/tree/tts2/egs2/ljspeech/tts2) and [ParallelWaveGAN](https://github.com/kan-bayashi/ParallelWaveGAN).
 * Evaluation metrics: Mean cepstral distortion, F0 root mean square error, Bitrate, [UTMOS](https://github.com/sarulab-speech/UTMOS22/tree/master)
+  * Bitrate of the discrete unit: This metric measures the efficiency of the discrete representation. Considering different sequence reduction methods (e.g., BPE, deduplication, etc.), we estimate bitrate by considering the Expresso test set (according to the official split provided in the challenge). Denote the discrete token as $$\{\mathbf{S}_1, ..., \mathbf{S}_M\}$$ where $$\mathbf{S}_i$$ is the $$i^{\text{th}}$$ stream of discrete token and $$M$$ is the number of streams. We then define the vocabulary size of $$i^{\text{th}}$$ stream as $$V_i$$ and the length of $$i^{\text{th}}$$ stream as $$L_i$$. Considering the total length of test sets as $$N$$ (in seconds), the bitrate of the discrete token $$B$$ is defined as $$B = \text{log}_2(\prod_{i=1}^M(V_i * L_i / N))$$
 * Ranking: The overall ranking is based on the Average Rank, which is the average of two ranking positions:
   * R1: UTMOS;
   * R2: the bitrate of the overall test sets.
@@ -272,12 +275,13 @@ Participation is open to all. Each team can participate in any task. This challe
 * Framework: No framework or model restriction in the SVS challenge, but the organizers have prepared the baseline training scripts (baseline model to be released soon) in [ESPnet-Muskits](https://github.com/A-Quarter-Mile/espnet/tree/tmp_muskit/egs2/opencpop/svs2).
 * Evaluation metrics
    * Objective metrics: Mean cepstral distortion, F0 root mean square error, Bitrate for efficiency measure
+     * Bitrate of the discrete unit: This metric measures the efficiency of the discrete representation. Considering different sequence reduction methods (e.g., BPE, deduplication, etc.), we estimate bitrate by considering the Opencpop test set (according to the official split provided in the challenge). Denote the discrete token as $$\{\mathbf{S}_1, ..., \mathbf{S}_M\}$$ where $$\mathbf{S}_i$$ is the $$i^{\text{th}}$$ stream of discrete token and $$M$$ is the number of streams. We then define the vocabulary size of $$i^{\text{th}}$$ stream as $$V_i$$ and the length of $$i^{\text{th}}$$ stream as $$L_i$$. Considering the total length of test sets as $$N$$, the bitrate of the discrete token $$B$$ is defined as $$B = \text{log}_2(\prod_{i=1}^M(V_i * L_i / N))$$
    * Subjective metrics: Mean Opinion Score (MOS) by organizers
 * Ranking: The overall ranking is based on the Average Rank, which is the average of two ranking positions:
   * R1: MOS;
   * R2: the bitrate of the overall test sets.
 
-  The overall ranking position is (R1 + R2) / 2. If more than 1 systems have the same overall ranking position, they are further ranked by R1.
+  The overall ranking position is (R1 + R2) / 2. If more than 1 systems have the same overall ranking position, they are further ranked by R1 (Please see FAQ section for a detailed example of the ranking).
 * Submission
    * Submission package details:
      1. The synthesized voice of Opencpop test set using full training set (with at least 16kHz, in zipped format).
@@ -360,6 +364,8 @@ The schedule for the challenge is as follows
     - We may add additional metrics for participants' reference. However, we will stick to the current ranking metrics for now to keep it fair for all the participants.
 - Can the participants use additional information for training the TTS acoustic model (such as use Mel spectrogram to train VAE or duration information to train fastspeech-like models)?
    - Yeah, additional information from the audio can be used for the TTS acoustic model as long as the output of TTS acoustic model is in discrete space.
+- Do you have an example on the rankings?
+    - Take ASR as an example, if system A ranks 1st place in R1, 2nd place in R2, 3rd place in R3; system B ranks 3rd place in R1, 1nd place in R2, 2nd place in R3, the overall ranking positions for system A and B are both `2`. However, considering the rank in R2, system B would have a better final ranking.
     
 
 <!---
