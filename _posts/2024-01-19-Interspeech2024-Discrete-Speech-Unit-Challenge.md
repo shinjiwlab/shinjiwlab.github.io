@@ -145,9 +145,9 @@ Participation is open to all. Each team can participate in any task. This challe
 * Data: LibriSpeech_100 + ML-SUPERBB 1h set
 * Framework: We recommend to use ESPnet for fair comparison. Feel free to let us know your preferrence.
 * Evaluation metrics: 1) Character Error Rates (CERs) on LibriSpeech and ML-SUPERB evaluation sets; 2) the bitrate of the discrete unit.
-  * Character Error Rate (CER): This metric measures the performance of a system in terms of the accuracy of the words recognized or generated compared to a reference. All systems are ranked based on the CERs of the evaluation sets separately: 1) EN: dev-clean / dev-other / test-clean / test-other; 2) ML: test-1h. Note that the ranking of the EN case is based on the aggreggated CER: (total errors of {dev,test}-{clean,other}) / (total length of {dev,test}-{clean,other}) 
+  * Character Error Rate (CER): This metric measures the performance of a system in terms of the accuracy of the words recognized or generated compared to a reference. All systems are ranked based on the CERs of the evaluation sets separately: 1) EN: dev-clean / dev-other / test-clean / test-other; 2) ML: test-1h. Note that the ranking of the EN case is based on the micro-average CER of all Librispeech test sets (i.e., total errors of {dev,test}-{clean,other}) / (total length of {dev,test}-{clean,other}).
 * Ranking: The overall ranking is based on the Average Rank, which is the average of all three ranking positions:
-  * R1: aggregated CER on LibriSpeech evaluation sets;
+  * R1: micro average CER on all LibriSpeech evaluation sets;
   * R2: CER on ML-SUPERB test set;
   * R3: the bitrate of the overall test sets.
 
@@ -360,6 +360,8 @@ The schedule for the challenge is as follows
     - We may add additional metrics for participants' reference. However, we will stick to the current ranking metrics for now to keep it fair for all the participants.
 - Can the participants use additional information for training the TTS acoustic model (such as use Mel spectrogram to train VAE or duration information to train fastspeech-like models)?
    - Yeah, additional information from the audio can be used for the TTS acoustic model as long as the output of TTS acoustic model is in discrete space.
+- Do you have an example on the rankings?
+    - Take ASR as an example, if system A ranks 1st place in R1, 2nd place in R2, 3rd place in R3; system B ranks 3rd place in R1, 1nd place in R2, 2nd place in R3, the overall ranking positions for system A and B are both `2`. However, considering the rank in R2, system B would have a better final ranking.
     
 
 <!---
