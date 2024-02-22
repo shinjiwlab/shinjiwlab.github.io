@@ -151,7 +151,7 @@ Participation is open to all. Each team can participate in any task. This challe
   * R2: CER on ML-SUPERB test set;
   * R3: the bitrate of the overall test sets.
 
-  The overall ranking position is (R1 + R2 + R3) / 3. If more than 1 systems have the same overall ranking position, they are further ranked by the CER of the test-1h.
+  The overall ranking position is (R1 + R2 + R3) / 3. If more than 1 systems have the same overall ranking position, they are further ranked by the CER of the test-1h (Please see FAQ section for a detailed example of the ranking).
 * Submission package details:
   1. The vocabulary file of input, which includes all possible input token types and special tokens (`<sos>`, `<eos>`, `<blank>`, etc) within a json format. The key is the order of input streams, while the value is the token list corresponding to the key. Example out:
     ```
@@ -202,7 +202,7 @@ Participation is open to all. Each team can participate in any task. This challe
   * R1: UTMOS;
   * R2: the bitrate of the overall test sets.
 
-  The overall ranking position is (R1 + R2) / 2. If more than 1 systems have the same overall ranking position, they are further ranked by R1.
+  The overall ranking position is (R1 + R2) / 2. If more than 1 systems have the same overall ranking position, they are further ranked by R1 (Please see FAQ section for a detailed example of the ranking).
 * Submission
    * Submission package details:
      1. The synthesized voice of LJSpeech test set using full training set (with at least 16kHz, in zipped format).
@@ -277,7 +277,7 @@ Participation is open to all. Each team can participate in any task. This challe
   * R1: MOS;
   * R2: the bitrate of the overall test sets.
 
-  The overall ranking position is (R1 + R2) / 2. If more than 1 systems have the same overall ranking position, they are further ranked by R1.
+  The overall ranking position is (R1 + R2) / 2. If more than 1 systems have the same overall ranking position, they are further ranked by R1 (Please see FAQ section for a detailed example of the ranking).
 * Submission
    * Submission package details:
      1. The synthesized voice of Opencpop test set using full training set (with at least 16kHz, in zipped format).
