@@ -180,7 +180,7 @@ order: 1
     <div class="col-sm mt-3 mt-md-0">
         <div class="square">
         <a href="https://home.ttic.edu/~klivescu/" target="_blank" rel="noopener noreferrer">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/12.jpg">
+            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/karen.jpeg">
         </a></div>
         <div class="caption">
             Karen Livescu
