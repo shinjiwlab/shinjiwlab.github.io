@@ -110,9 +110,9 @@ Participation is open to all. Each team can participate in any task. This challe
   <tbody>
     <tr>
       <th scope="col">HuBERT-base-layer6</th>
-      <th scope="col">8.37</th>
-      <th scope="col">0.34</th>
-      <th scope="col">3.65</th>
+      <th scope="col">7.19</th>
+      <th scope="col">0.42</th>
+      <th scope="col">2.27</th>
     </tr>
   </tbody>
 </table>
@@ -366,6 +366,12 @@ The schedule for the challenge is as follows
    - Yeah, additional information from the audio can be used for the TTS acoustic model as long as the output of TTS acoustic model is in discrete space.
 - Do you have an example on the rankings?
     - Take ASR as an example, if system A ranks 1st place in R1, 2nd place in R2, 3rd place in R3; system B ranks 3rd place in R1, 1nd place in R2, 2nd place in R3, the overall ranking positions for system A and B are both `2`. However, considering the rank in R2, system B would have a better final ranking.
+- Why there are two deadlines for the paper submission, what are their differences?
+    - We have two kinds of submission available, which you may select from:
+        - Submit to Interspeech as a regular paper (for the special session, need to select discrete speech challenge as the primary topic):
+            - for this option, the deadline is the same as Interspeech paper. Noted that the reviewing process is the same as the regular Interspeech paper (and will be in the proceedings as regular paper). And you can include this submission as your system description paper for the challenge summary in the submission package via google form. If you select this option, the deadline is March 2, 2024 for abstract and revision deadline is March 11, 2024.
+        - Submit via google form as the system description paper:
+            - For this option, you will do not need to submit to the Interspeech portal, but just include your system description paper in the google form (noted that the paper will not be in the proceedings, in other words, no peer review). This paper will be used for the challenge summary (selected system description papers might be provided chances to be presented in the special session). If you select only this option, the deadline is March 18, 2024.
     
 
 <!---
