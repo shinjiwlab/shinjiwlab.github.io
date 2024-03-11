@@ -334,6 +334,8 @@ Each team will only be able to submit up-to 5 systems to the leaderboard.
 
 For SVS track, because of the limited budget and the requirements of extra evaluation time for the subjective evaluation, up-to 3 systems are accepted to the leaderboard and deadline for final submissions is 2024/03/05 AOE. While the bitrate evaluation in the leaderboard will be updated within 48 hours, the MOS leaderboard will be updated before 2024/03/10 AOE.
 
+The leaderboard is online at https://huggingface.co/discrete-speech.
+
 
 <!---
 ### Schedules
@@ -341,7 +343,7 @@ For SVS track, because of the limited budget and the requirements of extra evalu
 
 ## Important dates
 The schedule for the challenge is as follows
-* Feb 20, 2024: Leaderboard is online and accepting submissions
+* Feb 20, 2024: [Leaderboard](https://huggingface.co/discrete-speech) is online and accepting submissions
 * Mar  2, 2024: Paper Submission Deadline
 * Mar  11, 2024: Paper Revision Deadline
 * After Mar. 11: The Leaderboard will still be open and new submissions will be evaluated
