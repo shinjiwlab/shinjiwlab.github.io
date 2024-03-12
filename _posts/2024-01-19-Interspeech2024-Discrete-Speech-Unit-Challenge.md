@@ -326,6 +326,8 @@ Papers for the Interspeech Special Session have to be submitted following the sa
 
 Please use the [submission URL](https://cmt3.research.microsoft.com/INTERSPEECH2024)) to submit papers and select "14.10 Speech Processing Using Discrete Speech Units (Special Session)" as the primary subject areas for your paper submission.
 
+For techincal reports, please submit the paper via the google form: https://forms.gle/K7fehBcoVEMXB9tx9
+
 ##  Submission pakcage submission
 
 Participants will need to submit their submission package through the [google form](https://forms.gle/XAdQ5WyEVD2tDwYh8), where the leaderboard will be updated accordingly within 48 hours. The final ranking information will be recorded at the time of Interspeech submission deadline (i.e., 2024/03/11 AOE).
