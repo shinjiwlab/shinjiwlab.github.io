@@ -180,7 +180,7 @@ order: 1
     <div class="col-sm mt-3 mt-md-0">
         <div class="square">
         <a href="https://home.ttic.edu/~klivescu/" target="_blank" rel="noopener noreferrer">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/12.jpg">
+            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/karen.jpeg">
         </a></div>
         <div class="caption">
             Karen Livescu
@@ -390,24 +390,6 @@ order: 1
 
 
 <div class="row mt-3">
-    <div class="col-sm mt-1 mt-md-1">
-        <div class="square">
-        <a href="https://sites.google.com/view/wangyou-zhang/" target="_blank" rel="noopener noreferrer">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/wangyou_zhang.jpg">
-        </a></div>
-        <div class="caption">
-            Wangyou Zhang
-        </div>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <div class="square">
-        <a href="https://roshansh-cmu.github.io/" target="_blank" rel="noopener noreferrer">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/roshansh.jpg">
-        </a></div>
-        <div class="caption">
-            Roshan Sharma (CMU)
-        </div>
-    </div>
     <div class="col-sm mt-3 mt-md-0">
         <div class="square">
         <a href="https://wyh2000.github.io/" target="_blank" rel="noopener noreferrer">
@@ -425,6 +407,10 @@ order: 1
         <div class="caption">
             Chenda Li
         </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
     </div>
 </div>
 
@@ -453,6 +439,8 @@ order: 1
 
 ##### Visitors & Collaborators
 <ul>
+<li>2023. 08 - 2024. 03: Roshan Sharma (Carnegie Mellon University)</li>
+<li>2023. 03 - 2024. 03: Wangyou Zhang (Shanghai Jiaotong University)</li>
 <li>2023. 08 - 2023. 10: Minsu Kim (Korea Advanced Institute of Science and Technology)</li>
 <li>2023. 05 - 2023. 08: Kohei Saijo (Waseda University)</li>
 <li>2022. 10 - 2023. 01: Takaaki Saeki (University of Tokyo)</li>
