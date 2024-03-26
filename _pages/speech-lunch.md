@@ -25,8 +25,18 @@ A tentative schedule can be found [here](https://docs.google.com/spreadsheets/d/
 
 ## Future Talks (tentative schedule)
 
+- March 21, 2024
+  - Title: Online Speech Enhancement and Separation: From Discriminative Methods to Generative Methods
+  - Speaker: Chenda Li
+  - Abstract: Online speech enhancement/separation has many applications in daily life. Many scenarios require speech processing systems to be low-latency, such as teleconferencing, hearing aids, etc. In this talk, I’ll present my recent research on online speech enhancement/separation. I will first introduce Skipping Memory LSTM (SkiM), a very efficient model for low-latency online processing. Then, I will share some techniques to better balance the performance and ideal latency for online speech separation. Finally, I will show some of our recent research on streamable diffusion-based speech enhancement.
+  - Bio: Chenda Li. I’m a Ph.D. student from Shanghai Jiao Tong University, and now I’m visiting Watanabe’s Audio and Voice (WAV) Lab at LTI for CMU. My research interests include speech separation, speech enhancement, and multi-talker speech recognition.
 
 ## Previous Talks
+
+- February 29, 2024
+  - Title: Towards robust speech generation
+  - Speaker: Soumi Maiti (CMU)
+  - Abstract: In the last decade, the field of Speech Generation has witnessed remarkable advancements, particularly in the improvement of speech quality and naturalness. Despite these strides, challenges persist, such as noise in speech and the limited availability of high-quality data, and lack of robustness of speech generation systems. Additionally, evaluating speech remains a obstacle for large-scale assessment of speech generation models. Simultaneously, recent breakthroughs in Large Language Models (LLMs) have transformed text processing and natural language applications. However, spoken language modeling introduces unique challenges due to the intricate nature of speech components, including speaker characteristics and emotional cues. In this presentation, I will delve into recent advances in speech synthesis, spoken language modeling, and speech evaluation for generative systems, shedding light on the ongoing efforts to address these challenges.
 
 - February 8, 2024
   - Title: Learning from Unlabeled Speech through Pre-training
