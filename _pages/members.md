@@ -400,13 +400,6 @@ order: 1
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <div class="square">
-        <a href="https://scholar.google.com/citations?user=v7nc-MwAAAAJ" target="_blank" rel="noopener noreferrer">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/chendali.jpg">
-        </a></div>
-        <div class="caption">
-            Chenda Li
-        </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <div class="square">
@@ -446,6 +439,7 @@ order: 1
 
 ##### Visitors & Collaborators
 <ul>
+<li>2023. 11 - 2024. 04: Chenda Li (Shanghai Jiaotong University) </li>
 <li>2023. 08 - 2024. 03: Roshan Sharma (Carnegie Mellon University)</li>
 <li>2023. 03 - 2024. 03: Wangyou Zhang (Shanghai Jiaotong University)</li>
 <li>2023. 08 - 2023. 10: Minsu Kim (Korea Advanced Institute of Science and Technology)</li>
