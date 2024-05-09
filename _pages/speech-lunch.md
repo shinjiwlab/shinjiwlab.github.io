@@ -25,13 +25,14 @@ A tentative schedule can be found [here](https://docs.google.com/spreadsheets/d/
 
 ## Future Talks (tentative schedule)
 
-- March 21, 2024
-  - Title: Online Speech Enhancement and Separation: From Discriminative Methods to Generative Methods
-  - Speaker: Chenda Li
-  - Abstract: Online speech enhancement/separation has many applications in daily life. Many scenarios require speech processing systems to be low-latency, such as teleconferencing, hearing aids, etc. In this talk, I’ll present my recent research on online speech enhancement/separation. I will first introduce Skipping Memory LSTM (SkiM), a very efficient model for low-latency online processing. Then, I will share some techniques to better balance the performance and ideal latency for online speech separation. Finally, I will show some of our recent research on streamable diffusion-based speech enhancement.
-  - Bio: Chenda Li. I’m a Ph.D. student from Shanghai Jiao Tong University, and now I’m visiting Watanabe’s Audio and Voice (WAV) Lab at LTI for CMU. My research interests include speech separation, speech enhancement, and multi-talker speech recognition.
 
 ## Previous Talks
+
+- March 21, 2024
+  - Title: Online Speech Enhancement and Separation: From Discriminative Methods to Generative Methods
+  - Speaker: Chenda Li (Shanghai Jiao Tong University)
+  - Abstract: Online speech enhancement/separation has many applications in daily life. Many scenarios require speech processing systems to be low-latency, such as teleconferencing, hearing aids, etc. In this talk, I’ll present my recent research on online speech enhancement/separation. I will first introduce Skipping Memory LSTM (SkiM), a very efficient model for low-latency online processing. Then, I will share some techniques to better balance the performance and ideal latency for online speech separation. Finally, I will show some of our recent research on streamable diffusion-based speech enhancement.
+  - Bio: I’m a Ph.D. student from Shanghai Jiao Tong University, and now I’m visiting Watanabe’s Audio and Voice (WAV) Lab at LTI for CMU. My research interests include speech separation, speech enhancement, and multi-talker speech recognition.
 
 - February 29, 2024
   - Title: Towards robust speech generation
