@@ -400,6 +400,8 @@ order: 1
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
         <div class="square">
         <a href="https://cromz22.github.io/" target="_blank" rel="noopener noreferrer">
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/sshimizu.jpg">
