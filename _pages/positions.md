@@ -23,7 +23,7 @@ However, we also consider the research diversity. We're interested in expertise 
 Please see the following for details of each application category.
 
 ### Postdoc
-- Currently, we have an opening position in [link](https://cmu.wd5.myworkdayjobs.com/en-US/CMU/job/Pittsburgh-PA/Postdoctoral-Research-Associate---Language-Technologies-Institute--LTI---SCS_2016892).
+- Currently, we don't have an opening position, but if you really want to work with us, please contact us.
 - If you're interested in the position, we suggest you to have the following actions. **Note that we would not respond to all applications.**
 - [ ] &nbsp; Please email your CV to shinjiw@ieee.org with the subject **"WAVLab postdoc applications"**.
 - [ ] &nbsp; If you do not put it in the subject, we regard that you do not thoroughly investigate our lab's activities in this webpage, and unfortunately, we may not respond to this email.
