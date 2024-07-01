@@ -96,6 +96,19 @@ Our lab has led and participated in the development of several open-source toolk
 </table>
 <hr />
 
+<table cellspacing="0" cellpadding="0">
+<tr>
+<td class="col-sm w-25">
+      <a href="{% post_url 2024-06-30-xeus %}">
+        XEUS
+      </a>
+</td>
+<td>
+  <strong>XEUS</strong> (pronounced “Zeus”) is an open-source speech foundation model trained on nearly 1.1 million hours of unlabeled speech data across 4,057 languages. XEUS sets the new state-of-the-art on the ML-SUPERB multilingual speech recognition benchmark, while also achieving strong results on different tasks on the English-only SUPERB evaluations. We open-source XEUS’ checkpoints, along with our training code and 4,000+ language speech data in this project page.
+</td></tr>
+</table>
+<hr />
+
 
 ### Datasets
 
