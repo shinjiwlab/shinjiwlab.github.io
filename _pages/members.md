@@ -417,6 +417,13 @@ order: 1
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
+    <div class="square">
+        <a href="https://github.com/Stanwang1210" target="_blank" rel="noopener noreferrer">
+            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/stan.jpg">
+        </a></div>
+        <div class="caption">
+            Shih-Heng Wang
+        </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
     </div>
