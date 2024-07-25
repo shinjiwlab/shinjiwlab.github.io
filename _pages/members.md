@@ -198,12 +198,12 @@ order: 1
 #### Post-Doc
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-1">
-    <div class="square">
-    <a href="https://zqwang7.github.io/" target="_blank" rel="noopener noreferrer">
-        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/zhongqiu.jpg">
-    </a></div>
+        <div class="square">
+	    <a href="https://scholar.google.co.kr/citations?user=MSIvlNoAAAAJ&hl=ko&authuser=1" target="_blank" rel="noopener noreferrer">
+	        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/hyejin.png">
+	    </a></div>
         <div class="caption">
-            Zhong-Qiu Wang
+            Hye-jin Shim
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-1">
@@ -234,15 +234,8 @@ order: 1
         </div>
     </div>
 </div>
-<div class="row mt-3">
+<!-- <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-1">
-    	<div class="square">
-	    <a href="https://scholar.google.co.kr/citations?user=MSIvlNoAAAAJ&hl=ko&authuser=1" target="_blank" rel="noopener noreferrer">
-	        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/hyejin.png">
-	    </a></div>
-        <div class="caption">
-            Hye-jin Shim
-        </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
     </div>
@@ -250,20 +243,12 @@ order: 1
     </div>
     <div class="col-sm mt-3 mt-md-0">
     </div>
-</div>
+</div> -->
 <hr />
 
 
 #### PhD Students
 <div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-    <a href="https://www.xuankaic.com/" target="_blank" rel="noopener noreferrer">
-        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/xuankai.jpg">
-    </a>
-        <div class="caption">
-            Xuankai Chang
-        </div>
-    </div>
     <div class="col-sm mt-3 mt-md-0">
     <a href="https://www.cs.cmu.edu/~byan" target="_blank" rel="noopener noreferrer">
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/brian.jpg">
@@ -290,24 +275,6 @@ order: 1
             Yifan Peng
         </div>
     </div>
-</div>
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        <a href="#">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/jessica.jpg">
-        </a>
-        <div class="caption">
-            Jessica Huynh (co-supervising)
-        </div>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <a href="https://muqiaoy.github.io/" target="_blank" rel="noopener noreferrer">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/muqiaoy.png">
-        </a>
-        <div class="caption">
-            Muqiao Yang (co-supervising)
-        </div>
-    </div>
     <div class="col-sm mt-3 mt-md-0">
         <div class="square">
         <a href="https://www.linkedin.com/in/arora-sid/" target="_blank" rel="noopener noreferrer">
@@ -317,6 +284,8 @@ order: 1
             Siddhant Arora
         </div>
     </div>
+</div>
+<div class="row mt-3">
     <div class="col-sm mt-1 mt-md-1">
         <div class="square">
         <a href="#">
@@ -326,8 +295,6 @@ order: 1
             Li-wei Chen (co-supervising)
         </div>
     </div>
-</div>
-<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <div class="square">
         <a href="https://jctian98.github.io/" target="_blank" rel="noopener noreferrer">
@@ -338,17 +305,6 @@ order: 1
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-    </div>
-</div>
-<hr />
-
-#### Master Students
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
         <div class="square">
         <a href="https://wanchichen.github.io/" target="_blank" rel="noopener noreferrer">
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/william_chen.png">
@@ -358,14 +314,12 @@ order: 1
         </div>	    
     </div>
     <div class="col-sm mt-3 mt-md-0">
-	 <div class="square">
-        <a href="https://slseanwu.github.io/" target="_blank" rel="noopener noreferrer">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/shihlun.JPG">
-	</a></div>
-        <div class="caption">
-            Shih-Lun Wu
-        </div>	
     </div>
+</div>
+<hr />
+
+#### Master Students
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
 	 <div class="square">
         <a href="https://kwangheechoi.com/" target="_blank" rel="noopener noreferrer">
@@ -374,6 +328,10 @@ order: 1
         <div class="caption">
             Kwanghee Choi
         </div>	
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
     </div>
     <div class="col-sm mt-3 mt-md-0">
     </div>
@@ -433,24 +391,38 @@ order: 1
 
 #### Alumni
 
-##### Students
+##### Post-Docs
 <ul>
-<li>2021. 01 - 2023. 06: Xinjian Li (CMU) </li>
+<li>2021. 09 - 2024. 07: Zhong-Qiu Wang (CMU) </li>
+</ul>
+
+##### PhD
+<ul>
+<li>2019. 09 - 2024. 05: Xuankai Chang (CMU) </li>
+<li>2021. 09 - 2024. 05: Muqiao Yang (CMU, co-supervisor) </li>
+<li>2021. 01 - 2023. 06: Xinjian Li (CMU, co-supervisor) </li>
+<li>2020. 09 - 2023. 06: Jessica Huynh (CMU, co-supervisor) </li>
+<li>2020. 09 - 2022. 08: Siddharth Dalmia (CMU, co-supervisor)</li>
+<li>2017. 09 - 2021. 08: Aswin Shanmugam Subramanian (JHU)</li>
+<li>2017. 10 - 2021. 08: Matthew Maciejewski (JHU, co-supervisor)</li>
+<li>2017. 12 - 2020. 12: Matthew Wiesner (JHU, co-supervising)</li>
+</ul>
+
+##### MS & Undergraduate
+<ul>
+<li>2022. 09 - 2024. 05: Shih-Lun Wu (CMU) </li>
 <li>2021. 09 - 2023. 05: Dan Berrebbi (CMU) </li>
 <li>2021. 09 - 2022. 12: Dorsa Zeinali (CMU) </li>
 <li>2021. 09 - 2022. 12: Karthik Ganesan (MIIS directed study, CMU) </li>
-<li>2020. 09 - 2022. 08: Siddharth Dalmia (CMU, co-supervisor)</li>
 <li>2021. 01 - 2022. 08: Chaitanya Narisetty (CMU)</li>
 <li>2021. 01 - 2022. 08: Peter Wu (CMU, co-supervisor)</li>
 <li>2021. 09 - 2022. 08: Sujay Suresh Kumar (MIIS directed study, CMU)</li>
 <li>2021. 09 - 2022. 08: Debayan Ghosh (CMU)</li>
-<li>2017. 09 - 2021. 08: Aswin Shanmugam Subramanian (JHU)</li>
-<li>2017. 10 - 2021. 08: Matthew Maciejewski (JHU, co-supervisor)</li>
 <li>2020. 08 - 2021. 08: Tianzi Wang (JHU) </li>
 <li>2018. 07 - 2019. 06: Zhiqi Wang (JHU)</li>
-<li>2017. 12 - 2020. 12: Matthew Wiesner (JHU, co-supervising)</li>
 <li>2017. 09 - 2018. 12: Szu-Jui Chen (JHU)</li>
 </ul>
+
 
 ##### Visitors & Collaborators
 <ul>
