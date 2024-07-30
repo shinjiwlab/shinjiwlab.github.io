@@ -32,7 +32,7 @@ Participation is open to all. Each team can participate in any task. This challe
 
 
 ### Baseline systems & toolkits
-- [Automatic speech recognition (ASR)](https://github.com/simpleoier/espnet/tree/is2024_dsu_asr2/egs2/interspeech2024_dsu_challenge/asr2)
+- [Automatic speech recognition (ASR)](https://github.com/espnet/espnet/tree/master/egs2/interspeech2024_dsu_challenge/asr2)
   * Results
     * WER is computed on English test sets (dev-clean / dev-other / test-clean / test-other)
     * CER is computed on the multi-lingual test set (test_1h)
@@ -58,7 +58,7 @@ Participation is open to all. Each team can participate in any task. This challe
     </tr>
   </tbody>
 </table>
-- [Text-to-speech (TTS)](https://github.com/espnet/espnet/tree/tts2/egs2/ljspeech/tts2)
+- [Text-to-speech (TTS)](https://github.com/espnet/espnet/tree/master/egs2/ljspeech/tts2)
   * Results
 <table class="table">
   <thread>
