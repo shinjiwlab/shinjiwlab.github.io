@@ -191,6 +191,11 @@ To use a whole node with multiple gpus, you can use
 ```bash
 sbatch -n 4 -N 1 --time 48:00:00 -p gpuA40x4 --gres=gpu:4 -c 64 --mem 240000M --account=bbjs-delta-gpu run.sh
 ```
+3. (debug usage)
+You can submit interactive jobs for debugging purpose. Note that you can only have up to 1-hour for an interactive session. An example command is as follows:
+```bash
+srun -N 1 -n 1 -p gpuA40x4-interactive  --gres=gpu:1 -c 16 --mem 60000M --account=bbjs-delta-gpu --pty bash -
+```
 
 ## ESPnet I/O Issue Fix
 
