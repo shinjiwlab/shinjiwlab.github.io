@@ -337,6 +337,13 @@ order: 1
         </div>	
     </div>
     <div class="col-sm mt-3 mt-md-0">
+      <div class="square">
+        <a href="https://eric102004.github.io/" target="_blank" rel="noopener noreferrer">
+            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/chyijiunn.jpg">
+        </a></div>
+        <div class="caption">
+            Chyi-Jiunn Lin
+        </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
     </div>
