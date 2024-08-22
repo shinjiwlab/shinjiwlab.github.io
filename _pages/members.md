@@ -175,26 +175,6 @@ order: 1
 </div>
 <hr />
 
-#### Visting Faculty
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        <div class="square">
-        <a href="https://home.ttic.edu/~klivescu/" target="_blank" rel="noopener noreferrer">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/karen.jpeg">
-        </a></div>
-        <div class="caption">
-            Karen Livescu
-        </div>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-    </div>
-</div>
-<hr />
-
 #### Post-Doc
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-1">
@@ -435,6 +415,11 @@ order: 1
 <hr />
 
 #### Alumni
+
+##### Visting Faculty
+<ul>
+<li>2023. 09 -- 2024. 06: Karen Livescu (TTIC) </li>
+</ul>
 
 ##### Post-Docs
 <ul>
