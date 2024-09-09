@@ -15,12 +15,11 @@ comments: false
   * There is no charging mechanism in babel but please still use it reasonably.
 * `swl_general` and `swl_short` partitions:
   * Nodes with names `babel-11-*` are former SWL cluster. Our lab members will have priority to these nodes as long as you use partitions `swl_general` and `swl_short`.
-  * Nodes `babel-11-[13,29]` are exclusively reserved for users from `WavLab`. Your jobs on these nodes will not be counted in the 8-GPU limit policy.
 
 
 ## Cluster Access
 * Before you proceed, please make sure your access to Babel is approved by Prof. Shinji Watanabe.
-* Submit this [form](https://docs.google.com/forms/d/e/1FAIpQLSccfWvXdBltL8oxPYEZPGD-IWTnXXPqQS2bwcHr72wpRi1l6A/viewform). You will receive an email from the cluster admin when your account is created.
+  * Go to [LTI intranet](https://lti.cs.cmu.edu/misc-pages/intranet-forms.html) and then submit `HPC Cluster User Account Request Form`.
   * HPC Cluster Name: `babel`
   * Department Association: `LTI`
   * Faculty Sponsoring Account: `swatanab`
