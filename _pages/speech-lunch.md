@@ -27,6 +27,11 @@ Please contact Yifan Peng (yifanpen@andrew.cmu.edu) and Shinji Watanabe (shinjiw
 
 
 ## Previous Talks
+- September 12, 2024
+  - Title: Continual learning in speech recognition
+  - Speaker: Ngoc Quan Pham
+  - Abstract: The current speech recognition models are always trained with closed and stationary datasets, and only a few studies have been conducted for expanding currently trained models with new non-stationary data. In such case, a neural model can suffer from catastrophic forgetting - the weights of the models are overwritten in the subsequent training steps and lose the abilities on the previously learned tasks or domains. In our personal view of anticipating how we might train speech recognition models in the future, in which the models are updated as fast as data is generated, we investigate two different scenarios: expanding a multilingual speech recognition models with more languages and training a speech recognition model with online continual learning.
+  - Bio: Quan Pham is currently a postdoc at the Interact lab - Karlsruhe Institute of Technology, Germany with professor Alex Waibel (professor at both KIT and CMU). In the last 5 years he made some tiny contributions to speech recognition research, such as stochastic layers to facilitate training deep models, expanding/finetuning networks with low-rank additional weights (concurrent with LoRA) and learning new languages with continual learning.
 
 - March 21, 2024
   - Title: Online Speech Enhancement and Separation: From Discriminative Methods to Generative Methods
