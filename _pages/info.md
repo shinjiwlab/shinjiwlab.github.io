@@ -12,6 +12,7 @@ This page has some information guidelines for members of WAVLab.
 * [AWS use instructions]({% post_url 2022-01-01-aws-usage %})
 * [PSC cluster use instructions]({% post_url 2022-01-01-psc-usage %})
 * [Delta cluster use instructions]({% post_url 2023-04-02-delta-usage %})
+* [Babel cluster use instructions]({% post_url 2024-08-20-babel-usage %})
 * [ESPnet2 recipes]({% post_url 2022-01-01-espnet2-recipe %})
 * [Lab logos and slides template](https://github.com/shinjiwlab/lab_logo) (Need to request access)
 
