@@ -27,6 +27,11 @@ Please contact Yifan Peng (yifanpen@andrew.cmu.edu) and Shinji Watanabe (shinjiw
 
 
 ## Previous Talks
+- September 26, 2024
+  - Title: Foundations of Blind Source Separation and Its Advances in Spatial Self-Supervised Learning
+  - Speaker: Yoshiaki Bando
+  - Abstract: A key technology in speech and audio analysis is self-supervised learning, which can efficiently train neural models on large-scale unlabeled training data. While existing frameworks such as HuBERT and BEATs have achieved great success for this purpose, they primarily focus on obtaining embeddings for isolated/mixture inputs and would be less suitable for analyzing individual sound events or speech utterances in a mixture recording. In this talk, we introduce our series of studies called spatial self-supervised learning based on blind source separation. This framework trains a neural model to predict embeddings of latent individual sources from a multichannel mixture recording without any manual supervision. We first present the foundations of blind source separation and then describe its neural extension for self-supervised learning, followed by a discussion of future directions for large-scale training using real-world data.
+  - Bio: Yoshiaki Bando received his Ph.D. degree in informatics from Kyoto University in 2018 and is currently a Senior Researcher at Artificial Intelligence Research Center in National Institute of Advanced Industrial Science and Technology (AIST), Tokyo, Japan. He is also a Visiting Researcher at the RIKEN Center for Advanced Intelligence Project (AIP). His research interests include microphone array signal processing, deep Bayesian learning, robot audition, and field robotics.
 - September 12, 2024
   - Title: Continual learning in speech recognition
   - Speaker: Ngoc Quan Pham
