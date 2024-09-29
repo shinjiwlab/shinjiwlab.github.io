@@ -345,6 +345,15 @@ order: 1
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <div class="square">
+        <a href="https://jungjee.github.io/" target="_blank" rel="noopener noreferrer">
+            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/jeeweon.png">
+        </a></div>
+        <div class="caption">
+            Jee-weon Jung
+        </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <div class="square">
         <a href="https://wyh2000.github.io/" target="_blank" rel="noopener noreferrer">
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/yihanwu.jpg">
         </a></div>
