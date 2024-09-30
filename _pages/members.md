@@ -354,15 +354,6 @@ order: 1
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <div class="square">
-        <a href="https://wyh2000.github.io/" target="_blank" rel="noopener noreferrer">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/yihanwu.jpg">
-        </a></div>
-        <div class="caption">
-            Yihan Wu
-        </div>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <div class="square">
         <a href="https://cromz22.github.io/" target="_blank" rel="noopener noreferrer">
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/sshimizu.jpg">
         </a></div>
@@ -453,6 +444,7 @@ order: 1
 
 ##### Visitors & Collaborators
 <ul>
+<li>2023. 09 - 2024. 08: Yihan Wu (Renmin University) </li>
 <li>2023. 11 - 2024. 04: Chenda Li (Shanghai Jiaotong University) </li>
 <li>2023. 08 - 2024. 03: Roshan Sharma (Carnegie Mellon University)</li>
 <li>2023. 03 - 2024. 03: Wangyou Zhang (Shanghai Jiaotong University)</li>
