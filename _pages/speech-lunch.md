@@ -27,6 +27,16 @@ Please contact Yifan Peng (yifanpen@andrew.cmu.edu) and Shinji Watanabe (shinjiw
 
 
 ## Previous Talks
+- October 10, 2024
+  - Title: Improving Multilingual Speech Recognition in the Wild
+  - Speaker: Brian Yan (CMU)
+  - Abstract: Multilingual Automatic Speech Recognition (ASR) models are typically evaluated in a setting where the ground-truth language identity of the speech utterance is known, however, this is often not the case for most practical settings. The first part of this talk examines the impact that imperfect Automatic Spoken Language Identification (SLID) has on downstream ASR quality. I present a simple and effective N-best re-ranking approach to improve multilingual ASR accuracy for several prominent acoustic models by employing external features such as language models and text-based language identification models. Our results on FLEURS using the MMS and Whisper models show spoken language identification accuracy improvements of 8.7% and 6.1%, respectively and word error rates which are 3.3% and 2.0% lower on these benchmarks. Then the second part of this talk delves into the tricky case of code-switched speech which contains segments from multiple languages. I describe an on-going effort to create Code-Switched FLEURS: a super hard code-switched ASR and ST benchmark.
+
+- October 3, 2024
+  - Title: Toward Real-Time Simultaneous Translation with Large Language Models
+  - Speaker: Xi Xu and Siqi Ouyang (CMU)
+  - Abstract: An ideal real-time simultaneous translation system should deliver high-quality translations at sub-second latency. In this talk, we first discuss how our approach achieved first place in the IWSLT English-German task based on human ratings, using a standard speech LLM model and a Hold-N policy. However, while IWSLT allows for up to 2 seconds of algorithmic latency and overlooks computational delays, real-world applications demand far lower latency. To address this, we introduce FASST, a technique designed to minimize computational latency during inference by avoiding redundant recomputation, thereby maintaining translation quality for trainable policies like wait-k. Finally, we present a novel method leveraging LLMs to anticipate upcoming source content, allowing for enhanced translation quality while achieving ultra-low algorithmic latency, moving closer to the goal of real-time simultaneous translation.
+
 - September 26, 2024
   - Title: Foundations of Blind Source Separation and Its Advances in Spatial Self-Supervised Learning
   - Speaker: Yoshiaki Bando
