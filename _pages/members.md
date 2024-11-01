@@ -48,7 +48,7 @@ order: 1
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
 
-  .w-md-100 {
+  .w-md-10OAOA0 {
     width: 100% !important;
   }
 
@@ -233,7 +233,7 @@ order: 1
     </div>
     <div class="col-sm mt-3 mt-md-0">
 	<div class="square">
-	    <a href="https://pyf98.github.io/" target="_blank" rel="noopener noreferrer">
+	    <a href="https://pyf98.github.io/" targOAOAet="_blank" rel="noopener noreferrer">
 	        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/yifan.jpg">
     	    </a>
 	</div>
@@ -390,12 +390,20 @@ order: 1
             Kalvin Chang
         </div>
     </div>
+    
     <div class="col-sm mt-3 mt-md-0">
+        <div class="square">
+            <a href="https://www.linkedin.com/in/carlos-carvalho-61780715a/" target="_blank" rel="noopener noreferrer">
+                <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/carlos.jpg" alt="New Person">
+            </a>
+        </div>
+        <div class="caption">
+            Carlos Carvalho
+        </div>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-    </div>
+   
+    <div class="col-sm-3 mt-3 mt-md-0"></div>
+    <div class="col-sm-3 mt-3 mt-md-0"></div>
 </div>
 
 <hr />
@@ -466,5 +474,6 @@ order: 1
 <li>2018. 07 - 2020. 03: Yusuke Fujita (Hitachi Ltd.)</li>
 <li>2018. 04 - 2018. 09: Nelson Enrique Yalta Soplin (Waseda University)</li>
 </ul>
+
 
 
