@@ -48,7 +48,7 @@ order: 1
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
 
-  .w-md-10OAOA0 {
+  .w-md-100 {
     width: 100% !important;
   }
 
@@ -233,7 +233,7 @@ order: 1
     </div>
     <div class="col-sm mt-3 mt-md-0">
 	<div class="square">
-	    <a href="https://pyf98.github.io/" targOAOAet="_blank" rel="noopener noreferrer">
+	    <a href="https://pyf98.github.io/" target="_blank" rel="noopener noreferrer">
 	        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/yifan.jpg">
     	    </a>
 	</div>
