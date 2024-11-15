@@ -25,6 +25,7 @@ Please contact Yifan Peng (yifanpen@andrew.cmu.edu) and Shinji Watanabe (shinjiw
 
 ## Future Talks (tentative schedule)
 
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRQJKbd_caVWoWstQ4W93XP9jikGDp6ablHQQJoV4iIxV7kVuDfj7F9zz8VBvDG6Crbh8jLjadBd6GN/pubhtml?widget=true&amp;headers=false" width="100%" height="600"></iframe>
 
 ## Previous Talks
 - October 10, 2024
