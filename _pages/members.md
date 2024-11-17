@@ -362,26 +362,6 @@ order: 1
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-    <div class="square">
-        <a href="https://github.com/Stanwang1210" target="_blank" rel="noopener noreferrer">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/stan.jpg">
-        </a></div>
-        <div class="caption">
-            Shih-Heng Wang
-        </div>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <div class="square">
-        <a href="https://ybando.jp/" target="_blank" rel="noopener noreferrer">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/ybando.jpg">
-        </a></div>
-        <div class="caption">
-            Yoshiaki Bando
-        </div>
-    </div>
-</div>
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
         <div class="square">
         <a href="https://linkedin.com/in/kalvinc" target="_blank" rel="noopener noreferrer">
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/kalvin.jpg">
@@ -399,8 +379,10 @@ order: 1
         <div class="caption">
             Carlos Carvalho
         </div>
-    </div>  
-    <div class="col-sm-3 mt-3 mt-md-0">
+    </div>
+</div>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
         <div class="square">
             <a href="https://www.linkedin.com/in/holger-bovbjerg/" target="_blank" rel="noopener noreferrer">
                 <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/holger_bovbjerg.jpg" alt="Holger Severin Bovbjerg">
@@ -408,6 +390,10 @@ order: 1
         <div class="caption">
             Holger Severin Bovbjerg
         </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+    </div>  
+    <div class="col-sm-3 mt-3 mt-md-0">
     </div>
     <div class="col-sm-3 mt-3 mt-md-0"></div>
 </div>
@@ -458,6 +444,8 @@ order: 1
 
 ##### Visitors & Collaborators
 <ul>
+<li>2024. 08 - 2024. 11: Shih-Heng Wang (National Taiwan University) </li>
+<li>2024. 08 - 2024. 11: Yoshiaki Bando (National Institute of Advanced Industrial Science and Technology) </li>
 <li>2023. 09 - 2024. 08: Yihan Wu (Renmin University) </li>
 <li>2023. 11 - 2024. 04: Chenda Li (Shanghai Jiaotong University) </li>
 <li>2023. 08 - 2024. 03: Roshan Sharma (Carnegie Mellon University)</li>
