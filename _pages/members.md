@@ -373,7 +373,7 @@ order: 1
     <div class="col-sm mt-3 mt-md-0">
         <div class="square">
             <a href="https://www.linkedin.com/in/carlos-carvalho-61780715a/" target="_blank" rel="noopener noreferrer">
-                <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/carlos.jpg" alt="New Person">
+                <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/carlos.jpg">
             </a>
         </div>
         <div class="caption">
@@ -385,7 +385,7 @@ order: 1
     <div class="col-sm mt-3 mt-md-0">
         <div class="square">
             <a href="https://www.linkedin.com/in/holger-bovbjerg/" target="_blank" rel="noopener noreferrer">
-                <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/holger_bovbjerg.jpg" alt="Holger Severin Bovbjerg">
+                <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/holger_bovbjerg.jpg">
             </a></div>
         <div class="caption">
             Holger Severin Bovbjerg
