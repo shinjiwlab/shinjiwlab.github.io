@@ -345,11 +345,11 @@ order: 1
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <div class="square">
-        <a href="https://wyh2000.github.io/" target="_blank" rel="noopener noreferrer">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/yihanwu.jpg">
+        <a href="https://jungjee.github.io/" target="_blank" rel="noopener noreferrer">
+            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/jeeweon.png">
         </a></div>
         <div class="caption">
-            Yihan Wu
+            Jee-weon Jung
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
@@ -362,26 +362,6 @@ order: 1
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-    <div class="square">
-        <a href="https://github.com/Stanwang1210" target="_blank" rel="noopener noreferrer">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/stan.jpg">
-        </a></div>
-        <div class="caption">
-            Shih-Heng Wang
-        </div>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <div class="square">
-        <a href="https://ybando.jp/" target="_blank" rel="noopener noreferrer">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/ybando.jpg">
-        </a></div>
-        <div class="caption">
-            Yoshiaki Bando
-        </div>
-    </div>
-</div>
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
         <div class="square">
         <a href="https://linkedin.com/in/kalvinc" target="_blank" rel="noopener noreferrer">
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/kalvin.jpg">
@@ -391,11 +371,31 @@ order: 1
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
+        <div class="square">
+            <a href="https://www.linkedin.com/in/carlos-carvalho-61780715a/" target="_blank" rel="noopener noreferrer">
+                <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/carlos.jpg">
+            </a>
+        </div>
+        <div class="caption">
+            Carlos Carvalho
+        </div>
+    </div>
+</div>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <div class="square">
+            <a href="https://www.linkedin.com/in/holger-bovbjerg/" target="_blank" rel="noopener noreferrer">
+                <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/holger_bovbjerg.jpg">
+            </a></div>
+        <div class="caption">
+            Holger Severin Bovbjerg
+        </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
+    </div>  
+    <div class="col-sm-3 mt-3 mt-md-0">
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-    </div>
+    <div class="col-sm-3 mt-3 mt-md-0"></div>
 </div>
 
 <hr />
@@ -444,6 +444,9 @@ order: 1
 
 ##### Visitors & Collaborators
 <ul>
+<li>2024. 08 - 2024. 11: Shih-Heng Wang (National Taiwan University) </li>
+<li>2024. 08 - 2024. 11: Yoshiaki Bando (National Institute of Advanced Industrial Science and Technology) </li>
+<li>2023. 09 - 2024. 08: Yihan Wu (Renmin University) </li>
 <li>2023. 11 - 2024. 04: Chenda Li (Shanghai Jiaotong University) </li>
 <li>2023. 08 - 2024. 03: Roshan Sharma (Carnegie Mellon University)</li>
 <li>2023. 03 - 2024. 03: Wangyou Zhang (Shanghai Jiaotong University)</li>
@@ -465,5 +468,6 @@ order: 1
 <li>2018. 07 - 2020. 03: Yusuke Fujita (Hitachi Ltd.)</li>
 <li>2018. 04 - 2018. 09: Nelson Enrique Yalta Soplin (Waseda University)</li>
 </ul>
+
 
 
