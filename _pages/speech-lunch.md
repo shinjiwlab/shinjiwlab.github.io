@@ -28,6 +28,12 @@ Please contact Yifan Peng (yifanpen@andrew.cmu.edu) and Shinji Watanabe (shinjiw
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRQJKbd_caVWoWstQ4W93XP9jikGDp6ablHQQJoV4iIxV7kVuDfj7F9zz8VBvDG6Crbh8jLjadBd6GN/pubhtml?widget=true&amp;headers=false" width="100%" height="600"></iframe>
 
 ## Previous Talks
+- November 21, 2024
+  - Title: Generalizing Audio Deepfake Detection
+  - Speaker: You Zhang (University of Rochester)
+  - Abstract: The rapid evolution of AI-driven speech generation has made it increasingly difficult to distinguish between authentic and deepfake audio, enabling potential misuse in criminal activities. This highlights the pressing need for robust audio deepfake detection (ADD) systems capable of effectively mitigating these threats. For reliable performance, ADD systems must generalize well to emerging and unknown deepfake techniques, remain robust to variations in speech attributes (e.g., speaker identity, channel, codec), and integrate seamlessly with other biometric tools. In this presentation, we introduce SAMO, a novel multicenter one-class learning training strategy tailored for ADD. SAMO addresses the distribution mismatches between training and evaluation data while accounting for speaker diversity. We will also discuss ongoing efforts to extend speech deepfake detection to singing voice deepfakes and further expand from audio-only (uni-modal) to audio-visual (multi-modal) detection to combat video deepfakes. Another initiative explores audio watermarking, a proactive technique that embeds generative algorithm identifiers into audio or the generative model itself, enabling authorized entities to trace the origins of deepfake speech.
+  - Bio: You (Neil) Zhang is a PhD candidate in the Audio Information Research (AIR) Lab at the University of Rochester, working with Prof. Zhiyao Duan. His research focuses on applied machine learning in speech and audio processing, including audio deepfake detection, spatial audio rendering, and audio-visual analysis. His work has been recognized by the Rising Star Program in Signal Processing at ICASSP 2023, the NIJ Graduate Research Fellowship Program, and the IEEE SPS Scholarship.
+
 - November 14, 2024
   - Title: Exploring Prediction Targets in Masked Pre-Training for Speech Foundation Models
   - Speaker: Li-Wei Chen (CMU)
