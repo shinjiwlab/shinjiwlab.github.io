@@ -354,15 +354,6 @@ order: 1
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <div class="square">
-        <a href="https://cromz22.github.io/" target="_blank" rel="noopener noreferrer">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/sshimizu.jpg">
-        </a></div>
-        <div class="caption">
-            Shuichiro Shimizu
-        </div>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <div class="square">
         <a href="https://linkedin.com/in/kalvinc" target="_blank" rel="noopener noreferrer">
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/kalvin.jpg">
         </a></div>
@@ -370,18 +361,6 @@ order: 1
             Kalvin Chang
         </div>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <div class="square">
-            <a href="https://www.linkedin.com/in/carlos-carvalho-61780715a/" target="_blank" rel="noopener noreferrer">
-                <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/carlos.jpg">
-            </a>
-        </div>
-        <div class="caption">
-            Carlos Carvalho
-        </div>
-    </div>
-</div>
-<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <div class="square">
             <a href="https://www.linkedin.com/in/holger-bovbjerg/" target="_blank" rel="noopener noreferrer">
@@ -399,8 +378,10 @@ order: 1
         <div class="caption">
             Atharva Anand Joshi
         </div>
-    </div> 
-    <div class="col-sm-3 mt-3 mt-md-0">
+    </div>
+</div>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
       <div class="square">
         <a href="https://wangpuup.github.io/" target="_blank" rel="noopener noreferrer">
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/pu.jpg">
@@ -409,9 +390,12 @@ order: 1
             Pu Wang
         </div>
     </div>
+    <div class="col-sm mt-3 mt-md-0">
+    </div> 
+    <div class="col-sm-3 mt-3 mt-md-0">
+    </div>
     <div class="col-sm-3 mt-3 mt-md-0"></div>
 </div>
-
 <hr />
 
 #### Alumni
@@ -458,6 +442,8 @@ order: 1
 
 ##### Visitors & Collaborators
 <ul>
+<li>2024. 08 - 2024. 12: Carlos Carvalho (Instituto Superior Técnico ) </li>
+<li>2024. 04 - 2024. 12: Shuichiro Shimizu (Kyoto University) </li>
 <li>2024. 08 - 2024. 11: Shih-Heng Wang (National Taiwan University) </li>
 <li>2024. 08 - 2024. 11: Yoshiaki Bando (National Institute of Advanced Industrial Science and Technology) </li>
 <li>2023. 09 - 2024. 08: Yihan Wu (Renmin University) </li>
