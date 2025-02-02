@@ -339,8 +339,36 @@ order: 1
 </div>
 <hr /> -->
 
-#### Visitors & Collaborators
+#### Visitors
 
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <div class="square">
+        <a href="https://linkedin.com/in/kalvinc" target="_blank" rel="noopener noreferrer">
+            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/kalvin.jpg">
+        </a></div>
+        <div class="caption">
+            Kalvin Chang
+        </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+      <div class="square">
+        <a href="https://wangpuup.github.io/" target="_blank" rel="noopener noreferrer">
+            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/pu.jpg">
+        </a></div>
+        <div class="caption">
+            Pu Wang
+        </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+    </div>
+</div>
+<hr />
+
+#### Industrial Collaborators
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -353,48 +381,11 @@ order: 1
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <div class="square">
-        <a href="https://linkedin.com/in/kalvinc" target="_blank" rel="noopener noreferrer">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/kalvin.jpg">
-        </a></div>
-        <div class="caption">
-            Kalvin Chang
-        </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <div class="square">
-            <a href="https://www.linkedin.com/in/holger-bovbjerg/" target="_blank" rel="noopener noreferrer">
-                <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/holger_bovbjerg.jpg">
-            </a></div>
-        <div class="caption">
-            Holger Severin Bovbjerg
-        </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-      <div class="square">
-        <a href="https://atharva253.github.io/" target="_blank" rel="noopener noreferrer">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/atharva.jpg">
-        </a></div>
-        <div class="caption">
-            Atharva Anand Joshi
-        </div>
     </div>
-</div>
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-      <div class="square">
-        <a href="https://wangpuup.github.io/" target="_blank" rel="noopener noreferrer">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/pu.jpg">
-        </a></div>
-        <div class="caption">
-            Pu Wang
-        </div>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-    </div> 
-    <div class="col-sm-3 mt-3 mt-md-0">
-    </div>
-    <div class="col-sm-3 mt-3 mt-md-0"></div>
 </div>
 <hr />
 
@@ -442,6 +433,7 @@ order: 1
 
 ##### Visitors & Collaborators
 <ul>
+<li>2024. 09 - 2024. 02: Holger Severin Bovbjerg (Aalborg University) </li>
 <li>2024. 08 - 2024. 12: Carlos Carvalho (Instituto Superior Técnico ) </li>
 <li>2024. 04 - 2024. 12: Shuichiro Shimizu (Kyoto University) </li>
 <li>2024. 08 - 2024. 11: Shih-Heng Wang (National Taiwan University) </li>
