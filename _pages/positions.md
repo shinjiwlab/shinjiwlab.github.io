@@ -42,7 +42,7 @@ Please see the following for details of each application category.
   - It usually takes a few months or even longer for students to obtain sufficient research skills before starting serious research activities. We believe this process is necessary and is essential for new researchers. If you want to publish a paper as soon as possible, our lab is not the best option for you, unfortunately. We recommend you contact the other faculties.
 - [ ] &nbsp; Students who are interested in these opportunities should fill out **[this form](https://docs.google.com/forms/d/1AE-MMtqXpdPG07U6nnNfp9N2abJrI54XeVIshkyrwng/)**
   - If you fail to do so, we regard that you do not thoroughly investigate our lab's activities on this webpage, and unfortunately, we may not respond to your application.
-  - The form will reqeest your CV. Note that your CV will be shared with other lab members (but we do not distribute it outside).
+  - The form will request your CV. Note that your CV will be shared with other lab members (but we do not distribute it outside).
 - [ ] &nbsp; Please refer to the FAQ to learn more about the interview and admission process. 
 
 ### Visting positions
