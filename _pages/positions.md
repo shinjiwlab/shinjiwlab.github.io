@@ -37,7 +37,7 @@ Please see the following for details of each application category.
 
 ### WAVLab Collaborator
 - We provide training and research opportunities to students who are interested in speech processing and want to collaborate with us.
-  - We give priority to students at Carnegie Mellon University (CMU); students from other universities are also welcome. We accept both undergraduate and graduate students.
+  - We usually work with students at Carnegie Mellon University (CMU), but students from other universities are also welcome. We accept both undergraduate and graduate students if they are motivated.
   - The opportunities are mainly educational-oriented, especially for students who are new to speech research. We guide students in understanding speech research background, required programming skills, knowledge of the cluster, and use of speech and audio toolkits. Students can also conduct research under our supervision. 
   - It usually takes a few months or even longer for students to obtain sufficient research skills before starting serious research activities. We believe this process is necessary and is essential for new researchers. If you want to publish a paper as soon as possible, our lab is not the best option for you, unfortunately. We recommend you contact the other faculties.
 - [ ] &nbsp; Students who are interested in these opportunities should fill out **[this form](https://docs.google.com/forms/d/1AE-MMtqXpdPG07U6nnNfp9N2abJrI54XeVIshkyrwng/)**
