@@ -344,15 +344,6 @@ order: 1
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        <div class="square">
-        <a href="https://linkedin.com/in/kalvinc" target="_blank" rel="noopener noreferrer">
-            <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/kalvin.jpg">
-        </a></div>
-        <div class="caption">
-            Kalvin Chang
-        </div>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
       <div class="square">
         <a href="https://wangpuup.github.io/" target="_blank" rel="noopener noreferrer">
             <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/pu.jpg">
@@ -440,6 +431,7 @@ order: 1
 
 ##### Visitors & Collaborators
 <ul>
+<li>2024. 08 - 2025. 02: Kalvin Chang </li>
 <li>2024. 09 - 2024. 02: Holger Severin Bovbjerg (Aalborg University) </li>
 <li>2024. 08 - 2024. 12: Carlos Carvalho (Instituto Superior Técnico ) </li>
 <li>2024. 04 - 2024. 12: Shuichiro Shimizu (Kyoto University) </li>
