@@ -8,7 +8,7 @@ comments: false
 
 # Account creation
 - Create an account for NCSA on [ACCESS](https://allocations.access-ci.org/)
-- Send the username to allocation managers (e.g. Xuankai) to add the user in our group.
+- Send the username to allocation managers (e.g. William, wc4@andrew.cmu.edu) to add the user in our group.
 
 ## login
 * Delta: check https://wiki.ncsa.illinois.edu/display/DSC/Delta+User+Guide#DeltaUserGuide-DirectAccesslogin_nodes
